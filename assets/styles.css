@@ -133,9 +133,17 @@ img { max-width: 100%; }
 .masthead .kicker {
   font-family: var(--font-script); color: var(--brand-2); font-size: 34px; line-height: .8;
 }
+.masthead .pub-name {
+  font-family: var(--font-ui); font-weight: 700; font-size: 13px; letter-spacing: .2em;
+  text-transform: uppercase; color: var(--brand-2); margin: 2px 0 8px;
+}
 .masthead h1 {
-  font-family: var(--font-ui); font-weight: 700; letter-spacing: -.02em;
-  font-size: clamp(30px, 6vw, 50px); margin: 2px 0 10px; color: var(--brand);
+  font-family: var(--font-ui); font-weight: 700; letter-spacing: -.02em; line-height: 1.08;
+  font-size: clamp(28px, 5vw, 46px); margin: 2px auto 12px; max-width: 16ch; color: var(--brand);
+}
+.card-pub {
+  font-family: var(--font-ui); font-weight: 700; font-size: 11px; letter-spacing: .15em;
+  text-transform: uppercase; color: var(--ink-faint); margin: 0 0 5px;
 }
 .masthead .meta {
   font-family: var(--font-ui); font-size: 13px; letter-spacing: .14em;

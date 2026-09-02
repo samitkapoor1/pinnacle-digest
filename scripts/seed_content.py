@@ -9,7 +9,8 @@ SCHEMA (content/YYYY-MM-DD.json)
 --------------------------------
 {
   "date": "2026-09-02",              # ISO date, drives ordering + URLs
-  "masthead": "Daily Accountancy Briefing",
+  "masthead": "Daily Accountancy Briefing",   # publication name (small line)
+  "title": "Crypto gains in the open ...",    # the edition's own headline (big)
   "kicker": "the",                   # small script word above the masthead
   "region": "UK & Ireland",
   "summary": "One-line editorial summary (archive card + meta description).",
@@ -51,6 +52,7 @@ CONTENT_DIR = os.path.join(os.path.dirname(__file__), "..", "content")
 EDITION_0902 = {
     "date": "2026-09-02",
     "masthead": "Daily Accountancy Briefing",
+    "title": "Crypto gains in the open as MTD auto-enrolment begins",
     "kicker": "the",
     "region": "UK & Ireland",
     "summary": "HMRC's first standalone crypto-gains dataset, MTD auto-enrolment from September, an eight-fold jump in UK financial-services M&A, and a fresh QuickBooks price rise.",
@@ -327,6 +329,7 @@ EDITION_0902 = {
 EDITION_0901 = {
     "date": "2026-09-01",
     "masthead": "Daily Accountancy Briefing",
+    "title": "MTD's exemption window opens as auto-enrolment looms",
     "kicker": "the",
     "region": "UK & Ireland",
     "summary": "HMRC opens the MTD ITSA exemption window and readies September auto-enrolment, P800 errors resurface, Xeinadin extends its roll-up, and UK M&A value climbs almost eight-fold.",

@@ -114,6 +114,11 @@ def slugify(text):
     return s or "section"
 
 
+def ed_title(ed):
+    """The edition's own headline, falling back to the publication name."""
+    return ed.get("title") or ed["masthead"]
+
+
 def fmt_date(iso, weekday=True):
     d = datetime.strptime(iso, "%Y-%m-%d")
     day = d.day
@@ -263,7 +268,8 @@ def render_edition(edition, prev_ed, next_ed):
     <span class="backlink">{esc(region)}</span></div>
   <div class="masthead">
     <div class="kicker">{esc(edition.get("kicker", SITE_KICKER))}</div>
-    <h1>{esc(edition["masthead"])}</h1>
+    <div class="pub-name">{esc(edition["masthead"])}</div>
+    <h1>{esc(ed_title(edition))}</h1>
     <div class="meta">{esc(date_long)}<span class="dot">&bull;</span>{esc(region)}</div>
     <p class="summary">{esc(edition.get("summary", ""))}</p>
   </div>
@@ -271,7 +277,7 @@ def render_edition(edition, prev_ed, next_ed):
   {cats_html}
   {edition_pager(prev_ed, next_ed, root)}
 </div>"""
-    title = f'{edition["masthead"]}, {fmt_date(edition["date"], weekday=False)} · {SITE_NAME}'
+    title = f'{ed_title(edition)} · {SITE_NAME}'
     return page_shell(title, edition.get("summary", TAGLINE), masthead, root, canon(f'/editions/{edition["date"]}/'))
 
 
@@ -426,7 +432,8 @@ def featured_block(latest):
     <div class="f-body">
       <span class="f-flag">New today</span>
       <div class="f-date">{esc(fmt_date(latest['date']))} &middot; {esc(latest.get('region',''))}</div>
-      <h3>{esc(latest['masthead'])}</h3>
+      <div class="card-pub">{esc(latest['masthead'])}</div>
+      <h3>{esc(ed_title(latest))}</h3>
       <p>{esc(latest.get('summary',''))}</p>
       <div class="f-topics">{topics}</div>
       <span class="btn btn-primary">Read the full briefing &rarr;</span>
@@ -513,7 +520,8 @@ def render_edition_card(ed):
     return f"""<a class="edition-card" href="editions/{ed['date']}/" data-cats="{data_cats}">
   <div class="date-row"><span class="date">{esc(fmt_date(ed['date']))}</span>
     <span class="region">{esc(ed.get('region',''))} &middot; {n_stories} updates across {len(cat_names)} topics</span></div>
-  <h3>{esc(ed['masthead'])}</h3>
+  <div class="card-pub">{esc(ed['masthead'])}</div>
+  <h3>{esc(ed_title(ed))}</h3>
   <p>{esc(ed.get('summary',''))}</p>
   <div class="cat-chips">{chips}</div>
   <div class="readmore">Read the briefing &rarr;</div>
@@ -524,7 +532,7 @@ def render_feed(editions):
     items = []
     for ed in editions:
         link = f'{SITE_URL}/editions/{ed["date"]}/'
-        title = f'{ed["masthead"]}, {fmt_date(ed["date"], weekday=False)}'
+        title = f'{ed_title(ed)} ({fmt_date(ed["date"], weekday=False)})'
         items.append(f"""  <item>
     <title>{html.escape(title)}</title>
     <link>{link}</link>

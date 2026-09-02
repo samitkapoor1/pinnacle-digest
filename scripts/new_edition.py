@@ -27,6 +27,7 @@ def main():
     skeleton = {
         "date": date,
         "masthead": "Daily Accountancy Briefing",
+        "title": "The day's own headline goes here",
         "kicker": "the",
         "region": "UK & Ireland",
         "summary": "One-line summary of the day's briefing.",
