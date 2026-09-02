@@ -1,0 +1,294 @@
+{
+  "date": "2026-09-01",
+  "masthead": "Daily Accountancy Briefing",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "HMRC opens the MTD ITSA exemption window and readies September auto-enrolment, P800 errors resurface, Xeinadin extends its roll-up, and UK M&A value climbs almost eight-fold.",
+  "categories": [
+    {
+      "name": "Making Tax Digital",
+      "badge": "AUTO-ENROL FROM SEPTEMBER",
+      "stories": [
+        {
+          "headline": "HMRC opens MTD ITSA exemption window for £30,000 taxpayers",
+          "tags": [
+            "April 2027 threshold",
+            "Digitally excluded only"
+          ],
+          "body": [
+            "HMRC has opened the formal application route for exemption from Making Tax Digital for Income Tax Self Assessment for taxpayers in the £30,000 income band, with the exemption focused narrowly on the digitally excluded rather than offering broad relief. The move arrives three weeks after the first £50,000 quarterly filing deadline on 7 August 2026 and ahead of the £30,000 threshold entering mandation from 6 April 2027, giving practices a defined window to assess which clients meet the exemption tests before the next tranche is drawn in."
+          ],
+          "meaning": "Screen the £30k client cohort for exemption evidence this September. Digital exclusion, disability and remoteness are the qualifying tests, and the evidence takes time to gather.",
+          "source": "Business & Accountancy Daily"
+        },
+        {
+          "headline": "September auto-enrolment looms for non-signed-up MTD taxpayers",
+          "tags": [
+            "Auto-enrol from September",
+            "Penalty-point holiday continues"
+          ],
+          "body": [
+            "From September 2026 HMRC will begin signing up in-scope taxpayers who have not registered themselves for MTD for Income Tax, closing a loophole exposed in early filing data. Practitioners are being urged to reconcile client lists against HMRC's mandation records this week. While the 2026/27 transition year continues to waive late-submission penalty points for quarterly updates, the legal obligation to keep digital records remains in force and unaffected by the softer penalty regime."
+          ],
+          "source": "AccountingWEB, ICAEW Insights"
+        },
+        {
+          "headline": "Incorporation rush ahead of MTD ITSA raises quality concerns",
+          "tags": [
+            "23% incorporated",
+            "Remedial autumn work"
+          ],
+          "body": [
+            "Analysis published this week suggests 23% of sole traders inside the £50,000 band moved to incorporate in the run-up to the 7 August MTD ITSA deadline, choosing corporate structures over quarterly reporting. Advisers warn that the administrative saving is often illusory. Incorporations completed without a full commercial rationale are expected to generate a fresh wave of remedial work on directors' loans, dividend planning and payroll registrations through the autumn."
+          ],
+          "meaning": "Every rushed incorporation is a fresh CT, statutory accounts and payroll mandate on your desk this autumn. Price it in, staff it up, and offer offshore delivery to catch the wave.",
+          "source": "Accountancy Age",
+          "charts": [
+            {
+              "type": "gauge",
+              "value": 23,
+              "title": "Incorporation rush",
+              "label": "of £50k-band sole traders incorporated ahead of the 7 August deadline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HMRC",
+      "stories": [
+        {
+          "headline": "HMRC P800 calculation errors flagged again",
+          "tags": [
+            "Multiple employments",
+            "In-year benefit changes"
+          ],
+          "body": [
+            "AccountingWEB has re-raised long-standing concerns that HMRC's automated P800 tax calculation is producing incorrect reconciliations for a material share of PAYE taxpayers, particularly those with multiple employments or in-year benefit changes. Firms handling personal tax volumes are advised to spot-check any refund or underpayment notice received by clients in the current cycle rather than accept the HMRC figure at face value, and to keep supporting workings on file in case a formal correction is needed."
+          ],
+          "meaning": "Spot-check every P800 that lands on the personal tax desk this cycle. Multiple employments and mid-year benefit changes are the two error patterns to isolate.",
+          "source": "AccountingWEB"
+        },
+        {
+          "headline": "Consultation opens on 'timely payments' for income tax Self Assessment",
+          "tags": [
+            "Timely Payments",
+            "Autumn planning window"
+          ],
+          "body": [
+            "HMRC has launched a consultation on moving certain Self Assessment taxpayers away from the January payment cycle towards a more frequent 'timely payments' model. The paper sets out possible cohorts, cash-flow impacts and interaction with MTD quarterly updates. Practice response deadlines will land during the busy autumn planning window and firms are encouraged to prepare client-level cash-flow scenarios before submitting formal representations."
+          ],
+          "source": "AccountingWEB"
+        },
+        {
+          "headline": "Let-property nudge letters landing in August",
+          "tags": [
+            "Let Property Campaign",
+            "MTD trigger for landlords"
+          ],
+          "body": [
+            "HMRC has issued a fresh batch of letters urging recipients to disclose let-property income and reminding them that in-scope landlords now sit within MTD obligations. Advisers should treat receipt of a letter as a trigger to run a full property-income review, quantify any Let Property Campaign disclosure exposure and confirm whether the client falls into the £50,000 or the coming £30,000 MTD wave."
+          ],
+          "source": "HMRC Stakeholder communications"
+        }
+      ]
+    },
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "Xeinadin extends UK roll-up with Cooper Dawn Jerrom",
+          "tags": [
+            "Xeinadin",
+            "Cooper Dawn Jerrom",
+            "Alan W Simons · Campbell Crossley & Davis · PRB"
+          ],
+          "body": [
+            "Xeinadin has added Cooper Dawn Jerrom to its UK stable, continuing the group's acquisition-led expansion after recent deals for PRB Accountants, Bournemouth-based Alan W Simons & Co and Blackpool insolvency practice Campbell Crossley & Davis. The pace of consolidation reinforces the trend of private-equity-backed platforms buying up mid-tier and boutique firms across the UK and Ireland, and continues to reset benchmark multiples for partner exits and succession planning conversations."
+          ],
+          "source": "International Accounting Bulletin"
+        },
+        {
+          "headline": "AI restructuring lags AI ambition in accounting firms",
+          "tags": [
+            "85% expect AI gains",
+            "<20% have restructured pricing"
+          ],
+          "body": [
+            "New survey data shows 85% of accounting-firm leaders expect AI to improve their firm's business model, but fewer than two in ten have restructured pricing, service lines or team design to capture the value. The gap between belief and operating change is the headline risk for the next planning cycle. Without deliberate change to fee models and resourcing, productivity gains from AI-assisted work leak straight back to clients as compressed pricing."
+          ],
+          "meaning": "Redesign pricing, service lines and resourcing this quarter, not next year. AI productivity gains only stay inside the firm if the operating model catches up.",
+          "source": "AccountingWEB",
+          "charts": [
+            {
+              "type": "compare_bars",
+              "title": "AI ambition vs operating change",
+              "unit": "% of firm leaders",
+              "bars": [
+                {
+                  "label": "Expect AI gains",
+                  "value": 85,
+                  "display": "85%",
+                  "caption": "Belief"
+                },
+                {
+                  "label": "Restructured pricing",
+                  "value": 18,
+                  "display": "<20%",
+                  "caption": "Action"
+                }
+              ],
+              "note": "The belief-to-action gap is the headline risk for the next planning cycle."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "FRC's revised audit supervision model moves toward reliance on firm SoQM",
+          "tags": [
+            "FRC",
+            "Risk-based supervision",
+            "Firm SoQM foundation"
+          ],
+          "body": [
+            "The Financial Reporting Council is progressing its updated supervisory approach for UK audit firms, placing greater weight on each firm's system of quality management (SoQM) and dialling back inspection intensity where the regulator has confidence in a firm's own controls. The July Annual Review of Audit Quality signalled persistent variation between the largest and smallest firms, especially in SoQM investment, and audit teams should treat documentation of quality management design and monitoring as a live regulatory exposure this cycle."
+          ],
+          "meaning": "SoQM documentation is now supervisory currency. Firms with credible design and monitoring evidence earn lighter inspections; those without get more.",
+          "source": "FRC, The Accountant"
+        },
+        {
+          "headline": "Revised UK auditing standards on fraud and going concern",
+          "tags": [
+            "ISA (UK) 240",
+            "ISA (UK) 570",
+            "Corporate Governance Code"
+          ],
+          "body": [
+            "The FRC's final revisions to ISA (UK) 240 (fraud) and ISA (UK) 570 (going concern) are in the implementation window, aligning UK requirements with recent IAASB changes. Alongside these, a refresh to three reporting standards is intended to shorten auditor's reports and clarify responsibilities under the revised UK Corporate Governance Code. Firms should be updating audit methodology, working papers and reviewer checklists now, not at the year-end."
+          ],
+          "source": "FRC"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "QuickBooks Online pricing repriced from 1 August",
+          "tags": [
+            "Live from 1 Aug",
+            "$38 to $275 US tier range"
+          ],
+          "body": [
+            "QuickBooks Online moved to a new pricing schedule from 1 August 2026, with entry tiers reported in the range of $38 to $275 per month. Firms with volume client bases on QBO should refresh their client-fee schedules and re-model the margin on subscriptions resold to clients, and revisit any pass-through arrangements before the next billing run."
+          ],
+          "source": "Intuit"
+        },
+        {
+          "headline": "Xero embeds AI data capture ahead of MTD ITSA",
+          "tags": [
+            "Xero",
+            "Landlord workflow validated"
+          ],
+          "body": [
+            "Xero's UK product release has bedded in AI-powered data capture and extraction, positioned explicitly around MTD for Income Tax readiness. Practices standardising on Xero for landlord and sole-trader books should validate the new capture flow end-to-end on a live quarterly update before rolling it out across client portfolios, particularly for clients where bank feeds or receipt volumes have historically been noisy."
+          ],
+          "source": "Xero"
+        },
+        {
+          "headline": "Sage UK & Ireland posts 10% revenue growth",
+          "tags": [
+            "Sage",
+            "+10% UK&I revenue"
+          ],
+          "body": [
+            "Sage's latest full-year results show 10% revenue growth in the UK and Ireland, with traction across Sage Intacct, Sage Accounting, Sage 50 and Sage 200. The message to practice is that the mid-market stack is shifting decisively toward cloud-first, AI-enabled and compliance-ready platforms. Firms still anchored in desktop deployments should build a clear migration roadmap into their FY27 plans."
+          ],
+          "source": "Sage"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "UK M&A: value up eight-fold in H1, quality over quantity thesis holds",
+          "tags": [
+            "£33.7bn FS H1",
+            "135 deals",
+            "Top 7 = 93% of value"
+          ],
+          "body": [
+            "Half-year data confirms a sharp rebound in UK M&A: deal volume rose roughly 25% year on year while disclosed value climbed almost eight-fold. UK financial services alone recorded 135 disclosed transactions worth £33.7bn against £4.2bn in H1 2025, with seven deals above £1bn (including two megadeals between £8bn and £10bn) accounting for around 93% of value. Commentary from the major houses characterises 2026 as a 'flight to quality' market: fewer, larger, higher-conviction deals, with financing cost and valuation gaps keeping the long tail quiet."
+          ],
+          "source": "Consultancy.uk, EY, Financier Worldwide",
+          "charts": [
+            {
+              "type": "compare_bars",
+              "title": "UK financial-services M&A: H1 2025 vs H1 2026",
+              "unit": "£ billion, disclosed deal value",
+              "bars": [
+                {
+                  "label": "H1 2025",
+                  "value": 4.2,
+                  "display": "£4.2b",
+                  "caption": "Prior-year base"
+                },
+                {
+                  "label": "H1 2026",
+                  "value": 33.7,
+                  "display": "£33.7b",
+                  "caption": "135 deals, 2 megadeals"
+                }
+              ],
+              "note": "Seven deals over £1bn accounted for around 93% of value. Volume up ~25% year on year."
+            }
+          ]
+        },
+        {
+          "headline": "Ireland M&A outlook: professional services demand underpins deal flow",
+          "tags": [
+            "Ireland",
+            "PE seeking platforms"
+          ],
+          "body": [
+            "Irish market commentary continues to flag professional services, and accountancy in particular, as a standout sub-sector for M&A demand, driven by private equity seeking live platforms and bolt-ons. Xeinadin's continued Dublin-area activity is the clearest live example, and Irish partners approaching succession should be pressure-testing valuation ranges against fresh comparable deals before committing to any internal-buy-out timetable."
+          ],
+          "source": "Baker Tilly Ireland, PwC Ireland"
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "IFA sector response to fiscal-drag squeeze on SMEs",
+          "tags": [
+            "VAT threshold cliff-edge",
+            "Remuneration mix review"
+          ],
+          "body": [
+            "IFA representative bodies have re-stated concerns that the freeze on income tax and NIC thresholds, alongside the unchanged VAT registration threshold, is eroding the real incomes of small business operators and their staff. For advisers with SME owner-manager books this reinforces the case for revisiting remuneration mix, pension contributions and salary-sacrifice arrangements ahead of the autumn planning window, particularly where clients are approaching the VAT registration cliff-edge."
+          ],
+          "meaning": "Book a remuneration and pension-contribution review with every SME owner-manager client this September, especially those inside the VAT threshold shadow.",
+          "source": "IFA, Adviser-Hub"
+        },
+        {
+          "headline": "Fee benchmarks stable: hourly £150 to £350, ongoing 0.5% to 1.0% AUA",
+          "tags": [
+            "£150 to £350 per hour",
+            "Consumer Duty fair value"
+          ],
+          "body": [
+            "Consumer-facing fee benchmarking for 2026 continues to cluster around £150 to £350 per hour for advice, £500 to £3,500 for one-off plans and 0.5% to 1.0% of assets under advice for ongoing service. The stability of the range against a backdrop of AI-driven productivity in back-office functions is likely to attract renewed regulator focus on fair value under Consumer Duty. Firms should ensure their price-and-value assessments are demonstrably refreshed for the current cycle."
+          ],
+          "source": "Sector fee surveys"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+_site/
+preview/
+shots/
+__pycache__/
+*.pyc
+.DS_Store

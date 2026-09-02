@@ -1,0 +1,438 @@
+{
+  "date": "2026-09-02",
+  "masthead": "Daily Accountancy Briefing",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "HMRC's first standalone crypto-gains dataset, MTD auto-enrolment from September, an eight-fold jump in UK financial-services M&A, and a fresh QuickBooks price rise.",
+  "categories": [
+    {
+      "name": "HMRC",
+      "badge": "CRYPTO DATA LIVE",
+      "stories": [
+        {
+          "headline": "First standalone crypto-gains data lands; every practitioner should be paying attention",
+          "tags": [
+            "£1.38bn declared gains",
+            "240 filers = 52% of £1m+ gains",
+            "CARF auto-exchange 2027"
+          ],
+          "body": [
+            "HM Revenue & Customs has published its inaugural set of statistics on taxable cryptoasset capital gains, having isolated digital assets into a standalone section of the Self Assessment return for the first time. The dataset shows £1.38bn in declared gains across 17,600 filers for 2024/25, with just 240 individuals (1.4% of filers) accounting for 52% of gains above £1m. Total disposal proceeds reached £13.8bn and enforcement activity has already generated £168m in additional CGT receipts. With the Crypto-Asset Reporting Framework (CARF) switching voluntary disclosure to automatic exchange in 2027, firms are being urged to audit client portfolios for unreported disposals, token swaps and staking income, refresh onboarding questionnaires and consider directing exposed clients to HMRC's Digital Disclosure Service before the matching engine goes live."
+          ],
+          "meaning": "Run a crypto-exposure sweep across the personal tax book this September. Directing exposed clients through the Digital Disclosure Service now is cheaper than being matched by CARF in 2027.",
+          "source": "Accountancy Age",
+          "charts": [
+            {
+              "type": "stat_row",
+              "items": [
+                {
+                  "value": "£1.38bn",
+                  "label": "declared crypto gains, 2024/25"
+                },
+                {
+                  "value": "17,600",
+                  "label": "filers reporting gains"
+                },
+                {
+                  "value": "£168m",
+                  "label": "extra CGT from enforcement"
+                }
+              ]
+            },
+            {
+              "type": "gauge",
+              "value": 52,
+              "title": "Concentration of large gains",
+              "label": "of gains above £1m came from just 240 filers (1.4% of all filers)"
+            }
+          ]
+        },
+        {
+          "headline": "Direct-recovery consultation on lower-value tax debts closes",
+          "tags": [
+            "4.8m taxpayers, ~£4bn in scope",
+            "£5k / £10k thresholds"
+          ],
+          "body": [
+            "HMRC's consultation on tackling lower-value tax debts closed on Friday 28 August, setting the stage for a significant expansion of the Revenue's direct-recovery-of-debt powers. The proposals would allow HMRC to instruct banks and building societies to take monthly deductions from taxpayers' accounts to recover debts of up to £5,000 for individuals and £10,000 for businesses. HMRC estimates up to 4.8m taxpayers, owing around £4bn in aggregate, could fall in scope. Practitioners should expect a policy response later this autumn and prepare debt-management protocols for exposed clients, particularly those on payment plans with historic arrears."
+          ],
+          "source": "AOL, HMRC",
+          "charts": [
+            {
+              "type": "stat_row",
+              "items": [
+                {
+                  "value": "4.8m",
+                  "label": "taxpayers potentially in scope"
+                },
+                {
+                  "value": "~£4bn",
+                  "label": "aggregate debt in scope"
+                },
+                {
+                  "value": "£5k / £10k",
+                  "label": "individual / business thresholds"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "headline": "£16bn corporate tax gap and 81,000 'nudge' letters signal a widening net",
+          "tags": [
+            "£16bn CT gap",
+            "81,000 crypto nudge letters"
+          ],
+          "body": [
+            "Fresh HMRC data puts unpaid corporate tax at roughly £16bn and confirms that 81,000 'nudge' letters have been sent to cryptoasset holders, alongside a broader push on offshore and gig-economy income. The scale of activity indicates that compliance capacity is being reallocated toward higher-yield, data-driven interventions. Firms with SME and owner-managed business books should expect a heavier flow of one-to-many correspondence into Q4, and consider proactive risk reviews of cross-border services, marketplaces and crypto exposures."
+          ],
+          "meaning": "Assume one-to-many correspondence volumes rise into Q4. Sweep SME books for cross-border service, marketplace and crypto exposure before the first letters land.",
+          "source": "Accountancy Age"
+        }
+      ]
+    },
+    {
+      "name": "Making Tax Digital",
+      "stories": [
+        {
+          "headline": "HMRC begins auto-enrolling taxpayers into MTD for Income Tax from this month",
+          "tags": [
+            "Auto-enrol from September",
+            "Letters bypass agents"
+          ],
+          "body": [
+            "From September, HMRC will start automatically signing up taxpayers it believes should be in scope of Making Tax Digital for Income Tax Self Assessment. The initial population comprises sole traders and landlords with combined gross income above £50,000 for 2024/25, with the threshold falling to £30,000 from April 2027. Crucially, HMRC has confirmed the sign-up letters go direct to the taxpayer. Agents will not receive a copy, making proactive client outreach and 64-8 audits an immediate priority for practices."
+          ],
+          "meaning": "Run a 64-8 audit across every in-scope client this week and get ahead of the letter. Once auto-enrolment activates, clients call you first and you are working without HMRC's paper trail.",
+          "source": "ATT, HMRC"
+        },
+        {
+          "headline": "First quarterly update deadline lands with 51% compliance",
+          "tags": [
+            "436k of 864k",
+            "Soft-landing penalty holiday"
+          ],
+          "body": [
+            "The first mandatory MTD quarterly update deadline on 7 August saw 436,000 of the 864,000 taxpayers HMRC identified as in scope file on time, a compliance rate of just over 50%. HMRC has confirmed it will not levy penalty points for late quarterly updates during the 2026/27 soft-landing year, but late-filing behaviour is being logged. Firms should treat the first cycle as a diagnostic on client readiness and bookkeeping quality rather than a compliance win."
+          ],
+          "source": "HMRC, trade press",
+          "charts": [
+            {
+              "type": "compare_bars",
+              "title": "First MTD quarterly update, 7 August 2026",
+              "unit": "taxpayers",
+              "bars": [
+                {
+                  "label": "In scope",
+                  "value": 864000,
+                  "display": "864k",
+                  "caption": "Identified by HMRC"
+                },
+                {
+                  "label": "Filed on time",
+                  "value": 436000,
+                  "display": "436k",
+                  "caption": "51% compliance"
+                }
+              ],
+              "note": "No penalty points during the 2026/27 soft-landing year, but late-filing behaviour is being logged."
+            }
+          ]
+        },
+        {
+          "headline": "Mandatory e-invoicing regime targeted for 2029",
+          "tags": [
+            "Peppol-style network",
+            "B2B and B2G VAT"
+          ],
+          "body": [
+            "The Government has confirmed it is working toward a mandatory e-invoicing regime from 2029, primarily covering VAT invoices for B2B and B2G transactions. HMRC has confirmed the model will rely on invoices exchanged between businesses through software providers rather than through a central government portal, a decentralised design closer to the Peppol network than to Italy's SDI. Software vendors are already positioning product roadmaps around the announcement."
+          ],
+          "source": "HMRC policy update"
+        }
+      ]
+    },
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "Tech-stack fatigue: firms want to halve the number of tools they run",
+          "tags": [
+            "8+ tools average",
+            "57% want to halve stack"
+          ],
+          "body": [
+            "Practice-management commentary this week returned to a familiar theme: the average UK accountancy firm now runs eight or more tools to deliver core services, and 57% want to reduce that stack by half over the next three years. The trend is driving renewed interest in consolidated ledger-plus-practice platforms and in AI-native workflow tools that replace three or four point solutions at once. Vendors selling into mid-market firms should expect harder procurement conversations this budgeting cycle."
+          ],
+          "meaning": "Map current tools against workflow this quarter. Consolidation candidates surface fast; a September rationalisation plan avoids paying for duplicate licences into 2027.",
+          "source": "AccountingWEB",
+          "charts": [
+            {
+              "type": "gauge",
+              "value": 57,
+              "title": "Appetite for consolidation",
+              "label": "of firms want to halve their tool stack within three years"
+            }
+          ]
+        },
+        {
+          "headline": "Talent squeeze intensifies for tech-fluent accountants",
+          "tags": [
+            "80% hiring difficulty",
+            "Strategic advisor as baseline"
+          ],
+          "body": [
+            "80% of firms report difficulty hiring skilled professionals, with the sharpest gap in candidates who combine technical accounting with data, automation and AI literacy. The profession is increasingly framing the 'strategic advisor', capable of navigating a digital-first, complex regulatory environment, as the new baseline rather than a specialism, with knock-on effects for training pipelines, apprenticeship design and lateral hiring strategies."
+          ],
+          "source": "Accountancy Age",
+          "charts": [
+            {
+              "type": "gauge",
+              "value": 80,
+              "title": "Hiring difficulty",
+              "label": "of firms report difficulty hiring tech-fluent professionals"
+            }
+          ]
+        },
+        {
+          "headline": "Private equity keeps buying: accountancy consolidation runs hot",
+          "tags": [
+            "BDO UK&I",
+            "Xeinadin",
+            "FS multiples up"
+          ],
+          "body": [
+            "Deal trackers continue to show strong PE interest in UK and Irish accountancy platforms, with rollups and cross-border tie-ups dominating the pipeline. The BDO UK & Ireland combination remains the sector's most-watched integration, and mid-tier firms report regular inbound approaches from sponsor-backed consolidators. Partners weighing exit or recapitalisation should re-baseline valuation expectations against the recent uptick in financial-services multiples."
+          ],
+          "source": "Accountancy Today, Inside Public Accounting"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "UK financial-services M&A value up eight-fold in H1 2026",
+          "tags": [
+            "8x on H1 2025",
+            "Insurance / AM heavy"
+          ],
+          "body": [
+            "EY's half-year read on UK financial-services M&A shows aggregate deal value up roughly eight-fold on H1 2025, driven by a small number of large insurance and asset-management transactions and by continued PE dry-powder deployment. Advisory teams should expect a busy Q4 run-rate as processes launched over the summer come to market."
+          ],
+          "source": "EY, Consultancy.uk",
+          "charts": [
+            {
+              "type": "compare_bars",
+              "title": "UK financial-services M&A: H1 2025 vs H1 2026",
+              "unit": "£ billion, disclosed deal value",
+              "bars": [
+                {
+                  "label": "H1 2025",
+                  "value": 4.2,
+                  "display": "£4.2b",
+                  "caption": "Prior-year base"
+                },
+                {
+                  "label": "H1 2026",
+                  "value": 33.7,
+                  "display": "£33.7b",
+                  "caption": "135 deals, 2 megadeals"
+                }
+              ],
+              "note": "Seven deals over £1bn, including two in the £8bn to £10bn range. The top 7 accounted for 93% of value; the 'flight to quality' thesis holds."
+            }
+          ]
+        },
+        {
+          "headline": "Ireland: H1 volumes hold up, aggregate value softens",
+          "tags": [
+            "Q1: 126 deals, €1.43bn",
+            "Prof services / insurance / healthcare"
+          ],
+          "body": [
+            "Ireland's M&A market entered a more subdued phase in H1 2026, with aggregate deal value stepping back from the elevated 2025 comparators even as deal count held steady. Q1 recorded 126 deals worth roughly €1.43bn, ahead of both Q1 2025 (111) and Q4 2025 (117). Corporate finance houses continue to flag professional services, insurance and healthcare as the most active sectors, with strong cross-border interest from UK and US buyers."
+          ],
+          "meaning": "Ireland deal count is holding, value is softer. Advisers should coach vendors to run tight processes and prepare quality-of-earnings packs early to protect certainty of close.",
+          "source": "Philip Lee, Grant Thornton Ireland",
+          "charts": [
+            {
+              "type": "bars",
+              "title": "Irish M&A deal count by quarter",
+              "unit": "disclosed deals",
+              "bars": [
+                {
+                  "label": "Q1 2025",
+                  "value": 111,
+                  "display": "111"
+                },
+                {
+                  "label": "Q4 2025",
+                  "value": 117,
+                  "display": "117"
+                },
+                {
+                  "label": "Q1 2026",
+                  "value": 126,
+                  "display": "126"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory & FCA",
+      "stories": [
+        {
+          "headline": "PS26/15 finalises the revised UK transaction-reporting regime",
+          "tags": [
+            "FCA",
+            "PS26/15 · 3 August 2026"
+          ],
+          "body": [
+            "The FCA has published PS26/15, setting out the final rules for a modernised UK transaction-reporting regime. Advisers and wealth managers with in-house dealing or reporting infrastructure should map the changes against their MiFIR reporting pipelines now, particularly around instrument-reference data and reportable-field scope. Outsourced providers are expected to reissue client change-control notes over the autumn."
+          ],
+          "source": "FCA"
+        },
+        {
+          "headline": "PS26/16 rewires information flows for UK equity IPOs",
+          "tags": [
+            "FCA",
+            "PS26/16 · 5 August 2026"
+          ],
+          "body": [
+            "PS26/16 confirms the FCA's new framework for information flows around UK equity IPOs, part of the broader push to make London a more competitive listing venue. Corporate finance advisers, brokers and IFAs advising on placings should refresh research-and-connected-analyst protocols and pre-IPO communications templates ahead of Q4 launch windows."
+          ],
+          "source": "FCA"
+        },
+        {
+          "headline": "AIFM reform consultation (CP26/28) puts a size-graduated regime on the table",
+          "tags": [
+            "CP26/28",
+            "Small <£750m / Med / Large"
+          ],
+          "body": [
+            "The FCA's consultation on a modernised UK AIFM regime moves toward a graduated framework in which managers are categorised as Small (under £750m AUM), Medium (£750m to £5bn) or Large (over £5bn), with proportionate obligations at each tier. Boutique managers and multi-family offices operating just below the £750m boundary should model both the 'stay small' and 'grow through' scenarios during business planning."
+          ],
+          "meaning": "Model the £750m boundary as a live strategic threshold in the FY27 business plan, not a regulatory footnote.",
+          "source": "FCA"
+        },
+        {
+          "headline": "Financial-crime review flags weaknesses in asset management",
+          "tags": [
+            "Sanctions screening gaps",
+            "SoW evidence",
+            "Governance MI"
+          ],
+          "body": [
+            "The FCA published findings from its review of financial-crime frameworks across asset management and alternative investment firms, highlighting good practice alongside areas needing improvement, particularly around sanctions screening, source-of-wealth evidence and governance MI. Advisory firms with discretionary or model-portfolio propositions should benchmark against the findings and refresh AML training accordingly."
+          ],
+          "source": "FCA"
+        },
+        {
+          "headline": "Cryptoasset authorisation window opens 30 September",
+          "tags": [
+            "Window opens 30 Sep 2026",
+            "Regime live 25 Oct 2027"
+          ],
+          "body": [
+            "The FCA has confirmed the cryptoasset authorisation window opens on 30 September 2026, with the substantive regime taking effect from 25 October 2027. Firms with permitted activities that touch cryptoassets, including wealth managers using tokenised funds, should confirm perimeter position before the window opens."
+          ],
+          "source": "FCA policy timetable"
+        }
+      ]
+    },
+    {
+      "name": "Ireland: Technical Watch",
+      "stories": [
+        {
+          "headline": "R&D tax credit rises to 35% for periods ending on or after 31 December 2026",
+          "tags": [
+            "30% to 35%",
+            "First-year threshold €87,500"
+          ],
+          "body": [
+            "The R&D tax credit rate steps up from 30% to 35% for accounting periods ending on or after 31 December 2026, and the first-year payment threshold rises to €87,500 from €75,000. The combined effect improves cash flow for smaller innovation-active clients and re-opens the case for reviewing which activities and staff costs are being claimed. Firms should refresh client eligibility matrices and consider running a look-back exercise for FY25 claims filed on the old rate."
+          ],
+          "meaning": "Refresh the R&D eligibility matrix and book a look-back review across FY25 claims. Even a small uplift on prior filings compounds fast at the higher rate.",
+          "source": "Budget 2026 update",
+          "charts": [
+            {
+              "type": "compare_bars",
+              "title": "Irish R&D tax credit rate",
+              "unit": "% credit",
+              "bars": [
+                {
+                  "label": "Current",
+                  "value": 30,
+                  "display": "30%",
+                  "caption": "Pre-2026 periods"
+                },
+                {
+                  "label": "From 31 Dec 2026",
+                  "value": 35,
+                  "display": "35%",
+                  "caption": "Threshold €75k to €87.5k"
+                }
+              ],
+              "note": "First-year payment threshold rises to €87,500 from €75,000."
+            }
+          ]
+        },
+        {
+          "headline": "New crypto reporting obligations bed in alongside broader compliance load",
+          "tags": [
+            "Crypto reporting live",
+            "CRO · CT1 · iXBRL · RBO"
+          ],
+          "body": [
+            "Budget 2026 introduced significant new reporting requirements for cryptocurrency transactions, adding to an already dense Irish compliance calendar that includes CRO annual returns, CT1, iXBRL, VAT, PAYE, RBO beneficial-ownership updates and bank-record obligations. Practices should treat crypto in the same way as offshore accounts a decade ago: identify exposed clients now, document positions and prepare disclosure options."
+          ],
+          "source": "Outbooks Ireland"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "QuickBooks Online lifts prices again from 1 August",
+          "tags": [
+            "Live from 1 Aug",
+            "$38 to $275 US tier range"
+          ],
+          "body": [
+            "QuickBooks Online implemented another price increase effective 1 August 2026, with US entry-level pricing now spanning roughly $38 to $275 per month depending on plan. UK list-price movements typically follow. Practices should refresh client-billing assumptions and, where relevant, re-negotiate wholesale and partner discount tiers before the next renewal cycle."
+          ],
+          "meaning": "Renegotiate wholesale and partner discount tiers before UK list-price movements follow, and update client engagement letters to reflect the new pass-through economics.",
+          "source": "Intuit, Insightful Accountant"
+        },
+        {
+          "headline": "Xero pushes AI data-capture into UK product ahead of MTD",
+          "tags": [
+            "Xero",
+            "£26 Growing to £37 Grow"
+          ],
+          "body": [
+            "Xero has continued rolling out AI-powered data capture and extraction to UK customers in the run-up to MTD for Income Tax, and its Xerocon event drew 45+ exhibitors in Denver in August. UK pricing has moved every year for three consecutive years, the former £26 'Growing' plan is now the £37 'Grow' plan, and product roadmaps continue to prioritise MTD ITSA readiness."
+          ],
+          "source": "Xero"
+        },
+        {
+          "headline": "MTD-compatible software field stays crowded but stable",
+          "tags": [
+            "Sage",
+            "Xero",
+            "QuickBooks"
+          ],
+          "body": [
+            "Sage, Xero and QuickBooks remain the anchor MTD-recognised platforms for UK VAT and are each publicly committed to MTD for Income Tax support. Firms consolidating tech stacks should weigh not only feature parity but bureau-workflow depth, API access and the quality of client-facing mobile experiences, the last increasingly the deciding factor in landlord-and-sole-trader segments."
+          ],
+          "source": "TechFinitive"
+        }
+      ]
+    }
+  ]
+}
