@@ -91,48 +91,34 @@ THEME_SCRIPT = """
 SEARCH_SCRIPT = r"""
 <script>
 (function(){
-  var overlay=document.getElementById('pd-search');
-  var openBtn=document.getElementById('pd-search-open');
-  var closeBtn=document.getElementById('pd-search-close');
-  var input=document.getElementById('pd-search-input');
-  var results=document.getElementById('pd-search-results');
-  if(!overlay||!openBtn) return;
+  var form=document.getElementById('pd-search-form');
+  var input=document.getElementById('pd-q');
+  var sug=document.getElementById('pd-suggest');
+  var pageResults=document.getElementById('pd-search-page-results');
+  var summary=document.getElementById('pd-search-summary');
+  if(!input) return;
   var root=window.PD_ROOT||'';
   var index=null, loading=false;
 
   function esc(s){return (s||'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
   function escRe(s){return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');}
+  function hi(html,q){ try{ return html.replace(new RegExp('('+escRe(q)+')','ig'),'<mark>$1</mark>'); }catch(e){ return html; } }
+  function snippet(t,q,pad){
+    pad=pad||70; var i=t.toLowerCase().indexOf(q.toLowerCase());
+    if(i<0){ return esc(t.slice(0,pad+40))+(t.length>pad+40?'…':''); }
+    var s=Math.max(0,i-Math.round(pad*0.5)), e=Math.min(t.length,i+q.length+pad);
+    return (s>0?'…':'')+esc(t.slice(s,e))+(e<t.length?'…':'');
+  }
 
   function load(cb){
     if(index){cb();return;}
-    if(loading)return;
+    if(loading){return;}
     loading=true;
     fetch(root+'search-index.json').then(function(r){return r.json();}).then(function(d){index=d;loading=false;cb();})
-      .catch(function(){loading=false;results.innerHTML='<div class="search-empty">Search is unavailable right now.</div>';});
+      .catch(function(){loading=false; if(summary){summary.textContent='Search is unavailable right now.';}});
   }
 
-  function open(){
-    overlay.hidden=false;
-    document.body.style.overflow='hidden';
-    setTimeout(function(){input.focus();},30);
-    load(function(){ run(); });
-  }
-  function close(){
-    overlay.hidden=true;
-    document.body.style.overflow='';
-  }
-
-  function snippet(text,q){
-    var i=text.toLowerCase().indexOf(q.toLowerCase());
-    if(i<0){ return esc(text.slice(0,150))+(text.length>150?'…':''); }
-    var start=Math.max(0,i-60), end=Math.min(text.length,i+q.length+90);
-    return (start>0?'…':'')+esc(text.slice(start,end))+(end<text.length?'…':'');
-  }
-  function hi(html,q){ try{ return html.replace(new RegExp('('+escRe(q)+')','ig'),'<mark>$1</mark>'); }catch(e){ return html; } }
-
-  function run(){
-    var q=input.value.trim();
-    if(q.length<2){ results.innerHTML='<div class="search-hint">Type at least two characters. Try a topic, a company, or a figure.</div>'; return; }
+  function search(q){
     var ql=q.toLowerCase(), hits=[];
     for(var k=0;k<index.length;k++){
       var r=index[k];
@@ -144,32 +130,52 @@ SEARCH_SCRIPT = r"""
       if(inT||inTag||inC||inX||inS){ hits.push({r:r,score:(inT?0:(inTag?1:(inC?2:(inX?3:4))))}); }
     }
     hits.sort(function(a,b){return a.score-b.score || (a.r.d<b.r.d?1:-1);});
-    if(!hits.length){ results.innerHTML='<div class="search-empty">No matches for &ldquo;'+esc(q)+'&rdquo;.</div>'; return; }
-    var top=hits.slice(0,40);
-    var html='<div class="search-count">'+hits.length+' result'+(hits.length>1?'s':'')+(hits.length>40?' (showing 40)':'')+'</div>';
-    top.forEach(function(h){
-      var r=h.r;
-      html+='<a class="search-hit" href="'+root+r.u+'">'
-        +'<div class="hit-meta"><span class="hit-cat">'+esc(r.c)+'</span><span class="hit-date">'+esc(r.dl)+'</span></div>'
-        +'<div class="hit-title">'+hi(esc(r.t),q)+'</div>'
-        +'<div class="hit-snip">'+hi(snippet(r.x,q),q)+'</div>'
-        +'</a>';
-    });
-    results.innerHTML=html;
+    return hits;
   }
 
-  openBtn.addEventListener('click',open);
-  closeBtn.addEventListener('click',close);
-  overlay.addEventListener('click',function(e){ if(e.target===overlay) close(); });
-  results.addEventListener('click',function(e){ if(e.target.closest('.search-hit')) close(); });
-  input.addEventListener('input',function(){ if(index) run(); });
-  document.addEventListener('keydown',function(e){
-    if(e.key==='Escape' && !overlay.hidden){ close(); return; }
-    if(e.key==='/' && overlay.hidden){
-      var t=document.activeElement ? document.activeElement.tagName : '';
-      if(t!=='INPUT' && t!=='TEXTAREA'){ e.preventDefault(); open(); }
-    }
-  });
+  // ---- header dropdown ----
+  function renderSuggest(q){
+    if(!index || q.length<2){ sug.hidden=true; sug.innerHTML=''; return; }
+    var hits=search(q);
+    if(!hits.length){ sug.innerHTML='<div class="sg-empty">No matches for &ldquo;'+esc(q)+'&rdquo;</div>'; sug.hidden=false; return; }
+    var html='';
+    hits.slice(0,6).forEach(function(h){ var r=h.r;
+      html+='<a class="sg-item" href="'+root+r.u+'">'
+        +'<span class="sg-row"><span class="sg-title">'+hi(esc(r.t),q)+'</span><span class="sg-date">'+esc(r.dl)+'</span></span>'
+        +'<span class="sg-snip">'+hi(snippet(r.x,q,60),q)+'</span></a>';
+    });
+    html+='<a class="sg-all" href="'+root+'search/?q='+encodeURIComponent(q)+'">See all '+hits.length+' result'+(hits.length>1?'s':'')+' &rarr;</a>';
+    sug.innerHTML=html; sug.hidden=false;
+  }
+
+  input.addEventListener('input',function(){ load(function(){ renderSuggest(input.value.trim()); }); });
+  input.addEventListener('focus',function(){ if(input.value.trim().length>=2){ load(function(){ renderSuggest(input.value.trim()); }); } });
+  if(sug){
+    document.addEventListener('click',function(e){ if(form && !form.contains(e.target)){ sug.hidden=true; } });
+    input.addEventListener('keydown',function(e){ if(e.key==='Escape'){ sug.hidden=true; input.blur(); } });
+  }
+
+  // ---- dedicated results page ----
+  function qparam(){ try{ return new URLSearchParams(location.search).get('q')||''; }catch(e){ return ''; } }
+  if(pageResults){
+    var q0=qparam(); input.value=q0;
+    load(function(){
+      var q=q0.trim();
+      if(q.length<2){ if(summary){summary.textContent='Type in the box above to search every edition.';} return; }
+      var hits=search(q);
+      if(summary){ summary.innerHTML = hits.length
+        ? ('<strong>'+hits.length+'</strong> result'+(hits.length>1?'s':'')+' for &ldquo;'+esc(q)+'&rdquo;')
+        : ('No matches for &ldquo;'+esc(q)+'&rdquo;. Try a different term.'); }
+      var html='';
+      hits.forEach(function(h){ var r=h.r;
+        html+='<a class="res-item" href="'+root+r.u+'">'
+          +'<div class="res-row"><span class="res-title">'+hi(esc(r.t),q)+'</span><span class="res-date">'+esc(r.dl)+'</span></div>'
+          +'<div class="res-snip">'+hi(snippet(r.x,q,110),q)+'</div></a>';
+      });
+      pageResults.innerHTML=html;
+      if(q){ document.title=q+' · Search · Pinnacle Digest'; }
+    });
+  }
 })();
 </script>
 """
@@ -268,24 +274,16 @@ def topbar(root):
     <span class="brand-names"><span class="kicker">{SITE_KICKER}</span><span class="name">Pinnacle Digest</span></span>
   </a>
   <span class="spacer"></span>
-  <a class="nav-link hide-sm" href="{root}index.html">Archive</a>
+  <form class="hdr-search" role="search" id="pd-search-form" action="{root}search/" method="get" autocomplete="off">
+    <button type="submit" class="hdr-search-btn" aria-label="Search" tabindex="-1">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
+    <input type="search" name="q" id="pd-q" placeholder="Search briefings" aria-label="Search briefings" autocomplete="off" spellcheck="false">
+    <div class="hdr-suggest" id="pd-suggest" hidden></div>
+  </form>
   <a class="nav-link hide-sm" href="{root}feed.xml">RSS</a>
-  <button class="icon-btn" id="pd-search-open" aria-label="Search the briefings" title="Search">
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-    <span class="icon-btn-label hide-sm">Search</span>
-  </button>
   <button class="theme-toggle" onclick="window.__toggleTheme()" aria-label="Toggle dark mode">Theme</button>
-</div></header>
-<div class="search-overlay" id="pd-search" hidden role="dialog" aria-modal="true" aria-label="Search Pinnacle Digest">
-  <div class="search-panel">
-    <div class="search-box">
-      <svg class="search-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-      <input type="search" id="pd-search-input" placeholder="Search every briefing: HMRC, MTD, M&amp;A, a company, a number..." autocomplete="off" spellcheck="false" aria-label="Search terms">
-      <button class="search-close" id="pd-search-close" aria-label="Close search">Esc</button>
-    </div>
-    <div class="search-results" id="pd-search-results" aria-live="polite"></div>
-  </div>
-</div>"""
+</div></header>"""
 
 
 def site_footer(root):
@@ -695,6 +693,19 @@ def render_404():
     return page_shell("Not found · " + SITE_NAME, "Page not found", body, "/")
 
 
+def render_search_page():
+    root = "../"  # /search/index.html is one level deep
+    body = """<div class="wrap search-page">
+  <div class="section-head">
+    <div class="eyebrow">Search</div>
+    <h1 id="pd-search-heading">Search the briefings</h1>
+    <p id="pd-search-summary" class="search-summary">Type in the box above to search every edition.</p>
+  </div>
+  <div id="pd-search-page-results" class="search-page-results"></div>
+</div>"""
+    return page_shell("Search · " + SITE_NAME, "Search every Pinnacle Digest briefing.", body, root, canon("/search/"))
+
+
 # --------------------------------------------------------------------------- #
 def build():
     if os.path.exists(OUT):
@@ -725,6 +736,9 @@ def build():
         json.dump(build_search_index(editions), fh, ensure_ascii=False, separators=(",", ":"))
     with open(os.path.join(OUT, "404.html"), "w", encoding="utf-8") as fh:
         fh.write(render_404())
+    os.makedirs(os.path.join(OUT, "search"), exist_ok=True)
+    with open(os.path.join(OUT, "search", "index.html"), "w", encoding="utf-8") as fh:
+        fh.write(render_search_page())
     if CUSTOM_DOMAIN:
         with open(os.path.join(OUT, "CNAME"), "w", encoding="utf-8") as fh:
             fh.write(CUSTOM_DOMAIN + "\n")
