@@ -88,6 +88,92 @@ THEME_SCRIPT = """
 </script>
 """
 
+SEARCH_SCRIPT = r"""
+<script>
+(function(){
+  var overlay=document.getElementById('pd-search');
+  var openBtn=document.getElementById('pd-search-open');
+  var closeBtn=document.getElementById('pd-search-close');
+  var input=document.getElementById('pd-search-input');
+  var results=document.getElementById('pd-search-results');
+  if(!overlay||!openBtn) return;
+  var root=window.PD_ROOT||'';
+  var index=null, loading=false;
+
+  function esc(s){return (s||'').replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+  function escRe(s){return s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');}
+
+  function load(cb){
+    if(index){cb();return;}
+    if(loading)return;
+    loading=true;
+    fetch(root+'search-index.json').then(function(r){return r.json();}).then(function(d){index=d;loading=false;cb();})
+      .catch(function(){loading=false;results.innerHTML='<div class="search-empty">Search is unavailable right now.</div>';});
+  }
+
+  function open(){
+    overlay.hidden=false;
+    document.body.style.overflow='hidden';
+    setTimeout(function(){input.focus();},30);
+    load(function(){ run(); });
+  }
+  function close(){
+    overlay.hidden=true;
+    document.body.style.overflow='';
+  }
+
+  function snippet(text,q){
+    var i=text.toLowerCase().indexOf(q.toLowerCase());
+    if(i<0){ return esc(text.slice(0,150))+(text.length>150?'…':''); }
+    var start=Math.max(0,i-60), end=Math.min(text.length,i+q.length+90);
+    return (start>0?'…':'')+esc(text.slice(start,end))+(end<text.length?'…':'');
+  }
+  function hi(html,q){ try{ return html.replace(new RegExp('('+escRe(q)+')','ig'),'<mark>$1</mark>'); }catch(e){ return html; } }
+
+  function run(){
+    var q=input.value.trim();
+    if(q.length<2){ results.innerHTML='<div class="search-hint">Type at least two characters. Try a topic, a company, or a figure.</div>'; return; }
+    var ql=q.toLowerCase(), hits=[];
+    for(var k=0;k<index.length;k++){
+      var r=index[k];
+      var inT=r.t.toLowerCase().indexOf(ql)>=0;
+      var inTag=(r.tags||[]).join(' ').toLowerCase().indexOf(ql)>=0;
+      var inC=r.c.toLowerCase().indexOf(ql)>=0;
+      var inX=r.x.toLowerCase().indexOf(ql)>=0;
+      var inS=(r.src||'').toLowerCase().indexOf(ql)>=0;
+      if(inT||inTag||inC||inX||inS){ hits.push({r:r,score:(inT?0:(inTag?1:(inC?2:(inX?3:4))))}); }
+    }
+    hits.sort(function(a,b){return a.score-b.score || (a.r.d<b.r.d?1:-1);});
+    if(!hits.length){ results.innerHTML='<div class="search-empty">No matches for &ldquo;'+esc(q)+'&rdquo;.</div>'; return; }
+    var top=hits.slice(0,40);
+    var html='<div class="search-count">'+hits.length+' result'+(hits.length>1?'s':'')+(hits.length>40?' (showing 40)':'')+'</div>';
+    top.forEach(function(h){
+      var r=h.r;
+      html+='<a class="search-hit" href="'+root+r.u+'">'
+        +'<div class="hit-meta"><span class="hit-cat">'+esc(r.c)+'</span><span class="hit-date">'+esc(r.dl)+'</span></div>'
+        +'<div class="hit-title">'+hi(esc(r.t),q)+'</div>'
+        +'<div class="hit-snip">'+hi(snippet(r.x,q),q)+'</div>'
+        +'</a>';
+    });
+    results.innerHTML=html;
+  }
+
+  openBtn.addEventListener('click',open);
+  closeBtn.addEventListener('click',close);
+  overlay.addEventListener('click',function(e){ if(e.target===overlay) close(); });
+  results.addEventListener('click',function(e){ if(e.target.closest('.search-hit')) close(); });
+  input.addEventListener('input',function(){ if(index) run(); });
+  document.addEventListener('keydown',function(e){
+    if(e.key==='Escape' && !overlay.hidden){ close(); return; }
+    if(e.key==='/' && overlay.hidden){
+      var t=document.activeElement ? document.activeElement.tagName : '';
+      if(t!=='INPUT' && t!=='TEXTAREA'){ e.preventDefault(); open(); }
+    }
+  });
+})();
+</script>
+"""
+
 FILTER_SCRIPT = """
 <script>
 (function(){
@@ -169,6 +255,8 @@ def page_shell(title, description, body, root, canonical=""):
 {topbar(root)}
 {body}
 {site_footer(root)}
+<script>window.PD_ROOT="{root}";</script>
+{SEARCH_SCRIPT}
 </body>
 </html>"""
 
@@ -182,8 +270,22 @@ def topbar(root):
   <span class="spacer"></span>
   <a class="nav-link hide-sm" href="{root}index.html">Archive</a>
   <a class="nav-link hide-sm" href="{root}feed.xml">RSS</a>
+  <button class="icon-btn" id="pd-search-open" aria-label="Search the briefings" title="Search">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <span class="icon-btn-label hide-sm">Search</span>
+  </button>
   <button class="theme-toggle" onclick="window.__toggleTheme()" aria-label="Toggle dark mode">Theme</button>
-</div></header>"""
+</div></header>
+<div class="search-overlay" id="pd-search" hidden role="dialog" aria-modal="true" aria-label="Search Pinnacle Digest">
+  <div class="search-panel">
+    <div class="search-box">
+      <svg class="search-ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="search" id="pd-search-input" placeholder="Search every briefing: HMRC, MTD, M&amp;A, a company, a number..." autocomplete="off" spellcheck="false" aria-label="Search terms">
+      <button class="search-close" id="pd-search-close" aria-label="Close search">Esc</button>
+    </div>
+    <div class="search-results" id="pd-search-results" aria-live="polite"></div>
+  </div>
+</div>"""
 
 
 def site_footer(root):
@@ -207,7 +309,13 @@ def render_tags(tags):
     return f'<div class="tags">{"".join(items)}</div>'
 
 
-def render_story(story):
+def story_anchor(cat_name, i):
+    """Stable per-story id used for deep-links from search."""
+    return f"s-{slugify(cat_name)}-{i}"
+
+
+def render_story(story, story_id=None):
+    idattr = f' id="{story_id}"' if story_id else ""
     parts = [f'<h3>{esc(story["headline"])}</h3>']
     parts.append(render_tags(story.get("tags")))
     for para in story.get("body", []):
@@ -221,7 +329,7 @@ def render_story(story):
         )
     if story.get("source"):
         parts.append(f'<p class="source">{esc(story["source"])}</p>')
-    return f'<article class="story">{"".join(parts)}</article>'
+    return f'<article class="story"{idattr}>{"".join(parts)}</article>'
 
 
 def render_category(cat, index):
@@ -232,8 +340,35 @@ def render_category(cat, index):
         f'<div class="cat-head"><span class="num">{num}</span>'
         f'<h2>{esc(cat["name"])}</h2>{badge}<span class="cat-rule"></span></div>'
     )
-    stories = "".join(render_story(s) for s in cat.get("stories", []))
+    stories = "".join(
+        render_story(s, story_anchor(cat["name"], i))
+        for i, s in enumerate(cat.get("stories", []))
+    )
     return f'<section class="category" id="cat-{slug}">{head}{stories}</section>'
+
+
+def build_search_index(editions):
+    """Flat list of every story for the client-side search."""
+    records = []
+    for ed in editions:
+        date = ed["date"]
+        dl = fmt_date(date, weekday=False)
+        for cat in ed["categories"]:
+            for i, s in enumerate(cat.get("stories", [])):
+                body = " ".join(s.get("body", []))
+                if s.get("meaning"):
+                    body += " " + s["meaning"]
+                records.append({
+                    "t": s["headline"],
+                    "c": cat["name"],
+                    "d": date,
+                    "dl": dl,
+                    "u": f"editions/{date}/#{story_anchor(cat['name'], i)}",
+                    "tags": s.get("tags", []),
+                    "src": s.get("source", ""),
+                    "x": body,
+                })
+    return records
 
 
 def render_contents(categories):
@@ -586,6 +721,8 @@ def build():
 
     with open(os.path.join(OUT, "feed.xml"), "w", encoding="utf-8") as fh:
         fh.write(render_feed(editions))
+    with open(os.path.join(OUT, "search-index.json"), "w", encoding="utf-8") as fh:
+        json.dump(build_search_index(editions), fh, ensure_ascii=False, separators=(",", ":"))
     with open(os.path.join(OUT, "404.html"), "w", encoding="utf-8") as fh:
         fh.write(render_404())
     if CUSTOM_DOMAIN:
