@@ -1,0 +1,198 @@
+{
+  "date": "2026-09-03",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "Automatic MTD sign-ups go live as conduct rules bite",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "HMRC starts auto-enrolling MTD stragglers, the first CARF crypto data exchange looms, the FCA's non-financial misconduct rules take effect, and UK M&A annualises toward a record £347bn.",
+  "categories": [
+    {
+      "name": "HMRC",
+      "badge": "MTD AUTO SIGN-UPS LIVE",
+      "stories": [
+        {
+          "headline": "HMRC begins automatic MTD sign-ups from this month",
+          "tags": ["Auto sign-up live", "~33% not registered", "Letters bypass agents"],
+          "body": [
+            "HMRC has confirmed that from September 2026 it will start automatically signing up sole traders and landlords who should already have registered for Making Tax Digital (MTD) for Income Tax but have not done so. Approximately one third of taxpayers required to join the regime from April 2026 remain outside it, prompting the Revenue to act unilaterally. Notifications will be sent direct to the taxpayer. Agents will not be copied, meaning firms should proactively review client populations and flag anyone at risk of being enrolled without warning."
+          ],
+          "meaning": "Run a 64-8 audit across every in-scope client this week and pre-empt HMRC's letters. Once auto-enrolment triggers, clients call you first and you are working without the paper trail.",
+          "source": "ICAEW Insights, GB News",
+          "charts": [
+            {"type": "gauge", "value": 33, "title": "Still outside the regime",
+             "label": "of taxpayers required to join MTD from April 2026 have not yet registered"}
+          ]
+        },
+        {
+          "headline": "Advisory fuel rates published for 1 September 2026",
+          "tags": ["Live from 1 Sep 2026", "1-month overlap"],
+          "body": [
+            "HMRC has released the advisory fuel rates applicable from 1 September 2026 for employees using a company car for business travel or repaying the cost of private fuel. The rates should be applied to expense claims and payroll reconciliations from this month, though the previous set may still be used for the first month of overlap. Practitioners are reminded to update payroll systems and mileage policies without delay to avoid understated benefits-in-kind or over-claimed reimbursements."
+          ],
+          "source": "ICAEW Tax News in Brief"
+        },
+        {
+          "headline": "Overseas agent services account guidance refreshed",
+          "tags": ["Overseas ASA", "AML supervisory details tightened"],
+          "body": [
+            "HMRC has updated the guidance for agents based outside the UK applying for an Agent Services Account (ASA), tightening the requirement to submit anti-money laundering (AML) supervisory details as part of the application. UK firms with international affiliates or overseas parents supporting UK-facing services should review documentation now to prevent onboarding delays."
+          ],
+          "source": "ICAEW Insights"
+        }
+      ]
+    },
+    {
+      "name": "Making Tax Digital",
+      "stories": [
+        {
+          "headline": "Exemption window still open for 2027/28",
+          "tags": ["£30k threshold from April 2027", "Digitally excluded criteria"],
+          "body": [
+            "Although the 7 August deadline for MTD ITSA exemption applications covering 2026/27 has passed, HMRC continues to accept late submissions and is now processing exemption applications for the 2027/28 tax year, the year in which the threshold drops to £30,000 of gross income. Firms with clients at the digitally excluded end of the spectrum should assemble supporting evidence, including connectivity, disability or religious grounds, and file early to avoid last-minute risk."
+          ],
+          "meaning": "Segment the £30k client cohort against the exemption criteria this September. Gathering connectivity, disability or religious-grounds evidence is a documentation exercise that runs into weeks, not days.",
+          "source": "Association of Taxation Technicians"
+        },
+        {
+          "headline": "Tertiary MTD legislation updates recap",
+          "tags": ["MTD Regulations 24 Mar 2026", "Quarterly Update Direction"],
+          "body": [
+            "Recent commentary from ICAS reminds practitioners that the MTD Regulations laid on 24 March 2026, together with the updated Quarterly Update Direction and Digital Record Keeping Direction, now form the operative framework for MTD for Income Tax. Firms preparing quarterly submissions for 2026/27 should ensure their engagement letters, workflow templates and client communications reflect the current legal position rather than the 2021 Regulations they replaced."
+          ],
+          "source": "ICAS News & Insights"
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "First HMRC crypto data exchange looms; accountants urged to prepare",
+          "tags": ["CARF live from 1 Jan 2026", "First platform reports 31 May 2027", "Voluntary disclosure now"],
+          "body": [
+            "Accountancy Age warns that HMRC's first tranche of cryptoasset data, collected under the OECD's Crypto-Asset Reporting Framework (CARF) applied in the UK from 1 January 2026, will begin being cross-referenced against Self Assessment returns from 2027. Platforms must file their first reports by 31 May 2027, and accountants are being urged to open crypto conversations with clients now, particularly those with historic disposals that have not been declared. Voluntary disclosure ahead of enforcement is expected to attract materially lower penalties."
+          ],
+          "meaning": "Run a crypto-exposure sweep across the personal tax book this September. Directing exposed clients through the Digital Disclosure Service now is cheaper than being matched by CARF next year.",
+          "source": "Accountancy Age"
+        },
+        {
+          "headline": "Vaping Products Duty countdown: one month to registration deadline",
+          "tags": ["Live from 1 Oct 2026", "£2.20 per 10ml"],
+          "body": [
+            "The new Vaping Products Duty takes effect on 1 October 2026 at £2.20 per 10ml of vaping liquid. Businesses that manufacture, import or distribute vaping products must be registered and approved by that date or forfeit the legal right to trade in the UK. Advisers with clients in the wholesale, convenience or specialist retail sectors have a narrow window to complete registrations and adapt pricing, stock and duty deferment arrangements."
+          ],
+          "meaning": "Screen the wholesale, convenience and specialist retail client base against the 1 October cut-off this week. Missed registrations forfeit the legal right to trade.",
+          "source": "ICAEW Insights"
+        }
+      ]
+    },
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "BDO integration bedding in after cross-border merger",
+          "tags": ["£1.1bn / $1.4bn revenue", "8,500 staff · ~500 partners"],
+          "body": [
+            "The combined BDO UK and BDO Ireland firm, effective from 4 July 2026, continues to shape the mid-tier landscape. The unified partnership now houses close to £1.1bn ($1.4bn) of revenue, approximately 8,500 staff and around 500 partners across 17 UK offices and Dublin and Limerick. Bloomberg Tax reports the firm is actively pursuing cross-border corporate finance and audit mandates, positioning itself against the Big Four in Ireland-headquartered multinationals with UK exposure. Competing mid-tier firms should expect fresh pressure on senior talent and mandates."
+          ],
+          "source": "Bloomberg Tax, International Accounting Bulletin",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "£1.1bn", "label": "combined revenue ($1.4bn)"},
+              {"value": "8,500", "label": "staff across UK and Ireland"},
+              {"value": "~500", "label": "partners, 17 UK offices plus Dublin and Limerick"}
+            ]}
+          ]
+        },
+        {
+          "headline": "Chartered Accountants Ireland passes 40,000-member milestone",
+          "tags": ["40,000 members", "Post-CPA Ireland merger"],
+          "body": [
+            "Chartered Accountants Ireland has reached 40,000 members, its largest ever roll, following the amalgamation with CPA Ireland. The Institute is simultaneously lobbying government for AI-ready infrastructure investment, expanded SME digital adoption supports and mandatory AI literacy across the education pipeline. Its latest SME Business Sentiment Survey with GRID Finance shows the majority of Irish SMEs are already feeling the effects of global trade tensions and tariffs, a signal for practice leaders to prioritise scenario planning, working capital reviews and tariff exposure analysis in client conversations."
+          ],
+          "meaning": "Move tariff-exposure and working-capital scenario planning into standard client conversations this quarter for any Irish SME with cross-border trade.",
+          "source": "Irish Tech News, Chartered Accountants Ireland"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "Xero, QuickBooks and Sage jockey for MTD-ready market share",
+          "tags": ["Xero 45.1%", "QuickBooks 17.8%", "Sage 13.2%"],
+          "body": [
+            "TechFinitive's 2026 UK accounting software market snapshot places Xero at 45.1% PPC spend share, well ahead of QuickBooks (17.8%) and Sage (13.2%). Xero's February AI-powered data-capture rollout for UK customers is being pointed to as a differentiator ahead of the MTD ITSA mandate, while Sage's most recent full-year results show 10% UK & Ireland revenue growth on the back of Intacct, Accounting, Sage 50 and Sage 200 momentum. All three vendors are now HMRC-recognised for MTD ITSA. Firms should confirm their stack, and any client-facing software recommendations, align with the mandatory quarterly submission workflow now live for the £50k+ population."
+          ],
+          "source": "TechFinitive, Sage FY results",
+          "charts": [
+            {"type": "compare_bars", "title": "UK accounting software: PPC spend share, 2026", "unit": "% of tracked spend",
+             "bars": [
+               {"label": "Xero", "value": 45.1, "display": "45.1%", "caption": "Category leader"},
+               {"label": "QuickBooks", "value": 17.8, "display": "17.8%", "caption": "Second"},
+               {"label": "Sage", "value": 13.2, "display": "13.2%", "caption": "Third, +10% FY revenue"}
+             ], "note": "All three are now HMRC-recognised for MTD for Income Tax."}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "UK M&A on track for record year, but PE sponsors sidelined by corporates",
+          "tags": ["£178.9bn YTD", "£347bn annualised", "Strategics won 8 of 10 top deals"],
+          "body": [
+            "UK M&A value reached £178.9bn to 7 July and is annualising towards approximately £347bn, well above the 2015 record of £309.2bn. Strategic corporate buyers dominated H1 headline deals, landing eight of the ten largest transactions by outbidding financial sponsors that could not match balance-sheet or synergy assumptions. Corporate finance teams advising owners should stress-test whether a strategic sale process would extract meaningfully more value than a sponsor-led one in the current market."
+          ],
+          "meaning": "Add a strategic-versus-sponsor process comparison to every owner-side pitch this autumn. Balance-sheet and synergy assumptions are moving the price, not multiples.",
+          "source": "Yahoo Finance, market commentary",
+          "charts": [
+            {"type": "compare_bars", "title": "UK M&A: 2015 record vs 2026 annualised", "unit": "£ billion, deal value",
+             "bars": [
+               {"label": "2015 record", "value": 309.2, "display": "£309.2b", "caption": "Prior peak"},
+               {"label": "2026 annualised", "value": 347, "display": "£347b", "caption": "£178.9bn YTD to 7 Jul"}
+             ], "note": "Strategic buyers landed eight of the ten largest deals, outbidding financial sponsors on balance-sheet and synergy."}
+          ]
+        },
+        {
+          "headline": "PE dry powder building: mid-market bolt-ons the near-term theme",
+          "tags": ["£1tn+ dry powder", "Industrials +50% H1"],
+          "body": [
+            "Pinsent Masons and Shoosmiths both flag rising indicators of a UK private equity deal-making uptick, with sponsors sitting on more than £1trn of dry powder and 90% of respondents expecting higher deal counts and aggregate value in 2026. Activity is skewing towards resilient businesses with clear growth narratives, AI-enabled services, healthcare, energy transition and business services, and towards mid-market bolt-ons rather than mega buyouts. Industrials remains the standout sector, with H1 2025 deal volumes up nearly 50% year-on-year and values more than doubling to £10.8bn. Advisers positioning founder-owned assets in these verticals should engage sponsors early."
+          ],
+          "source": "Pinsent Masons, Shoosmiths, BNP Paribas CIB",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "£1tn+", "label": "PE dry powder awaiting deployment"},
+              {"value": "90%", "label": "expect higher deal activity in 2026"},
+              {"value": "£10.8bn", "label": "industrials H1 value, up from doubling"}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory & Regulation",
+      "stories": [
+        {
+          "headline": "FCA non-financial misconduct rules took effect on 1 September",
+          "tags": ["Live from 1 Sep 2026", "Conduct Rules & F&P"],
+          "body": [
+            "From 1 September 2026, the FCA's expanded treatment of non-financial misconduct (NFM) is live. Serious workplace behaviour, bullying, harassment and violence, will now be firmly within scope of the FCA's Conduct Rules and the Fit and Proper test for individuals in FCA-authorised firms. IFA principals, compliance officers and HR leads should re-paper policies, disciplinary frameworks and SM&CR fit-and-proper attestations to reflect the new position, and historical incidents may need to be reassessed under the widened lens."
+          ],
+          "meaning": "Re-paper policies, disciplinary frameworks and SM&CR fit-and-proper attestations now. Log the exercise, because documented action is the cheapest evidence you can build against a widened supervisory lens.",
+          "source": "Freeths, FCA"
+        },
+        {
+          "headline": "FCA crypto licensing gateway to open this month",
+          "tags": ["Gateway opens September", "Regime live October 2027"],
+          "body": [
+            "The FCA has confirmed it expects to open its formal authorisation gateway for cryptoasset firms in September 2026, ahead of the new regulatory regime taking full effect in October 2027. Advisers to fintech and digital-asset clients, including those weighing UK versus EU MiCA routes, should begin scoping perimeter analyses, capital and governance uplifts, and audit-ready financial-crime frameworks now to be first through the gate."
+          ],
+          "source": "The Block, Yahoo Finance, CryptoNews"
+        }
+      ]
+    }
+  ]
+}
