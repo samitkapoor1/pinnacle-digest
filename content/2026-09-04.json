@@ -1,0 +1,257 @@
+{
+  "date": "2026-09-04",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "Autumn Budget lands 28 October as CGT equalisation looms",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "The Autumn Budget is set for 28 October with CGT equalisation in focus, HMRC begins auto-enrolling MTD stragglers, the first crypto dataset exposes a concentrated risk pool, Xero lifts every UK tier, and consolidation rolls on despite the collapsed Xeinadin auction.",
+  "categories": [
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "Autumn Budget confirmed for 28 October: CGT equalisation in focus",
+          "tags": ["28 October 2026", "CGT to 40% expected", "Pre-Budget planning spike"],
+          "body": [
+            "The Government has fixed 28 October 2026 as the date of the Autumn Budget, with market and adviser commentary pointing towards wealth and investment taxes rather than headline income tax rates. The consensus expectation is a further step towards equalising Capital Gains Tax with income tax rates, potentially 40% for higher-rate taxpayers, creating a compressed window in which practices are being asked to advise on pre-Budget disposals, incorporations and gift planning. Firms should prepare bandwidth for a spike in restructuring queries through October."
+          ],
+          "meaning": "Block out advisory bandwidth for October. CGT equalisation would compress a restructuring window that clients cannot self-serve, and every disposal, incorporation and gift conversation lands in the same three weeks.",
+          "source": "Mercian Accountants"
+        },
+        {
+          "headline": "National Care Service funding trailed as tax-raising priority",
+          "tags": ["Adult social care", "Possible hypothecated levy"],
+          "body": [
+            "Prime Minister Burnham has signalled that the promised overhaul of adult social care will require material tax rises, with detail unlikely to emerge before Budget day. Advisers with owner-managed and high-net-worth client bases should factor a possible new hypothecated levy or expanded NIC treatment of investment income into planning conversations, alongside the already anticipated CGT move."
+          ],
+          "source": "Mercian Accountants"
+        },
+        {
+          "headline": "Employment Rights Act changes bite from 30 October",
+          "tags": ["30 October 2026", "Fire-and-rehire constraints", "Tip-pooling audit"],
+          "body": [
+            "New employment rules take effect on 30 October, covering allocation of tips, extended tribunal time limits, revised trade union rights and constraints on fire-and-rehire practices. Payroll bureaux and outsourced finance functions should audit tip-pooling arrangements for hospitality clients and review handbooks ahead of the go-live date, particularly where fire-and-rehire has been used in restructuring during the last twelve months."
+          ],
+          "meaning": "Book a handbook and tip-pooling review with every hospitality client this September. Fire-and-rehire files from the last twelve months are the audit trail that matters.",
+          "source": "Mercian Accountants"
+        }
+      ]
+    },
+    {
+      "name": "Making Tax Digital",
+      "badge": "AUTO-ENROL LIVE THIS MONTH",
+      "stories": [
+        {
+          "headline": "HMRC to auto-enrol non-registered MTD ITSA taxpayers this month",
+          "tags": ["Auto-enrol live", "436k of 864k filed on time", "Letters bypass agents"],
+          "body": [
+            "From September 2026, HMRC will begin unilaterally signing up in-scope sole traders and landlords who have failed to register themselves for Making Tax Digital for Income Tax Self Assessment. HMRC figures show 436,000 of an expected 864,000 taxpayers submitted their first quarterly update by the 7 August deadline, a roughly one-in-two miss rate. Crucially, HMRC has confirmed the auto-enrolment letter goes directly to the taxpayer and not to their agent, so practices should proactively contact any client they suspect is in scope but has not yet been enrolled to avoid a client-first surprise."
+          ],
+          "meaning": "Run a 64-8 audit across every in-scope client this week. Once auto-enrolment triggers, clients call you first and you are working without HMRC's paper trail.",
+          "source": "GB News, ATT",
+          "charts": [
+            {"type": "compare_bars", "title": "First MTD quarterly update, 7 August 2026", "unit": "taxpayers",
+             "bars": [
+               {"label": "In scope", "value": 864000, "display": "864k", "caption": "Identified by HMRC"},
+               {"label": "Filed on time", "value": 436000, "display": "436k", "caption": "Roughly one in two"}
+             ], "note": "The unregistered half is what HMRC now moves to auto-enrol, with the letter going to the taxpayer, not the agent."}
+          ]
+        },
+        {
+          "headline": "Second MTD ITSA quarterly deadline lands 7 November",
+          "tags": ["7 November 2026", "July to October period"],
+          "body": [
+            "The second quarterly MTD ITSA update, covering July to October, is due by 7 November 2026. HMRC has reiterated it will not issue penalty points for late quarterly updates through 2026-27, but firms are being urged to treat the soft-landing pragmatically, using this cycle to embed digital record-keeping habits before the penalty regime activates in April 2027."
+          ],
+          "source": "Mercian Accountants"
+        }
+      ]
+    },
+    {
+      "name": "HMRC & Technical Updates",
+      "stories": [
+        {
+          "headline": "Advisory Fuel Rates effective 1 September 2026: diesel cut, large petrol up",
+          "tags": ["Live 1 Sep 2026", "1-month grace to 30 Sep"],
+          "body": [
+            "New Advisory Fuel Rates apply from 1 September for employees using company cars. Petrol above 2,000cc rises from 26p to 27p per mile; diesel in the 1,601 to 2,000cc band drops from 17p to 16p and diesel above 2,000cc from 23p to 22p. The largest LPG band falls 1p to 20p. The advisory electric rate is unchanged at 7p for home charging and 15p for public charging. HMRC's one-month grace period means employers may use the previous rates until 30 September while payroll and expenses systems are updated."
+          ],
+          "source": "HMRC via Accountancy Daily, HaysMac"
+        },
+        {
+          "headline": "HMRC's first crypto data reveals a highly concentrated risk pool",
+          "tags": ["£1.38bn declared gains", "240 filers = 52%", "87% male, 81% under 54"],
+          "body": [
+            "HMRC's inaugural cryptoasset statistics show 17,600 individuals declared £1.38 billion in crypto capital gains in 2024/25, with just 240 filers, 1.4% of the total, accounting for 52% of gains. The demographic skews heavily male (87%) and under 54 (81%). The release is being read as a curtain-raiser for enforcement: from 2027 the OECD Crypto-Asset Reporting Framework (CARF) will trigger automatic exchange of platform data, closing the current nudge-letter window. Accountancy Age's Nikita Alexander urges firms to audit client portfolios now for unreported disposals, asset swaps and staking income before data-matching replaces prompted disclosure."
+          ],
+          "meaning": "Run a crypto-exposure sweep across the personal tax book this September. Directing exposed clients through the Digital Disclosure Service now is materially cheaper than being matched by CARF next year.",
+          "source": "Accountancy Age",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "£1.38bn", "label": "declared crypto gains, 2024/25"},
+              {"value": "52%", "label": "of gains from just 240 filers (1.4%)"},
+              {"value": "87% / 81%", "label": "male / under 54"}
+            ]}
+          ]
+        },
+        {
+          "headline": "Agent Services Account rules tightened for overseas agents",
+          "tags": ["Overseas ASA", "AML details required"],
+          "body": [
+            "HMRC has refreshed its guidance for agents based outside the UK applying for an Agent Services Account, now requiring anti-money laundering supervisory details as part of the application. UK firms operating cross-border service lines, and Irish practices servicing UK clients, should review whether existing ASAs remain compliant under the updated requirements."
+          ],
+          "source": "ICAEW, KPMG Tax Matters Digest"
+        },
+        {
+          "headline": "Vaping Products Duty live from 1 October",
+          "tags": ["Live 1 Oct 2026", "£2.20 per 10ml"],
+          "body": [
+            "The new Vaping Products Duty comes into force on 1 October 2026 at £2.20 per 10ml of vaping liquid. Businesses not registered and approved by that date cannot legally manufacture, import or distribute vaping products in the UK. Practices with hospitality, retail or wholesale clients touching this category should confirm registration status this week; the approval process is not instant."
+          ],
+          "source": "HMRC, ICAEW"
+        },
+        {
+          "headline": "ATED filing deadlines re-stated for newly acquired properties",
+          "tags": ["ATED returns", "30 days of acquisition"],
+          "body": [
+            "Annual Tax on Enveloped Dwellings returns are due by 30 April, or within 30 days of acquisition, with an extended window for newly built properties. The reminder is timely for practices with property-holding SPV clients moving assets ahead of the Budget."
+          ],
+          "source": "Mercian Accountants"
+        }
+      ]
+    },
+    {
+      "name": "Ireland Focus",
+      "stories": [
+        {
+          "headline": "Revenue's Enhanced Compliance Engagement pilot progresses",
+          "tags": ["Ireland", "HWI & FS Division", "Pilot to 31 Dec 2027"],
+          "body": [
+            "The Revenue Commissioners' Enhanced Compliance Engagement (ECE) framework for high-wealth individuals continues its pilot within the High Wealth and Financial Services Division, running through 31 December 2027. Irish practices with HWI clients should treat any ECE contact as a full-scope intervention and prepare disclosure files accordingly."
+          ],
+          "source": "Accounts Advice Centre"
+        },
+        {
+          "headline": "Domestic B2B e-invoicing roll-out under VAT in the Digital Age",
+          "tags": ["EU ViDA agenda"],
+          "body": [
+            "Revenue's phased roll-out of domestic electronic invoicing arrangements for business-to-business transactions continues under the EU's ViDA agenda. Firms advising Irish exporters and multinationals should scope the impact on ERP, invoicing and VAT compliance workflows during Q4 planning cycles."
+          ],
+          "source": "Revenue.ie, Ogier"
+        },
+        {
+          "headline": "Ireland to implement OECD Crypto-Asset Reporting Framework via Finance Bill",
+          "tags": ["CARF via Finance Bill"],
+          "body": [
+            "Ireland is transposing the OECD's Crypto-Asset Reporting Framework (CARF) through the Finance Bill process, mirroring the UK direction of travel and adding another compliance lane for advisers with clients holding digital assets on either side of the border."
+          ],
+          "meaning": "Run the crypto-exposure sweep across both UK and Irish personal books together. Advisers with cross-border HNW clients gain little from tackling each jurisdiction sequentially.",
+          "source": "Outbooks, Revenue.ie"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "Xero UK pricing rises across every tier from 1 September",
+          "tags": ["Ignite £18", "Grow £39", "Comprehensive £55", "Ultimate £70"],
+          "body": [
+            "Xero's UK subscription prices increased from 1 September 2026: Ignite £18/month, Grow £39/month, Comprehensive £55/month and Ultimate £70/month. Silicon Bullet frames the change as an opportunity for advisers to open value conversations with clients, review whether they are on the right plan, and surface underused capabilities such as bank feeds, automation and integrated reporting rather than absorbing the increase silently."
+          ],
+          "meaning": "Use the price rise as a value-conversation trigger, not a margin absorption problem. Right-plan reviews compound quickly across a bureau book.",
+          "source": "Silicon Bullet",
+          "charts": [
+            {"type": "bars", "title": "Xero UK monthly pricing from 1 September 2026", "unit": "£ per month",
+             "bars": [
+               {"label": "Ignite", "value": 18, "display": "£18"},
+               {"label": "Grow", "value": 39, "display": "£39"},
+               {"label": "Comprehensive", "value": 55, "display": "£55"},
+               {"label": "Ultimate", "value": 70, "display": "£70"}
+             ]}
+          ]
+        },
+        {
+          "headline": "Xero's AI-powered data capture rolls out ahead of MTD ITSA",
+          "tags": ["AI data capture"],
+          "body": [
+            "Xero's February 2026 product release quietly introduced AI-powered data capture and extraction for UK customers, positioned explicitly as an on-ramp to MTD ITSA quarterly reporting. Practices standardising on Xero should revisit their MTD workflows to strip out duplicated bookkeeping steps now covered natively."
+          ],
+          "source": "TechFinitive"
+        },
+        {
+          "headline": "QuickBooks Desktop sunset firmly set for September 2027",
+          "tags": ["Support ends 30 Sep 2027", "Desktop 2024 the final version"],
+          "body": [
+            "Intuit has reiterated that QuickBooks Desktop 2024 is the final version, with support ending 30 September 2027. No Desktop 2025, 2026 or 2027 releases will be issued. Migrations to QuickBooks Online or an alternative cloud stack should be on every affected practice's project register this quarter to avoid a Q3-2027 crunch."
+          ],
+          "source": "MMC Convert, Intuit"
+        }
+      ]
+    },
+    {
+      "name": "Mergers, Acquisitions & Corporate Finance",
+      "stories": [
+        {
+          "headline": "Sector consolidation continues despite collapsed Xeinadin auction",
+          "tags": ["Xeinadin auction paused", "34 disclosed bolt-ons", "27% top-60 PE-backed"],
+          "body": [
+            "The pause of Exponent's high-profile Xeinadin auction earlier this year, where bids failed to clear the £1bn+ valuation, remains the reference point for mid-tier UK deal-making. Sentiment has since recovered: Xeinadin has continued its rapid bolt-on programme (34 disclosed acquisitions to date), while Burgess Hodgson's takeover of Spain Brothers in Kent and Xeinadin's absorption of Sussex-based PRB Accountants in July underline that sub-scale independents remain the fuel for consolidator growth. Private equity remains the driving force, with 27% of the top-60 firms reporting they have already taken PE funding and 86% approached by investors in 2024."
+          ],
+          "source": "Accountancy Age, International Accounting Bulletin",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "34", "label": "disclosed Xeinadin bolt-ons to date"},
+              {"value": "27%", "label": "of top-60 firms already PE-backed"},
+              {"value": "86%", "label": "of top-60 approached by investors in 2024"}
+            ]}
+          ]
+        },
+        {
+          "headline": "Grant Thornton and CBIZ tie-up on track to close Q4",
+          "tags": ["$5bn+ US revenue", "Largest of its kind in 25 years"],
+          "body": [
+            "Grant Thornton Advisors' all-cash acquisition of fellow top-ten firm CBIZ remains on course to close in the fourth quarter of 2026. The combined business will become the fifth-largest US professional services, tax and advisory firm with more than $5bn in domestic revenue, the largest deal of its kind in over 25 years, and will reshape referral flows into and out of the UK member firm. Corporate finance teams should be tracking partner-level movement in the run-up to completion."
+          ],
+          "source": "Journal of Accountancy",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "$5bn+", "label": "combined US domestic revenue"},
+              {"value": "5th", "label": "largest US professional services firm"},
+              {"value": "25 yrs", "label": "largest deal of its kind in over"}
+            ]}
+          ]
+        },
+        {
+          "headline": "UK financial services M&A: a 'conviction cycle, not a volume cycle'",
+          "tags": ["135 disclosed deals", "+25% YoY volume"],
+          "body": [
+            "UK banks, insurers and asset managers publicly disclosed 135 transactions in the first half of 2026, a 25% year-on-year increase. Barclays describes the current environment as a 'conviction cycle, not a volume cycle', fewer but larger deals, which is directly relevant to corporate finance teams pitching for financial-services sell-side and buy-side mandates through Q4."
+          ],
+          "meaning": "Position CF pitches around conviction and quality-of-earnings depth rather than deal-count experience. The pipeline is fewer, bigger and more selective.",
+          "source": "Consultancy.uk, EY",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "135", "label": "disclosed FS deals, H1 2026"},
+              {"value": "+25%", "label": "year-on-year volume"}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory & FCA Watch",
+      "stories": [
+        {
+          "headline": "FCA non-financial misconduct framework live from 1 September",
+          "tags": ["Live 1 Sep 2026", "COCON & FIT expanded", "Non-bank SM&CR aligned"],
+          "body": [
+            "The FCA's final policy statement on non-financial misconduct (NFM) took effect on 1 September 2026, confirming when serious workplace behaviour, bullying, harassment and violence, breaches the Conduct Rules (COCON) and affects the Fit and Proper test (FIT). It applies to all FCA-authorised firms, including IFAs, investment firms, asset and fund managers, and insurers, bringing non-bank SM&CR firms substantially into line with banks. Compliance functions should have refreshed policies, whistleblowing routes and Fit & Proper certification workflows before their next attestation cycle."
+          ],
+          "meaning": "Re-paper policies, whistleblowing routes and Fit & Proper certification workflows now. Log the exercise, because documented action is the cheapest evidence you can build.",
+          "source": "Freeths, Sidley Austin"
+        }
+      ]
+    }
+  ]
+}
