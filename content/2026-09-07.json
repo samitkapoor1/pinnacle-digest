@@ -1,0 +1,119 @@
+{
+  "date": "2026-09-07",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "MTD sign-up blackout looms as no-show auto-enrolment begins",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "Accountancy Age names its second wave of 35 Under 35, the Fair Work Agency names 658 underpaying employers, HMRC's MTD sign-up services go offline 11 to 15 September as auto-enrolment of no-shows begins, and Xero's price rise lands with its multi-organisation discount withdrawn.",
+  "categories": [
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "Accountancy Age unveils second wave of '35 Under 35' 2026 winners",
+          "tags": ["AJ Chambers", "Saffery · Gerald Edelman · Wilson Partners", "Fortus double"],
+          "body": [
+            "Accountancy Age, in partnership with recruiter AJ Chambers, named a further nine under-35s reshaping UK practice. Featured winners include Saffery LLP partner Harry Kendall (promoted 9.5 years post-qualification), Gerald Edelman director Jamie Peppin (managing a £1.93m advisory portfolio, up 14% year on year), Wilson Partners' Janice Tang (scaled a £700k book to £1.9m in 18 months without adding headcount), Elevate Accountancy founder Liam Wilson (560 clients in three years) and Moore Kingston Smith audit partner Matthew Bather (made partner at 30). Fortus took two places, Joanna Fleming (head of medical) and Laura O'Regan (recurring advisory fees up 195% since 2023), alongside TC Group managing partner Martyn Smith and University of Chichester's James Wright."
+          ],
+          "source": "Accountancy Age"
+        },
+        {
+          "headline": "TaxCalc takes headline sponsorship of Mid-Tier Firm of the Year at Accounting Excellence Awards",
+          "tags": ["TaxCalc", "29 September Roundhouse"],
+          "body": [
+            "TaxCalc has been confirmed as the sponsor of the Mid-Tier Firm of the Year category at the 29 September Accounting Excellence Awards, held at the Roundhouse in London. The category is one of 17 to be judged at this year's ceremony. The announcement lands as the mid-tier segment continues to consolidate under private-equity backing, making it one of the most closely watched races on the night."
+          ],
+          "source": "AccountingWEB"
+        }
+      ]
+    },
+    {
+      "name": "HMRC",
+      "badge": "SIGN-UP OUTAGE 11-15 SEP",
+      "stories": [
+        {
+          "headline": "Fair Work Agency names 658 employers, including accountancy firms, for minimum-wage breaches",
+          "tags": ["658 employers named", "£4m underpaid", "£7m in fines"],
+          "body": [
+            "The Fair Work Agency published its first 'naming and shaming' list since its launch in April 2026, identifying 658 employers that collectively underpaid more than 27,000 workers by around £4m and were fined a total of £7m. Employers span retail, hospitality, professional services and elsewhere; separate AccountingWEB coverage highlighted that three accountancy firms feature on the list, with OAS&CO Accounting Ltd named for £2,233 owed to two workers. Business Secretary Jonathan Reynolds said 'short-changing your staff isn't a shortcut to success', and FWA Chair Matthew Taylor added that 'paying the minimum wage is not optional, it is the law.' The department signalled that lists will now be issued more frequently."
+          ],
+          "meaning": "Run a payroll compliance audit on your own bureau clients and internal roll this week. Naming rounds will increase in frequency, and 'accountancy firm' on the list is a reputational risk that no partner should have to explain.",
+          "source": "PAYadvice.uk, AccountingWEB",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "658", "label": "employers named and shamed"},
+              {"value": "~£4m", "label": "underpaid to 27,000+ workers"},
+              {"value": "£7m", "label": "total fines issued"}
+            ]}
+          ]
+        },
+        {
+          "headline": "Practitioner reminder: HMRC MTD sign-up services offline 11 to 15 September",
+          "tags": ["5pm Fri 11 Sep to 1pm Tue 15 Sep", "Both services down"],
+          "body": [
+            "Agents are being reminded that both the 'sign up for MTD for Income Tax' and 'sign up your client' services will be unavailable from 5pm on Friday 11 September to 1pm on Tuesday 15 September 2026 for scheduled maintenance. The outage lands in the middle of HMRC's phased programme to automatically enrol taxpayers who should be in MTD ITSA for 2026/27 but have not yet joined, a process that starts this month. HMRC has confirmed that penalty points will not apply to late quarterly updates for 2026/27."
+          ],
+          "meaning": "Complete every voluntary client sign-up before 5pm Friday. The 11 to 15 September blackout arrives mid-way through HMRC's auto-enrolment programme, and re-opening the queue on 15 September will be busy.",
+          "source": "AccountingWEB, HMRC"
+        }
+      ]
+    },
+    {
+      "name": "Making Tax Digital",
+      "stories": [
+        {
+          "headline": "Auto-enrolment of MTD ITSA 'no-shows' begins this month",
+          "tags": ["Auto-enrol live", "570k signed up", "436k filed Q1"],
+          "body": [
+            "HMRC's most recent figures show 570,000 sole traders and landlords have signed up to MTD ITSA and more than 436,000 have filed their first (Q1) quarterly update, against an in-scope population HMRC had estimated at around 864,000. From September, HMRC will sign up any taxpayers it believes should be in scope for 2026/27 who have not enrolled themselves. Practitioners are being urged to reconcile HMRC's client data against their own records ahead of the 7 November Q2 deadline rather than wait for automatic sign-up letters."
+          ],
+          "meaning": "Reconcile HMRC's client data against your own records this week, and pre-empt the auto sign-up letters where you can. Q2 lands on 7 November and any misalignment left unresolved compounds into the next cycle.",
+          "source": "AccountingWEB",
+          "charts": [
+            {"type": "compare_bars", "title": "MTD ITSA 2026/27: in scope vs signed up vs filed", "unit": "taxpayers",
+             "bars": [
+               {"label": "In scope", "value": 864000, "display": "864k", "caption": "HMRC estimate"},
+               {"label": "Signed up", "value": 570000, "display": "570k", "caption": "Registered"},
+               {"label": "Filed Q1", "value": 436000, "display": "436k", "caption": "First update in"}
+             ], "note": "The gap between 'in scope' and 'signed up' is the population HMRC now moves to auto-enrol."}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "Xero UK price rises land and multi-organisation discount ends",
+          "tags": ["Live 1 September 2026", "Up to 12.5% headline rise", "Multi-org discount withdrawn"],
+          "body": [
+            "Xero's UK price increases across the Ignite, Grow, Comprehensive and Ultimate plans took effect on 1 September, with headline rises of up to 12.5% (Comprehensive moves from £50 to £55 per month). On the same date, Xero withdrew its multi-organisation discount, a change practitioners note could add 15 to 25% to costs for firms running client portfolios, on top of the sticker-price change. Existing promo codes remain honoured; the multi-org discount does not."
+          ],
+          "meaning": "Model the total cost impact against your Xero bureau book this week. The sticker rise plus the withdrawn multi-org discount can move a bureau's economics by 20% or more before you have absorbed a single price increase for clients.",
+          "source": "Silicon Bullet, Xero",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "12.5%", "label": "top headline price rise"},
+              {"value": "£50 to £55", "label": "Comprehensive plan, per month"},
+              {"value": "+15-25%", "label": "added cost from withdrawn multi-org discount"}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "FCA's new non-financial misconduct conduct rule now live",
+          "tags": ["Rule effective 1 Sep 2026", "COCON 1.1.7FR", "Not retrospective"],
+          "body": [
+            "The FCA's amendment to COCON, new rule COCON 1.1.7FR, is now in force, extending the Code of Conduct at non-banking firms (including IFAs and wealth managers) to cover serious work-related bullying, harassment and violence directed at colleagues. Accompanying guidance in PS25/23 sets out how firms should factor non-financial misconduct into fit and proper assessments and regulatory references. The rule is not retrospective. Firms are being advised over the weekend to refresh HR policies, whistleblowing procedures and F&P frameworks in light of the new perimeter."
+          ],
+          "meaning": "Refresh HR policies, whistleblowing procedures and Fit & Proper frameworks this week. Log the exercise, because documented action is the cheapest evidence you can build against a widened supervisory lens.",
+          "source": "Morgan Lewis, FCA PS25/23"
+        }
+      ]
+    }
+  ]
+}
