@@ -29,6 +29,7 @@ jobs:
         run: pip install --quiet Pillow
       - name: Build site
         env:
+          PD_DOMAIN: digest.pinnacleglobalgroup.com
           PD_SITE_URL: ${{ steps.pages.outputs.base_url }}
         run: python3 scripts/build.py
       - uses: actions/upload-pages-artifact@v3
