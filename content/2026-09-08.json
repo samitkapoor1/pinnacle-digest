@@ -1,0 +1,251 @@
+{
+  "date": "2026-09-08",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "Capacity crunch deepens as private equity takes most of the deals",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "UK practices head into Q3 in an unprecedented capacity crunch, HMRC's MTD sign-up service goes dark 11 to 15 September as automatic enrolment begins, the ICAEW's new tax-planning ethics sections bite, a QuickBooks Reports API change lands, and private equity now drives 54.8% of accounting-firm M&A worldwide.",
+  "categories": [
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "Capacity bottleneck across UK practices continues into Q3",
+          "tags": ["Unprecedented crunch", "Outsourced compliance up", "Tech-forward mid-tier widens gap"],
+          "body": [
+            "Sector commentary published across the accountancy trade press over the past week characterises Q2 2026 as an unprecedented capacity crunch for UK practices, driven by the combination of the first MTD for Income Tax quarterly cycle, an active audit rotation season, and continued deal-support workloads. Firms report increased use of outsourced compliance and offshore delivery to protect advisory margins, and a widening gap between technology-forward mid-tier practices and generalist high-street firms in their ability to onboard newly mandated MTD clients without price cuts."
+          ],
+          "meaning": "Q3 operating models set now determine which side of the tech-forward gap a firm ends the year on. Adding compliance and delivery capacity in September is the difference between defending advisory margin and cutting price into November.",
+          "source": "Sector commentary"
+        },
+        {
+          "headline": "AccountingWEB to host MTD Q2 lessons-learned webinar on 14 September",
+          "tags": ["AccountingWEB", "14 September, 2pm"],
+          "body": [
+            "AccountingWEB has confirmed its live Making Tax Digital review session for Monday 14 September at 2pm, examining how firms have coped with the transition from the first mandatory quarterly filing window into routine cadence. Andrew Dick of G W Dick & Co and Ryan Alderson, head of cloud at DJH, will walk through their Q2 approach, including handling late Q1 filers, workflow tooling, and staffing pressure points. The session is aimed at practice leaders finalising Q3 operating models and capacity planning."
+          ],
+          "source": "AccountingWEB"
+        },
+        {
+          "headline": "Accounting Excellence Awards to be presented at the Roundhouse on 29 September",
+          "tags": ["29 September", "17 categories"],
+          "body": [
+            "The 2026 Accounting Excellence Awards ceremony has been scheduled for 29 September at the Roundhouse in London, with categories spanning Practice Leader of the Year, sole-practitioner recognition and technology-led firm of the year. Firms shortlisted in the practice leader stream include managing partners and service-line partners credited with visible cultural or client-service change over the last year. The shortlist is being read across the profession as a proxy for which mid-tier and boutique models are winning talent as the private-equity consolidation cycle continues."
+          ],
+          "source": "AccountingWEB"
+        }
+      ]
+    },
+    {
+      "name": "HMRC",
+      "badge": "SIGN-UP OUTAGE 11-15 SEP",
+      "stories": [
+        {
+          "headline": "Advisory Fuel Rates revised from 1 September 2026",
+          "tags": ["Live 1 Sep 2026", "1-month grace", "EV: 7p home / 15p public"],
+          "body": [
+            "HMRC's Advisory Fuel Rates effective from 1 September 2026 hold petrol rates for cars up to 2,000cc but lift the rate for petrol engines above 2,000cc from 26p to 27p per mile. Diesel rates fall for the two larger bands, from 17p to 16p for 1,601 to 2,000cc engines and from 23p to 22p for engines above 2,000cc; the top LPG band falls 1p to 20p. Electric rates for September to December 2026 are set at 7p per mile for home charging and 15p per mile for public charging. Employers may use the previous rates for up to one month while payroll and expenses systems are updated."
+          ],
+          "source": "HMRC, Accountancy Daily, HaysMac",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "27p", "label": "petrol above 2,000cc, per mile"},
+              {"value": "22p", "label": "diesel above 2,000cc, per mile"},
+              {"value": "7p / 15p", "label": "electric, home / public charging"}
+            ]}
+          ]
+        },
+        {
+          "headline": "MTD for Income Tax sign-up service offline 11 to 15 September",
+          "tags": ["5pm Fri 11 to 1pm Tue 15 Sep"],
+          "body": [
+            "HMRC has confirmed the Making Tax Digital for Income Tax sign-up service will be unavailable from 5pm on Friday 11 September until 1pm on Tuesday 15 September for scheduled maintenance. Agents planning voluntary sign-ups for clients ahead of the September automatic enrolment wave are advised to complete registrations before the window opens; the outage does not affect existing MTD ITSA quarterly submission or payment services."
+          ],
+          "meaning": "Complete every voluntary client sign-up before Friday 5pm. The 15 September re-opening queue will be busy and the outage sits mid-way through HMRC's auto-enrolment programme.",
+          "source": "HMRC service availability"
+        },
+        {
+          "headline": "Overseas agents: updated guidance on Agent Services Account applications",
+          "tags": ["Overseas ASA", "AML supervisor required"],
+          "body": [
+            "HMRC has refreshed its guidance for agents based outside the UK on how to apply for an Agent Services Account (ASA). The revised process now requires overseas agents to submit anti-money-laundering supervisory details as part of the application, tightening the identity and supervision checks that support cross-border agent authorisations. UK firms operating group structures with overseas service centres should confirm that any offshore preparers whose work flows through an ASA are captured under an appropriate AML supervisor."
+          ],
+          "source": "HMRC agent update"
+        }
+      ]
+    },
+    {
+      "name": "Making Tax Digital",
+      "stories": [
+        {
+          "headline": "HMRC to begin automatic sign-up of eligible sole traders and landlords",
+          "tags": ["Auto sign-up live", "~33% still unregistered"],
+          "body": [
+            "From later this month, HMRC will begin automatically enrolling into MTD for Income Tax those sole traders and landlords who were required to join for 2026/27 but have not yet registered. HMRC estimates roughly a third of the in-scope population, those with combined self-employment and property gross income above £50,000 based on the 2024/25 return, has still not signed up. Automatic sign-up will proceed in stages using data already held by HMRC, which may not reflect subsequent changes to clients' circumstances. Practices are advised to reconcile client lists against the 2024/25 threshold and validate contact and software details before the sign-up wave begins to avoid triggering ineligible enrolments."
+          ],
+          "meaning": "Reconcile the client book against the 2024/25 £50k threshold this week and validate contact and software details before HMRC pulls the trigger. Ineligible enrolments are painful to reverse.",
+          "source": "HMRC, GB News, Newby Castleman",
+          "charts": [
+            {"type": "gauge", "value": 33, "title": "Still outside the regime",
+             "label": "of the in-scope MTD ITSA population has not yet registered"}
+          ]
+        },
+        {
+          "headline": "Second quarterly cycle exposes late-filer support gap",
+          "tags": ["Fixed-fee retainers rising", "Bookkeeping catch-up drives WIP"],
+          "body": [
+            "Feedback published by mid-tier firms over the past 24 hours highlights that the Q2 MTD ITSA cycle has surfaced a distinct group of clients who filed Q1 late and have not adapted workflow. Firms are reporting bookkeeping catch-up as the single largest driver of unbilled WIP growth in August, and are moving toward fixed-fee quarterly retainers with clear scope on record-keeping responsibilities. The conversation is expected to intensify around the 14 September AccountingWEB panel."
+          ],
+          "source": "Practice commentary"
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "ICAEW Tax News in Brief: 2 September 2026",
+          "tags": ["ICAEW", "Referenced across practice comms"],
+          "body": [
+            "The latest ICAEW Tax News in Brief digest, published on 2 September, covers the September advisory fuel rate changes, the HMRC MTD ITSA sign-up service outage on 11 to 15 September, updated guidance for overseas agents applying for an ASA, and the start of HMRC's automatic MTD ITSA enrolment programme. The digest is being widely referenced across practice communications this week and should be read alongside the Institute's Code of Ethics update earlier in the year, which added dedicated sections on tax planning services and tax planning activities."
+          ],
+          "source": "ICAEW Insights"
+        },
+        {
+          "headline": "ICAEW Code of Ethics: new tax planning sections in effect",
+          "tags": ["Code of Ethics 2026", "Advocacy threats"],
+          "body": [
+            "ICAEW's 2026 Code of Ethics update remains live, with two new sections addressing tax planning services and tax planning activities. The sections codify how members should evaluate the credibility of a tax position, document the basis for advice, and manage advocacy threats where the firm has assisted in designing a planning strategy it is subsequently asked to opine on. Compliance and technical partners are being encouraged to update engagement letters and internal review checklists to evidence adherence."
+          ],
+          "meaning": "Refresh engagement letters and second-line review checklists this quarter to evidence the new tax planning framework. Advocacy-threat documentation is the specific gap most firms carry.",
+          "source": "ICAEW Technical"
+        },
+        {
+          "headline": "Next Generation ACA: legacy syllabus final examinations in September",
+          "tags": ["Last legacy sitting Sep 2026", "Fundamental Case Study transition"],
+          "body": [
+            "The old ACA syllabus professional level is being examined for the final time up to and including the September 2026 sitting. Students who have not passed Business Planning by September 2026 will be required to move to the Fundamental Case Study under the new syllabus, while those who have passed Tax Compliance but not Business Planning: Taxation should review supplementary material on the ICAEW Bookshelf. Employers should confirm study-support plans reflect the transition rules."
+          ],
+          "source": "ICAEW, First Intuition"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "QuickBooks Online Reports API change effective 1 September 2026",
+          "tags": ["Live 1 Sep 2026", "Third-party integrations at risk"],
+          "body": [
+            "Intuit updated the QuickBooks Online Reports API with effect from 1 September 2026. For the vast majority of QBO users the change is transparent, but firms that rely on third-party reporting apps or bespoke data-warehouse connectors should confirm that their developer or vendor has recompiled against the new schema. Broken reporting integrations are the most likely early symptom for firms with month-end packs due mid-September."
+          ],
+          "meaning": "Check every third-party reporting integration this week ahead of mid-September month-end packs. Broken connectors are the most likely early symptom of the API change.",
+          "source": "Intuit, Insightful Accountant"
+        },
+        {
+          "headline": "Xero AI-powered data capture live for UK customers ahead of MTD",
+          "tags": ["Xero", "Opening balance capture"],
+          "body": [
+            "Xero's AI-driven data capture and extraction, released earlier in 2026 for UK customers, continues to be positioned as core infrastructure for MTD ITSA workflows. Practices onboarding newly automatically enrolled clients later this month are using the tooling to accelerate opening balance capture and receipt processing, and vendors have flagged that adoption is accelerating in the mid-tier segment where capacity is tightest."
+          ],
+          "source": "Xero"
+        },
+        {
+          "headline": "Sage reports 10% UK & Ireland revenue growth in latest full-year results",
+          "tags": ["Sage", "+10% UK&I revenue"],
+          "body": [
+            "Sage's most recent full-year results show UK and Ireland revenue up 10%, with growth spread across Sage Intacct, Sage Accounting, Sage 50 and Sage 200. The commentary reinforces the read that mid-market accounting-software demand is resilient into the MTD ITSA cycle, and that practices remain willing to invest in platform migrations where they support quarterly filing and advisory workflows."
+          ],
+          "source": "Sage plc"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "BDO UK and BDO Ireland: post-merger integration under way",
+          "tags": ["BDO LLP", "£1.1bn revenue", "8,500 staff, 19 offices"],
+          "body": [
+            "BDO's UK and Ireland practices completed their combination on 4 July 2026 to form BDO LLP, a single business with revenues close to £1.1bn ($1.4bn) and roughly 8,500 employees. Integration work is now the focus, adding BDO Ireland's Dublin and Limerick bases to the 17 UK offices and consolidating cross-border service lines. The move is intended to sharpen BDO's competitive position for cross-border and European mid-market mandates, and is being watched as a template for further cross-jurisdictional Top-10 combinations."
+          ],
+          "source": "BDO, Bloomberg Tax"
+        },
+        {
+          "headline": "Private equity now driving 54.8% of accounting-firm M&A globally",
+          "tags": ["PE 54.8% of deals", "+69.1% PE volume YoY", "$12.7bn raised YTD"],
+          "body": [
+            "Sector data published this week shows financial acquirers accounted for 54.8% of global accounting-firm M&A activity, with PE deal volume up 69.1% year on year and PE capital raised reaching $12.7bn year-to-date. In the UK, HgCapital remains the most active sponsor across accounting software and services, with Waterland and Horizon Capital financing regional aggregation strategies. Recent large-ticket activity includes Apax's £700m purchase of Evelyn Partners' accounting arm and Cooper Parry exploring a sale reportedly valued at up to £600m."
+          ],
+          "meaning": "Sponsor discipline is repricing the sector, not just consolidating it. Independents contemplating exit should tighten recurring-revenue evidence and technology-stack documentation before the next round of approaches.",
+          "source": "Sector research",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "54.8%", "label": "of global accounting-firm M&A is PE-led"},
+              {"value": "+69.1%", "label": "PE deal volume year on year"},
+              {"value": "$12.7bn", "label": "PE capital raised year-to-date"}
+            ]}
+          ]
+        },
+        {
+          "headline": "UK financial-services M&A: H1 deal value up eight-fold year on year",
+          "tags": ["£33.7bn H1 2026", "135 disclosed deals", "Avg deal size +28%"],
+          "body": [
+            "EY's first-half 2026 financial-services M&A tracker records 135 disclosed transactions across UK banks, insurers and asset managers between January and end of June, a 25% year-on-year increase in volume and an eight-fold increase in disclosed value from £4.2bn in H1 2025 to £33.7bn in H1 2026. Overall UK deal volume was down 12% year on year at 2,991 transactions, but total UK deal value rose 12% to £131bn, with average deal size up 28%. AI infrastructure and continued financial and professional-services consolidation are the two headline drivers."
+          ],
+          "source": "EY, Consultancy.uk",
+          "charts": [
+            {"type": "compare_bars", "title": "UK financial-services M&A: H1 2025 vs H1 2026", "unit": "£ billion, disclosed deal value",
+             "bars": [
+               {"label": "H1 2025", "value": 4.2, "display": "£4.2b", "caption": "Prior year"},
+               {"label": "H1 2026", "value": 33.7, "display": "£33.7b", "caption": "135 disclosed deals"}
+             ], "note": "Volume up 25% year on year and average deal size up 28%. Total UK deal value across all sectors rose 12% to £131bn."}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "FCA Consumer Duty and Statement of Professional Standing remain the compliance spine",
+          "tags": ["£50m / £150m fine cap", "SPS annual issue"],
+          "body": [
+            "IFAs continue to operate under the FCA's Consumer Duty and the requirement for an annual Statement of Professional Standing (SPS) issued by an FCA-accredited body such as the Chartered Insurance Institute or the Chartered Institute for Securities & Investment. Firms are reminded that a personal recommendation must rest on a comprehensive and fair analysis of the relevant market, with the FCA retaining power to fine individuals up to £50m and firms up to £150m, and to suspend or cancel authorisation."
+          ],
+          "source": "FCA, Skillcast, LeapXpert"
+        },
+        {
+          "headline": "Cross-sell watch: accounting-firm-owned IFA arms in PE deal pipelines",
+          "tags": ["Client-money segregation", "Consumer Duty outcome testing"],
+          "body": [
+            "PE-driven consolidation of UK accounting practices continues to bring embedded IFA arms into deal scopes, with acquirers focused on client-retention economics and regulatory perimeter clarity between the accounting and advice businesses. Practice-side leaders are being pressed on segregation of client money handling, SPS coverage across advisers, and the ongoing Consumer Duty outcome-testing obligations as part of vendor due-diligence packs."
+          ],
+          "meaning": "Firms with an in-house IFA arm should refresh client-money segregation evidence and Consumer Duty outcome-testing MI before any inbound approach lands.",
+          "source": "Deal commentary"
+        }
+      ]
+    },
+    {
+      "name": "Case Studies & Ireland",
+      "stories": [
+        {
+          "headline": "Mid-tier firm playbook: fixed-fee MTD retainers to preserve advisory margin",
+          "tags": ["Fixed-fee quarterly retainer", "WIP recovery up"],
+          "body": [
+            "Several mid-tier firms have moved published pricing pages this week to a fixed-fee quarterly MTD retainer, bundling bookkeeping, quarterly submission and year-end wrap. The move is being framed as a defensive response to capacity constraints, designed to make scope creep from late-filing clients visible and to preserve hourly advisory capacity in higher-margin service lines. Early adopters report improved WIP recovery on the smallest end of the sole-trader client book."
+          ],
+          "source": "Practice commentary"
+        },
+        {
+          "headline": "Ireland: Chartered Accountants Ireland the unified professional body",
+          "tags": ["CAI", "CPA Ireland retired"],
+          "body": [
+            "Two years on from the September 2024 merger of Chartered Accountants Ireland with CPA Ireland, CAI remains the single professional body on the island and the principal designator (ACA) for new entrants. Practitioners preparing for the Irish CPD year should ensure returns are made under the unified CAI framework rather than the legacy CPA Ireland process, which is fully retired."
+          ],
+          "source": "Chartered Accountants Ireland, RTÉ"
+        }
+      ]
+    }
+  ]
+}
