@@ -487,7 +487,8 @@ img { max-width: 100%; }
 }
 .stat-banner p { color: rgba(255,255,255,.88); max-width: 60ch; margin: 0 0 24px; font-size: 17px; position: relative; }
 .stat-grid {
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; position: relative;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 18px 28px; position: relative;
+  max-width: 620px;
 }
 .stat-grid .s-num {
   font-family: var(--font-ui); font-weight: 700; letter-spacing: -.02em;

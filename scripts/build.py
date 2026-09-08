@@ -518,8 +518,6 @@ def pinnacle_banner():
     stats = [
         ("300+", "Specialists across the group"),
         ("150+", "Clients in the UK &amp; Ireland"),
-        ("4", "Specialist divisions"),
-        ("2", "Delivery hubs: London &amp; Mumbai"),
     ]
     tiles = "".join(
         f'<div><div class="s-num">{n}</div><div class="s-lab">{l}</div></div>' for n, l in stats
