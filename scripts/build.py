@@ -236,8 +236,15 @@ def load_editions():
 # --------------------------------------------------------------------------- #
 # Shared chrome
 # --------------------------------------------------------------------------- #
-def page_shell(title, description, body, root, canonical=""):
+def page_shell(title, description, body, root, canonical="", og_title=None, og_image=None):
     canonical_tag = f'<link rel="canonical" href="{canonical}">' if canonical else ""
+    share_title = og_title or title
+    if og_image:
+        share_image = og_image
+    elif SITE_URL:
+        share_image = f"{SITE_URL}/assets/icon-512.png"
+    else:
+        share_image = f"{root}assets/icon-512.png"
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -245,10 +252,16 @@ def page_shell(title, description, body, root, canonical=""):
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(description)}">
-<meta property="og:title" content="{esc(title)}">
+<meta property="og:title" content="{esc(share_title)}">
 <meta property="og:description" content="{esc(description)}">
 <meta property="og:type" content="website">
-<meta property="og:image" content="{SITE_URL}/assets/icon-512.png">
+<meta property="og:image" content="{esc(share_image)}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(share_title)}">
+<meta name="twitter:description" content="{esc(description)}">
+<meta name="twitter:image" content="{esc(share_image)}">
 <meta name="theme-color" content="#003399">
 {canonical_tag}
 <link rel="icon" type="image/png" sizes="180x180" href="{root}assets/favicon.png">
@@ -411,7 +424,10 @@ def render_edition(edition, prev_ed, next_ed):
   {edition_pager(prev_ed, next_ed, root)}
 </div>"""
     title = f'{ed_title(edition)} · {SITE_NAME}'
-    return page_shell(title, edition.get("summary", TAGLINE), masthead, root, canon(f'/editions/{edition["date"]}/'))
+    return page_shell(title, edition.get("summary", TAGLINE), masthead, root,
+                      canon(f'/editions/{edition["date"]}/'),
+                      og_title=ed_title(edition),
+                      og_image=canon(f'/og/{edition["date"]}.png'))
 
 
 def edition_pager(prev_ed, next_ed, root):
@@ -640,7 +656,7 @@ def render_home(editions):
   </section>
 </div>
 {FILTER_SCRIPT}"""
-    return page_shell(SITE_NAME, TAGLINE, hero, root, canon("/"))
+    return page_shell(SITE_NAME, TAGLINE, hero, root, canon("/"), og_image=canon("/og/home.png"))
 
 
 def render_edition_card(ed):
@@ -732,6 +748,28 @@ def build():
         fh.write(render_feed(editions))
     with open(os.path.join(OUT, "search-index.json"), "w", encoding="utf-8") as fh:
         json.dump(build_search_index(editions), fh, ensure_ascii=False, separators=(",", ":"))
+
+    # per-edition social share (Open Graph) images
+    try:
+        import ogimage
+        og_dir = os.path.join(OUT, "og")
+        for ed in editions:
+            ogimage.render_og(
+                os.path.join(og_dir, ed["date"] + ".png"),
+                headline=ed_title(ed),
+                date_label=fmt_date(ed["date"], weekday=False),
+                topics=[c["name"] for c in ed["categories"]],
+            )
+        ogimage.render_og(
+            os.path.join(og_dir, "home.png"),
+            headline="The daily accountancy briefing, built for busy firms",
+            date_label="Every weekday",
+            topics=["HMRC", "Making Tax Digital", "Corporate Finance", "FCA", "Software"],
+            home=True,
+        )
+        print(f"  og images: {len(editions) + 1}")
+    except Exception as e:
+        print(f"  [warn] OG image generation skipped ({e})")
     with open(os.path.join(OUT, "404.html"), "w", encoding="utf-8") as fh:
         fh.write(render_404())
     os.makedirs(os.path.join(OUT, "search"), exist_ok=True)
