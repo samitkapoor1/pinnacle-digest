@@ -1,0 +1,170 @@
+{
+  "date": "2026-09-09",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "HMRC's MFA deadline looms as Healey pitches a growth agenda",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "The final mandatory HMRC multi-factor authentication rollout for agent and business accounts is imminent, Chancellor Healey sets out a growth agenda built on simplification and investment, a tribunal overturns an HMRC penalty over data it already held, and the profession debates whether capacity, not AI, is the real constraint.",
+  "categories": [
+    {
+      "name": "MTD & HMRC",
+      "badge": "MFA ROLLOUT IMMINENT",
+      "stories": [
+        {
+          "headline": "MTD is an opportunity, not a chore",
+          "tags": ["Accountancy Age", "Strategic lever framing"],
+          "body": [
+            "Accountancy Age reframes Making Tax Digital as a strategic lever rather than a compliance burden, arguing that firms already invested in digital record-keeping are best placed to layer automation and advisory services on top. The piece lands as sole-trader and landlord clients approach the next MTD for Income Tax Self Assessment threshold, and warns that leaving software selection and client onboarding conversations too late will squeeze margin and capacity when the wave hits."
+          ],
+          "meaning": "Firms with unclear software stacks or unbooked onboarding conversations should close both this week. The advisory upside from MTD is only accessible to firms that have automated the compliance layer first.",
+          "source": "Accountancy Age"
+        },
+        {
+          "headline": "Time to prepare for HMRC's final MFA rollout",
+          "tags": ["Lock-out risk at filing deadlines", "Shared inboxes flagged"],
+          "body": [
+            "AccountingWEB flags that the final phase of HMRC's mandatory multi-factor authentication for agent and business tax accounts is now imminent. Practices still relying on shared logins, personal mobile numbers, or unowned recovery contacts risk being locked out of client accounts at filing deadlines. Firms are being urged to audit every sign-in credential, shared inbox, and recovery contact before the switchover completes."
+          ],
+          "meaning": "Audit every HMRC login, shared inbox rule, and recovery contact this week. A locked-out agent account on a filing deadline is a client-service incident, not a technology one.",
+          "source": "AccountingWEB"
+        },
+        {
+          "headline": "HMRC loses tribunal over information it already held",
+          "tags": ["Tribunal decision", "Enquiry defence template"],
+          "body": [
+            "A tribunal ruling in which HMRC pursued a penalty over information already held on its own systems has drawn sharp commentary. The write-up dissects the reasoning and offers practical guidance to agents facing similar enquiries, particularly around record retention, disclosure timing, and pushing back where the Department has not made reasonable use of data already in its possession. The decision strengthens the practitioner playbook on proportionality and reasonable-excuse arguments."
+          ],
+          "source": "AccountingWEB"
+        },
+        {
+          "headline": "Third-party interests in confiscation proceedings",
+          "tags": ["POCA case law", "Forensic accounting"],
+          "body": [
+            "A technical HMRC-policy analysis walks through the treatment of third-party interests, typically spouses, parents or co-owners, where property is subject to confiscation orders following tax fraud proceedings. Forensic accountants and expert witnesses will find the summary of recent case law and evidential thresholds directly relevant to ongoing POCA engagements."
+          ],
+          "source": "AccountingWEB"
+        }
+      ]
+    },
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "The culture that makes change possible",
+          "tags": ["AccountingWEB, People", "Psychological safety"],
+          "body": [
+            "Under the People stream, AccountingWEB examines why technology and process transformations succeed in some firms and stall in others, pointing to leadership behaviours, psychological safety, and communication cadence as the differentiators. The article is aimed at managing partners and operations leads wrestling with AI adoption, restructuring, or a move to advisory-led models, and treats culture as an operational lever rather than a soft variable."
+          ],
+          "source": "AccountingWEB"
+        },
+        {
+          "headline": "The real gap in accounting isn't AI",
+          "tags": ["Capacity is the constraint", "Talent pipeline, role design"],
+          "body": [
+            "A counter-narrative piece argues that the profession's binding constraint is not technology but capacity, talent pipelines, and role design. The author contends that firms fixating on AI tooling risk missing more fundamental issues around recruitment, retention, and the redefinition of junior work, and offers a framework for prioritising investment across people and platforms."
+          ],
+          "meaning": "Investment planning that stops at software will not close the delivery gap. Firms should size capacity and role redesign alongside the AI roadmap, not after it.",
+          "source": "AccountingWEB"
+        },
+        {
+          "headline": "UBT Accountants case study: secure portal, insecure workflow",
+          "tags": ["UBT Accountants", "Data hygiene, onboarding scripts"],
+          "body": [
+            "A candid case study from UBT Accountants sets out why implementing a secure client portal did not, on its own, change client behaviour. Sensitive data continued to arrive by email until the firm re-engineered onboarding, request templates, and staff scripting. Practical reading for practices trying to close the gap between security investment and day-to-day risk exposure."
+          ],
+          "source": "AccountingWEB"
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates: Reporting & Consolidation",
+      "stories": [
+        {
+          "headline": "Multi-source consolidation: one complete view",
+          "tags": ["Financial Reporting", "Multi-entity, multi-currency"],
+          "body": [
+            "An AccountingWEB analysis looks at the operational demands of multi-source consolidation for group clients, spanning accounts production, automation, and rolling forecasting. Oriented toward mid-tier firms and in-house finance teams, the piece is a useful reference for anyone evaluating whether the current tooling can keep pace with multi-entity, multi-currency reporting expectations."
+          ],
+          "source": "AccountingWEB"
+        },
+        {
+          "headline": "Venues struggle to consolidate without live data",
+          "tags": ["Hospitality, Leisure", "Live-data integrations"],
+          "body": [
+            "A sector-specific look at hospitality and venue operators where delayed data flow into consolidation cycles is undermining decision-making. Live-data integrations are moving from a nice-to-have to a client expectation in mid-market reporting engagements, and advisors in hospitality, leisure, and events will find the reference points useful ahead of Q4 planning conversations."
+          ],
+          "source": "AccountingWEB"
+        }
+      ]
+    },
+    {
+      "name": "Software, Technology & AI",
+      "stories": [
+        {
+          "headline": "How to safely ramp up AI",
+          "tags": ["Practice Management", "Controls, vendor due diligence"],
+          "body": [
+            "Practice-management guidance on scaling AI adoption from pilot to production, covering vendor due diligence, staff training pathways, and controls around client data. The piece dovetails with the Accounting Excellence and Practice Excellence tracks, and will be of interest to firms formalising an AI policy or preparing for professional-body scrutiny."
+          ],
+          "source": "AccountingWEB"
+        },
+        {
+          "headline": "AI risks repeating spreadsheet mistakes at scale",
+          "tags": ["Governance-first", "Untraceable logic"],
+          "body": [
+            "Filed in the Excel channel, this analysis warns that unmanaged generative-AI outputs risk propagating the same governance failures that have historically bedevilled spreadsheets, namely untraceable logic, unowned models, and errors that compound. The author advocates a controls-first mindset before firms allow AI-generated workings into client deliverables."
+          ],
+          "meaning": "Stand up ownership, review, and traceability standards for AI outputs before those outputs land in client deliverables. Governance retro-fits after a bad file has gone out are more expensive than doing it now.",
+          "source": "AccountingWEB"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance, Policy & Markets",
+      "stories": [
+        {
+          "headline": "Chancellor John Healey's Growth Speech 2026",
+          "tags": ["HM Treasury", "Regulatory simplification", "Autumn signals"],
+          "body": [
+            "The Chancellor used a set-piece address to lay out the Government's growth agenda, framing regulatory simplification and business investment incentives as the core levers. Corporate finance advisors should note the emphasis on unlocking planning, capital allocation, and regional investment, all themes likely to shape the coming Autumn fiscal announcements."
+          ],
+          "meaning": "Deal advisors and CFO clients should be briefed today on the Autumn direction of travel. Simplification and investment incentives will move corporate structuring conversations from Q4 into September.",
+          "source": "HM Treasury"
+        },
+        {
+          "headline": "Chancellor takes axe to delays holding back growth",
+          "tags": ["HM Treasury", "Decision-making reform"],
+          "body": [
+            "Alongside the speech, the Treasury announced a package aimed at cutting decision-making delays across Whitehall departments, targeting infrastructure, planning, and business-licensing decisions. Advisors on capital projects and cross-border investment should watch for follow-through in secondary legislation and departmental guidance in the weeks ahead."
+          ],
+          "source": "HM Treasury"
+        },
+        {
+          "headline": "First Entrepreneurship Advisor appointed to the Treasury",
+          "tags": ["Alex Depledge MBE", "EIS / SEIS reform signal"],
+          "body": [
+            "Alex Depledge MBE has been named as the Treasury's first Entrepreneurship Advisor, tasked with identifying barriers to high-growth businesses. The appointment is a signal to corporate finance and IFA practitioners advising founder-led and scale-up clients that Government engagement channels on tax, EIS/SEIS, and share-scheme reform are being reopened."
+          ],
+          "source": "HM Treasury"
+        },
+        {
+          "headline": "Simplification and Agency of Government: letter to all ministers",
+          "tags": ["HM Treasury", "Cross-department review"],
+          "body": [
+            "A joint letter from the Chancellor, First Secretary of State, and Attorney General instructs departments to review and prune administrative complexity across their remits. For accountancy firms and IFAs, the document is worth tracking as a leading indicator for future simplification of tax administration, corporate reporting, and financial-services rulebooks."
+          ],
+          "source": "HM Treasury"
+        },
+        {
+          "headline": "Economic Secretary sets out FS growth agenda at UK Finance",
+          "tags": ["HM Treasury", "Advice/guidance boundary", "Pensions consolidation"],
+          "body": [
+            "The Economic Secretary addressed UK Finance today, setting out Government thinking on the financial-services growth and competitiveness agenda. IFAs and corporate-finance teams should watch for downstream signals on retail investment reform, the advice/guidance boundary work, and pensions consolidation, all of which sit in the same policy pipeline."
+          ],
+          "meaning": "IFA principals should map current advice-model dependencies to the boundary work now, before consultation drafts land. Firms with pension-consolidation books will see the direct impact first.",
+          "source": "HM Treasury"
+        }
+      ]
+    }
+  ]
+}
