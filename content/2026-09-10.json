@@ -1,17 +1,20 @@
 {
   "date": "2026-09-10",
   "masthead": "Daily Accountancy Briefing",
-  "title": "MTD auto-enrolment starts as HMRC's crypto net widens",
+  "title": "HMRC widens its crypto net as a £16bn tax gap sharpens enforcement",
   "kicker": "the",
   "region": "UK & Ireland",
-  "summary": "HMRC begins automatic MTD ITSA enrolment with 570,000 already signed up, issues more than 81,000 crypto nudge letters from its first exchange data, confirms a UK carbon border levy from January 2027, and the BDO UK and Ireland merger clears its partner vote.",
+  "summary": "HMRC has issued more than 81,000 crypto nudge letters from its first tranche of exchange-supplied data, flagged £16bn of unpaid corporate tax in the same cycle, confirmed a UK carbon border levy from January 2027, and published fresh VAT gap estimates ahead of the Autumn Budget.",
   "categories": [
     {
       "name": "HMRC & Policy",
       "stories": [
         {
           "headline": "Improved Self Assessment registration service launched",
-          "tags": ["HMRC", "October SA deadline"],
+          "tags": [
+            "HMRC",
+            "October SA deadline"
+          ],
           "body": [
             "HMRC has rolled out a redesigned online Self Assessment registration service on GOV.UK, aimed at cutting drop-outs during the sign-up flow ahead of the October registration deadline. Practices should update onboarding checklists and any client-facing how-to-register guidance to reflect the new journey."
           ],
@@ -20,7 +23,10 @@
         },
         {
           "headline": "VAT Gap estimates published",
-          "tags": ["Hospitality, construction, second-hand goods", "Autumn compliance narrative"],
+          "tags": [
+            "Hospitality, construction, second-hand goods",
+            "Autumn compliance narrative"
+          ],
           "body": [
             "HMRC's latest official statistics on the VAT gap have been released, feeding into the Chancellor's compliance narrative ahead of the Autumn Budget. Renewed enforcement focus is expected on the sectors historically over-represented in the gap, notably hospitality, construction, and second-hand goods."
           ],
@@ -28,7 +34,10 @@
         },
         {
           "headline": "UK Carbon Border Adjustment Mechanism live from 1 January 2027",
-          "tags": ["Aluminium, cement, fertiliser", "Hydrogen, iron, steel"],
+          "tags": [
+            "Aluminium, cement, fertiliser",
+            "Hydrogen, iron, steel"
+          ],
           "body": [
             "Two coordinated HMRC publications, the CBAM Policy Summary and the Introduction of Carbon Border Adjustment Mechanism, set out how the UK CBAM will apply from 1 January 2027 to imports of aluminium, cement, fertiliser, hydrogen, iron, and steel. Advisers with importer clients should begin scoping registration thresholds and embedded-emissions data capture now, ahead of a busy Q4 for supply-chain data collection."
           ],
@@ -37,7 +46,10 @@
         },
         {
           "headline": "Anti-avoidance information notices: refreshed guidance",
-          "tags": ["GOV.UK", "Tighter response timelines"],
+          "tags": [
+            "GOV.UK",
+            "Tighter response timelines"
+          ],
           "body": [
             "HMRC has published refreshed guidance on the scope and issuance of anti-avoidance information notices, tightening timelines for taxpayer responses. Litigation and tax investigation teams should review live enquiry files against the new expectations."
           ],
@@ -45,7 +57,10 @@
         },
         {
           "headline": "RTI 2027-28 technical specifications published",
-          "tags": ["HMRC", "Payroll software prep"],
+          "tags": [
+            "HMRC",
+            "Payroll software prep"
+          ],
           "body": [
             "Updated Real Time Information internet submission specifications for the 2027-28 tax year are now available for payroll software vendors and in-house developers, giving the market roughly 18 months to adapt. Firms running bureau payroll should confirm vendor roadmaps and internal test windows in Q1 2027 plans."
           ],
@@ -53,7 +68,10 @@
         },
         {
           "headline": "Approved offshore reporting funds and MLR register refreshed",
-          "tags": ["GOV.UK", "Routine but relevant"],
+          "tags": [
+            "GOV.UK",
+            "Routine but relevant"
+          ],
           "body": [
             "The approved offshore reporting funds list has been refreshed and the Money Laundering Regulations Supervised Business Register updated. Routine but relevant for AML supervision teams and offshore fund investors, particularly on year-end reporting."
           ],
@@ -62,49 +80,14 @@
       ]
     },
     {
-      "name": "Making Tax Digital",
-      "badge": "SIGN-UP OUTAGE 11-15 SEP",
-      "stories": [
-        {
-          "headline": "MTD ITSA automatic sign-up begins this month",
-          "tags": ["570,000+ signed up", "436,000+ filed Q1", "£50k threshold auto-enrol"],
-          "body": [
-            "HMRC has confirmed automatic enrolment for MTD for Income Tax will begin in September 2026, in staged tranches, for taxpayers who meet the £50,000 qualifying-income threshold on 2024-25 records. Over 570,000 sole traders and landlords are already signed up for 2026-27, with more than 436,000 having filed a first quarterly update. Firms should proactively contact clients who should not be in scope, including ceased trades and valid exemptions, before HMRC's automated write-outs land."
-          ],
-          "meaning": "Push a proactive out-of-scope client sweep before HMRC's write-outs land. Reversing an ineligible auto-enrolment costs more time than pre-empting it.",
-          "source": "ICAS, HMRC",
-          "charts": [
-            {"type": "compare_bars", "title": "MTD ITSA 2026/27: signed up vs first update filed", "unit": "taxpayers",
-             "bars": [
-               {"label": "Signed up", "value": 570000, "display": "570k", "caption": "Registered for 2026-27"},
-               {"label": "Filed Q1", "value": 436000, "display": "436k", "caption": "First update in"}
-             ], "note": "Automatic enrolment now begins for those above the £50,000 qualifying-income threshold on 2024-25 records."}
-          ]
-        },
-        {
-          "headline": "MTD sign-up service offline 11 to 15 September",
-          "tags": ["5pm Fri 11 Sep to 1pm Tue 15 Sep"],
-          "body": [
-            "Both the agent and taxpayer MTD for Income Tax sign-up services will be unavailable from 5pm on Friday 11 September until 1pm on Tuesday 15 September 2026 for scheduled maintenance. Client onboarding workflows should be planned around the window, with voluntary sign-ups completed before Friday."
-          ],
-          "source": "GOV.UK"
-        },
-        {
-          "headline": "MTD is an opportunity, not a chore",
-          "tags": ["Accountancy Age", "Advisory retainers, embedded finance"],
-          "body": [
-            "Accountancy Age's latest analysis argues that firms treating MTD purely as a compliance cost centre are losing ground to peers monetising quarterly touchpoints through advisory retainers, cashflow forecasting, and embedded finance. The gap between MTD-as-cost and MTD-as-product is widening in the mid-tier."
-          ],
-          "source": "Accountancy Age"
-        }
-      ]
-    },
-    {
       "name": "Accountancy in Practice",
       "stories": [
         {
           "headline": "Hypercar dealer wins £477k VAT tribunal",
-          "tags": ["£477,000 reclaim", "Private-use rebuttal"],
+          "tags": [
+            "£477,000 reclaim",
+            "Private-use rebuttal"
+          ],
           "body": [
             "A First-tier Tribunal decision has awarded a UK hypercar dealer a £477,000 VAT reclaim, with the tribunal accepting that the vehicle's actual use pattern rebutted HMRC's private-use assumption. A useful reference case for high-value asset advisers on evidential thresholds around private-use blocks."
           ],
@@ -112,7 +95,10 @@
         },
         {
           "headline": "September is where January is made or broken",
-          "tags": ["Capacity crunch season", "Outsource / offshore prep"],
+          "tags": [
+            "Capacity crunch season",
+            "Outsource / offshore prep"
+          ],
           "body": [
             "Two AccountingWEB pieces published today, on outsourcing 2026 Self Assessment work and on why September fixes the January problem, reinforce the industry consensus that January capacity crunches are made or broken in September. Firms delaying capacity decisions past this month typically end up cutting price into late Q4."
           ],
@@ -120,16 +106,11 @@
           "source": "AccountingWEB"
         },
         {
-          "headline": "Culture is the constraint on change, not tech",
-          "tags": ["AccountingWEB, People", "Comms cadence"],
-          "body": [
-            "AccountingWEB's culture-and-change piece profiles firms that have paired tech rollouts with structured internal-comms programmes. It is a recurring theme in the profession that automation projects stall on adoption, not technology, and the article is aimed squarely at operations leads sizing next year's transformation portfolio."
-          ],
-          "source": "AccountingWEB"
-        },
-        {
           "headline": "Accountancy Age publishes third wave of 35 Under 35",
-          "tags": ["Accountancy Age", "Recruitment benchmark"],
+          "tags": [
+            "Accountancy Age",
+            "Recruitment benchmark"
+          ],
           "body": [
             "Accountancy Age has released the third tranche of its 2026 35 Under 35 list, highlighting rising talent across Big Four, mid-tier, and boutique advisory. Useful for recruitment benchmarking and referral pipelines, and a leading signal for the firms winning the mid-career fight."
           ],
@@ -141,25 +122,11 @@
       "name": "Corporate Finance & M&A",
       "stories": [
         {
-          "headline": "BDO UK & Ireland: partner vote clears",
-          "tags": ["BDO LLP", "Cross-border mid-tier network"],
-          "body": [
-            "The proposed combination of BDO's UK and Ireland firms has cleared the partner-approval stage, positioning the merged practice among the largest cross-border mid-tier networks in Europe. Integration planning, especially on audit independence, single-firm governance, and IT stack rationalisation, becomes the next-quarter priority."
-          ],
-          "meaning": "Mid-tier competitors should model where a unified BDO can now compete against them on cross-border mandates. The next 90 days of integration will define the go-to-market shape.",
-          "source": "Reuters"
-        },
-        {
-          "headline": "Xeinadin's roll-up accelerates ahead of rumoured £800m sale",
-          "tags": ["Raffingers, KBSP added", "£800m sale process rumoured"],
-          "body": [
-            "Recent weeks have seen Xeinadin acquire London firm Raffingers, with around 70 professionals, and KBSP in Swiss Cottage, ahead of a rumoured £800m sale process. Affinia, another PE-backed consolidator, added Platt Rushton in Leigh-on-Sea as its tenth office. The pace signals continued PE conviction in the UK accounting consolidation thesis."
-          ],
-          "source": "Deal commentary"
-        },
-        {
           "headline": "Regional partnership: two family firms merge with Allica Bank support",
-          "tags": ["Allica Bank debt", "Sub-£10m tier template"],
+          "tags": [
+            "Allica Bank debt",
+            "Sub-£10m tier template"
+          ],
           "body": [
             "Two family-owned accountancy firms have merged with debt support from Allica Bank, framed by principals as a partnership rather than an acquisition. The debt-supported partnership template is increasingly common in the sub-£10m-revenue tier, offering an alternative to a PE exit for owners who want continuity."
           ],
@@ -167,7 +134,10 @@
         },
         {
           "headline": "PE overhang keeps multiples elevated",
-          "tags": ["Cinven, Grant Thornton UK", "Hg, BC Partners"],
+          "tags": [
+            "Cinven, Grant Thornton UK",
+            "Hg, BC Partners"
+          ],
           "body": [
             "Cinven's majority position in Grant Thornton UK, alongside Hg Capital and BC Partners' broader sector interest, continues to underpin elevated deal multiples. Corporate finance teams advising owner-managed practices should be pressure-testing earn-out structures against the tightening MTD and AI capex outlook."
           ],
@@ -180,7 +150,10 @@
       "stories": [
         {
           "headline": "Lease accounting: from implementation to audit",
-          "tags": ["IFRS 16, FRS 102", "Discount-rate documentation"],
+          "tags": [
+            "IFRS 16, FRS 102",
+            "Discount-rate documentation"
+          ],
           "body": [
             "AccountingWEB's implementation-to-audit piece sets out what finance teams should now expect from lease accounting software as auditors sharpen focus on IFRS 16 and FRS 102 lease disclosures, particularly around remeasurements and discount-rate documentation. Weak evidence in these two areas is the most common audit finding this cycle."
           ],
@@ -188,7 +161,11 @@
         },
         {
           "headline": "Ireland: IAASA sustainability assurance technical support",
-          "tags": ["CAI", "ISAE (Ireland) 3000", "ISA (Ireland) 505 & 600"],
+          "tags": [
+            "CAI",
+            "ISAE (Ireland) 3000",
+            "ISA (Ireland) 505 & 600"
+          ],
           "body": [
             "Chartered Accountants Ireland has issued fresh technical support on ISAE (Ireland) 3000 for sustainability assurance engagements, and on revised ISA (Ireland) 505 and conforming changes to ISA (Ireland) 600 on group audits. Practices with Irish audit registrations should refresh methodology and ISQM 1 and 2 documentation."
           ],
@@ -197,14 +174,20 @@
         },
         {
           "headline": "Ireland: member outlook survey shows earnings optimism",
-          "tags": ["75%+ expect earnings to rise"],
+          "tags": [
+            "75%+ expect earnings to rise"
+          ],
           "body": [
             "More than three-quarters of Irish accountants surveyed by CAI expect earnings to rise over the next 12 months, notwithstanding sustained cost-base pressure. The read supports continued investment in capacity and technology across the Irish practice base."
           ],
           "source": "Chartered Accountants Ireland",
           "charts": [
-            {"type": "gauge", "value": 75, "title": "Irish practice outlook",
-             "label": "of Irish accountants expect earnings to rise over the next 12 months (more than three-quarters)"}
+            {
+              "type": "gauge",
+              "value": 75,
+              "title": "Irish practice outlook",
+              "label": "of Irish accountants expect earnings to rise over the next 12 months (more than three-quarters)"
+            }
           ]
         }
       ]
@@ -214,22 +197,37 @@
       "stories": [
         {
           "headline": "HMRC issues 81,000+ crypto nudge letters",
-          "tags": ["Exchange-supplied data live", "Stress-test before 31 Jan"],
+          "tags": [
+            "Exchange-supplied data live",
+            "Stress-test before 31 Jan"
+          ],
           "body": [
             "Accountancy Age reports HMRC has begun issuing over 81,000 crypto nudge letters using its first tranche of exchange-supplied data. IFA and wealth teams should stress-test client crypto disclosures ahead of 31 January, particularly on disposals, staking rewards, and airdrops treated as miscellaneous income."
           ],
           "meaning": "Any client with a crypto footprint should be reviewed proactively before the January push. A nudge letter arriving in December will land on top of a full Self Assessment queue.",
           "source": "Accountancy Age",
           "charts": [
-            {"type": "stat_row", "items": [
-              {"value": "81,000+", "label": "crypto nudge letters issued from first exchange data"},
-              {"value": "£16bn", "label": "unpaid corporate tax flagged in the same cycle"}
-            ]}
+            {
+              "type": "stat_row",
+              "items": [
+                {
+                  "value": "81,000+",
+                  "label": "crypto nudge letters issued from first exchange data"
+                },
+                {
+                  "value": "£16bn",
+                  "label": "unpaid corporate tax flagged in the same cycle"
+                }
+              ]
+            }
           ]
         },
         {
           "headline": "Corporate tax gap widens: £16bn unpaid flagged",
-          "tags": ["£16bn unpaid corporate tax", "CoP 8 / 9 expected uplift"],
+          "tags": [
+            "£16bn unpaid corporate tax",
+            "CoP 8 / 9 expected uplift"
+          ],
           "body": [
             "£16bn of unpaid corporate tax has been flagged in the same reporting cycle, sharpening HMRC's mid-market enforcement lens. Expect more Code of Practice 8 and 9 activity into Q4, and heavier scrutiny of transfer pricing, R&D, and diverted profits positions."
           ],
@@ -237,7 +235,10 @@
         },
         {
           "headline": "R&D tax relief: new compliance tooling for a scrutinised regime",
-          "tags": ["AccountingWEB", "Claim-defence insurance"],
+          "tags": [
+            "AccountingWEB",
+            "Claim-defence insurance"
+          ],
           "body": [
             "AccountingWEB features new tooling aimed at reducing compliance risk in R&D claims, reflecting HMRC's continued focus on the regime and rising insurance-market appetite for claim-defence cover. Firms carrying an R&D book should re-baseline claim documentation and quality-review workflows."
           ],
@@ -245,7 +246,10 @@
         },
         {
           "headline": "AI-native debt recovery lands in SME workflows",
-          "tags": ["AccountingWEB", "SME working capital"],
+          "tags": [
+            "AccountingWEB",
+            "SME working capital"
+          ],
           "body": [
             "An AI-native law firm has launched a small-business debt-recovery service, likely to become a partner-referral option for practice teams whose SME clients face rising working-capital strain. Adds to the small stack of automated finance-adjacent services now inside practice referral networks."
           ],
@@ -253,7 +257,10 @@
         },
         {
           "headline": "Payroll's most expensive habit is typing",
-          "tags": ["AccountingWEB", "API-linked payroll"],
+          "tags": [
+            "AccountingWEB",
+            "API-linked payroll"
+          ],
           "body": [
             "An AccountingWEB piece on payroll productivity makes the case for API-linked payroll pipelines ahead of the RTI 2027-28 spec rollout. Bureaus running fully-typed workflows are the ones most exposed to margin compression as the new spec beds in."
           ],

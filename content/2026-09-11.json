@@ -1,0 +1,186 @@
+{
+  "date": "2026-09-11",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "HMRC's MTD letters bypass agents as mandatory BiK payrolling looms",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "The FCA's Non-Financial Misconduct rules take effect for non-bank SM&CR firms, HMRC confirms mandatory payrolling of benefits in kind from April 2027 and that MTD automatic sign-up letters will go direct to taxpayers rather than agents, a new FCA inside-information declaration lands on every first equity IPO submission from 21 September, and AAB adds two more Irish firms to its roll-up.",
+  "categories": [
+    {
+      "name": "Independent Financial Advisory & Regulation",
+      "stories": [
+        {
+          "headline": "FCA Non-Financial Misconduct rules live from 1 September 2026",
+          "tags": ["COCON and FIT alignment", "SM&CR non-bank firms", "Regulatory references"],
+          "body": [
+            "The FCA's final policy statement on Non-Financial Misconduct is now live. It confirms when bullying, harassment, or violence breaches the Conduct Rules (COCON) and affects Fit and Proper (FIT) assessments. Non-bank SM&CR firms, including investment firms, asset and fund managers, insurers, and IFA networks, are now aligned with the standards long applied to banks. Conduct policies, disciplinary frameworks, regulatory-reference procedures, and training records all need refreshing to evidence the new position."
+          ],
+          "meaning": "Refresh conduct policies, regulatory-reference templates, and disciplinary frameworks now. NFM breaches now flow into FIT assessments, so HR and compliance workflows have to be joined up.",
+          "source": "FCA Policy Statement"
+        },
+        {
+          "headline": "UK/EU Investment Management Update, September 2026",
+          "tags": ["Sidley Austin", "SDR labelling and retail disclosure"],
+          "body": [
+            "Sidley's monthly UK/EU Investment Management round-up covers the current pipeline for investment managers, including retail-disclosure reforms, SDR labelling questions, and cross-border marketing changes. Worth a scan for firms with EU-facing product ranges and dual-authorisation books."
+          ],
+          "source": "Sidley Austin LLP"
+        }
+      ]
+    },
+    {
+      "name": "HMRC",
+      "badge": "SIGN-UP OUTAGE FROM 5PM TODAY",
+      "stories": [
+        {
+          "headline": "Mandatory payrolling of Benefits in Kind: phase 1 from 6 April 2027",
+          "tags": ["6 April 2027 go-live", "Cars, fuel, vans, medical"],
+          "body": [
+            "Phase 1 of HMRC's mandatory payrolling of Benefits in Kind takes effect from 6 April 2027. Company cars, car fuel, vans, van fuel, and private medical benefits will need to be reported through payroll in real time. Firms should begin scoping payroll software readiness with clients now, alongside the RTI 2027-28 specification work that is already in market."
+          ],
+          "meaning": "BiK payrolling and RTI 2027-28 are the same delivery programme in practice. Firms should sequence software readiness, employer comms, and bureau capacity together in this year's plan.",
+          "source": "HMRC"
+        },
+        {
+          "headline": "Payslip fraud: new HMRC guidance for employers and payroll providers",
+          "tags": ["HMRC", "Employer and bureau responsibility"],
+          "body": [
+            "HMRC has issued new guidance on identifying and avoiding payslip fraud, aimed at both employers and payroll providers. The guidance signals a tightening focus on the payroll chain and expectations around controls, verification, and the reporting of suspicious activity. Bureaus should review escalation procedures and client onboarding checks."
+          ],
+          "source": "HMRC"
+        }
+      ]
+    },
+    {
+      "name": "Making Tax Digital",
+      "stories": [
+        {
+          "headline": "Auto sign-up letters bypass agents: HMRC writes direct to taxpayers",
+          "tags": ["No agent copy", "£50k in-scope population"],
+          "body": [
+            "HMRC has confirmed that automatic sign-up communications for taxpayers who should already be within MTD for Income Tax will go direct to the taxpayer, and that agents will not be copied. Practices should proactively identify at-risk clients, self-employed individuals and landlords with in-scope income above £50,000, and warn them that a letter is coming, or the first contact will be with the client and not the firm."
+          ],
+          "meaning": "If clients hear from HMRC before they hear from you, the firm loses control of the conversation. Get out ahead of the write-out list this week.",
+          "source": "HMRC"
+        },
+        {
+          "headline": "Penalty-points relief confirmed for the first mandated year",
+          "tags": ["No late-submission points", "2026-27 only"],
+          "body": [
+            "HMRC will not issue late-submission penalty points for quarterly updates during the first mandated MTD ITSA year, giving firms and clients a runway to bed in processes without a compliance cliff-edge. Firms should use the relief window to standardise cadence and client education rather than to defer engagement."
+          ],
+          "source": "HMRC"
+        },
+        {
+          "headline": "2028 threshold: MTD ITSA extends to £20,000 turnover",
+          "tags": ["6 April 2028", "Data captured in 2026-27 returns"],
+          "body": [
+            "From 6 April 2028, MTD ITSA will be mandated for self-employed businesses and landlords with turnover above £20,000 in the 2026-27 tax year. That capture year is happening now, so firms should record turnover data with the 2028 threshold in mind when completing this cycle's returns."
+          ],
+          "source": "HMRC"
+        }
+      ]
+    },
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "AAB adds Old Quarter and O'Brien Crowley in Ireland",
+          "tags": ["7th and 8th Ireland deals since 2025", "~300 staff on the island"],
+          "body": [
+            "Goldman Sachs Alternatives-backed AAB has acquired Old Quarter Chartered Accountants and O'Brien Crowley Chartered Accountants, its seventh and eighth Ireland investments since 2025. Post-completion AAB will employ close to 300 people on the island. The pace of the roll-up reflects continued private-equity conviction that UK and Ireland accountancy consolidation still has significant runway."
+          ],
+          "source": "Trade press",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "8", "label": "AAB Ireland deals since 2025, Old Quarter and O'Brien Crowley the latest"},
+              {"value": "~300", "label": "staff on the island post-completion"}
+            ]}
+          ]
+        },
+        {
+          "headline": "Three accountancy firms in the latest National Minimum Wage naming round",
+          "tags": ["Government naming round", "Unpaid working time and deductions"],
+          "body": [
+            "AccountingWEB reports that the latest Government name-and-shame round on National Minimum Wage compliance includes a trio of accounting firms. Commentators frame it as a warning shot on internal compliance overhead. Firms preaching payroll rigour to clients are being caught by the same rules, particularly around unpaid working time and expense deductions."
+          ],
+          "meaning": "Run an internal NMW check now, especially on working-time capture for trainees and admin staff and on any salary-sacrifice or expense deduction that could drop pay below the threshold. The reputational cost of naming is disproportionate to the amounts involved.",
+          "source": "AccountingWEB"
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "ICAEW UK GAAP 2026: reference manual for the 2025/26 reporting season",
+          "tags": ["ICAEW", "FRS 100 to FRS 104"],
+          "body": [
+            "ICAEW's UK GAAP 2026: Application of FRS 100 to FRS 104 is the reference manual for the 2025/26 reporting season. It incorporates the September 2024 editions of FRS 100 to FRS 104, plus amendments through March 2026, and changes to legal requirements for UK companies and LLPs. Preparers should re-baseline disclosure checklists against this edition rather than the prior release."
+          ],
+          "source": "ICAEW"
+        },
+        {
+          "headline": "FRC Stewardship Code 2026: ACCA responds to draft guidance",
+          "tags": ["FRC", "Investment goals evidence"],
+          "body": [
+            "ACCA has responded to the FRC's consultation on the 2026 Stewardship Code, supporting tailored guidance that helps signatories evidence the effectiveness of their investment goals. Investment managers, asset owners, and service providers should review the draft guidance ahead of Code adoption."
+          ],
+          "source": "FRC, ACCA"
+        },
+        {
+          "headline": "APR/BPR reform: succession planning pulled forward",
+          "tags": ["IHT planning pressure", "Farms and family businesses"],
+          "body": [
+            "Practitioner commentary continues to flag inheritance-tax planning pressure emerging from the Agricultural and Business Property Relief overhaul. Succession and share-structure reviews are being brought forward, with valuations and trust structures the most active workstreams."
+          ],
+          "meaning": "Any client with an APR or BPR footprint should have a fresh valuation and succession review under way this quarter. The window for restructuring before implementation is shorter than most owners assume.",
+          "source": "KPMG UK Tax Matters Digest, Ross Martin"
+        },
+        {
+          "headline": "ICAEW Corporate Reporting Faculty: year-end pointers",
+          "tags": ["ICAEW CRF", "Climate, going-concern, estimation"],
+          "body": [
+            "The ICAEW Corporate Reporting Faculty has flagged priority areas for the reporting season, drawing on the FRC's Annual Review of Corporate Reporting 2024/25. Focus areas include new and amended accounting requirements and common pitfalls around going-concern, climate-related disclosures, and estimation uncertainty."
+          ],
+          "source": "ICAEW Corporate Reporting Faculty"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "FCA equity-IPO submission change from 21 September 2026",
+          "tags": ["Inside information declaration", "Every first submission"],
+          "body": [
+            "A new procedural requirement from the FCA takes effect from 21 September 2026 and affects every first submission of equity documents. Issuers and advisers must confirm whether the submission contains inside information and, if so, describe it. Corporate finance teams should update deal checklists and adviser working-group templates before the go-live date."
+          ],
+          "meaning": "Update IPO checklists, working-group templates, and adviser sign-off routines this week. The inside-information declaration is a live document risk on every first submission from 21 September.",
+          "source": "FCA"
+        },
+        {
+          "headline": "Ireland deal pipeline: US and UK acquirers keep the momentum",
+          "tags": ["Baker Tilly Ireland outlook", "Accountancy standout sector"],
+          "body": [
+            "Baker Tilly Ireland's outlook flags continued momentum through 2026 and into 2027, with US and UK acquirers focused on Ireland as an EU foothold. Professional services, and accountancy in particular, remains a standout sector. The read supports the AAB and BDO integration stories running in parallel across the market."
+          ],
+          "source": "Baker Tilly Ireland"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "Xero UK pricing update effective 1 September 2026",
+          "tags": ["Xero", "Client-billed subs, partner-programme buffers"],
+          "body": [
+            "Xero's UK pricing update took effect on 1 September 2026. Practices with client-billed subscriptions should confirm pass-through arrangements and any partner-programme buffers, and communicate changes to clients before the next invoice cycle lands."
+          ],
+          "source": "Xero"
+        }
+      ]
+    }
+  ]
+}
