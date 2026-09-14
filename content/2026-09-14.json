@@ -1,0 +1,160 @@
+{
+  "date": "2026-09-14",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "Vaping duty and a CT1 deadline loom as HMRC readies crypto data-matching",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "A new Vaping Products Duty goes live on 1 October at £2.20 per 10ml, Irish companies face a 23 September Corporation Tax CT1 deadline, HMRC confirms it will cross-reference cryptoasset platform data against Self Assessment from 2027, consolidator bk plus passes 1,000 staff with the Joshua Leigh acquisition, and Xero's new five-tier UK pricing runs from £7 to £70.",
+  "categories": [
+    {
+      "name": "HMRC",
+      "badge": "VAPING DUTY LIVE 1 OCT",
+      "stories": [
+        {
+          "headline": "Vaping Products Duty live from 1 October at £2.20 per 10ml",
+          "tags": ["1 October 2026 go-live", "Manufacturers, importers, distributors"],
+          "body": [
+            "The new Vaping Products Duty takes effect from 1 October 2026 at £2.20 per 10ml of vaping liquid. Businesses in the supply chain must be registered and approved by that date to legally manufacture, import, or distribute product in the UK. Any client with an exposure to the sector needs registration and pricing conversations closed inside the next fortnight."
+          ],
+          "meaning": "Sweep the client book this week for anyone in vaping manufacture, import, wholesale, or retail. Missing the 1 October registration date means an operational shutdown, not just a penalty.",
+          "source": "HMRC"
+        },
+        {
+          "headline": "HMRC to cross-reference cryptoasset platform data against Self Assessment from 2027",
+          "tags": ["Data-matching from 2027", "Voluntary disclosure window now"],
+          "body": [
+            "HMRC has confirmed it will begin cross-referencing cryptoasset platform data against Self Assessment returns from 2027. The confirmation follows the first wave of exchange-supplied nudge letters and closes any lingering doubt that platform-level reporting is now systemic. Advisers should begin voluntary disclosure conversations with clients holding material crypto positions now, ahead of the systematic matching taking effect."
+          ],
+          "meaning": "The window for a lower-friction voluntary disclosure is closing. Any client with historic crypto activity should be reviewed and, where appropriate, disclosed before matching runs against 2027-onwards returns.",
+          "source": "HMRC"
+        }
+      ]
+    },
+    {
+      "name": "Ireland",
+      "badge": "CT1 DEADLINE 23 SEP",
+      "stories": [
+        {
+          "headline": "Corporation Tax CT1 filing deadline: 23 September 2026",
+          "tags": ["2025 year-ends", "9 working days remaining"],
+          "body": [
+            "Irish companies with 2025 year-ends face a CT1 filing deadline of 23 September 2026. Firms should confirm client submissions ahead of the cut-off. The Companies Registration Office is also flagging processing delays on Ordinary A1 Online submissions received from late August, so filings that depend on CRO output need to be sequenced accordingly."
+          ],
+          "meaning": "Any Irish CT1 not through review by mid-week is at risk. Confirm client submissions and any CRO-dependent filings today.",
+          "source": "Revenue.ie, CRO"
+        },
+        {
+          "headline": "VAT Modernisation: Phase 1 eInvoicing mandate lands 1 November 2028",
+          "tags": ["Mandatory receipt capability", "System-readiness is a 2027 budget line"],
+          "body": [
+            "Phase 1 of Revenue's mandatory eInvoicing receipt capability remains scheduled for 1 November 2028. Firms advising Irish clients should factor system-readiness planning into 2027 budgets, and revisit ERP and finance-system roadmaps at the same time as the ASP conversations that are already active on the UK CBAM and RTI 2027-28 tracks."
+          ],
+          "source": "Revenue.ie"
+        },
+        {
+          "headline": "ROS maintenance and CRO processing backlog",
+          "tags": ["CRO backlog to 26 Aug", "ROS outage 10 Sep"],
+          "body": [
+            "The CRO was still working through Ordinary A1 Online submissions received on 26 August as of 10 September, while RCN Company Name Reservations were current to 10 September. Revenue Online Service maintenance took ROS offline between 6pm and 7.30pm on 10 September. Both items are worth flagging on client sequencing for the CT1 window."
+          ],
+          "source": "CRO, Revenue.ie"
+        }
+      ]
+    },
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "bk plus acquires Joshua Leigh & Co, passing 1,000 staff",
+          "tags": ["60+ offices", "1,000+ staff across GB", "SME and owner-managed focus"],
+          "body": [
+            "Consolidator bk plus has acquired Barnet-based chartered accountancy firm Joshua Leigh & Co, taking its footprint to more than 60 offices and over 1,000 staff across England, Scotland, and Wales. The deal is the latest in a run of 2026 acquisitions that reinforces bk plus's positioning as a national mid-market player serving SMEs and owner-managed businesses, and sits alongside the AAB roll-up already in market."
+          ],
+          "source": "Trade press",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "60+", "label": "offices across England, Scotland and Wales"},
+              {"value": "1,000+", "label": "staff after the Joshua Leigh acquisition"}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "Xero UK pricing tiers revealed: Simple £7 through Ultimate £70",
+          "tags": ["Xero", "Five-tier UK stack"],
+          "body": [
+            "Xero's revised five-tier UK pricing is now live: Simple £7, Ignite £18, Grow £39, Comprehensive £55, Ultimate £70 per month. Practices should refresh client fee proposals and review any bundled licences, particularly on the Grow-to-Comprehensive step where feature scope changes are most likely to trigger client conversations."
+          ],
+          "meaning": "Refresh fee proposals and bundle economics this week. The Grow-to-Comprehensive jump is where partner-programme buffers are most likely to be squeezed.",
+          "source": "Xero",
+          "charts": [
+            {"type": "bars", "title": "Xero UK plans, monthly price", "unit": "£ per month",
+             "bars": [
+               {"label": "Simple", "value": 7, "display": "£7"},
+               {"label": "Ignite", "value": 18, "display": "£18"},
+               {"label": "Grow", "value": 39, "display": "£39"},
+               {"label": "Comprehensive", "value": 55, "display": "£55"},
+               {"label": "Ultimate", "value": 70, "display": "£70"}
+             ]}
+          ]
+        },
+        {
+          "headline": "Xero Payroll API enforces KiwiSaverStatus from 8 September",
+          "tags": ["Xero", "Cross-jurisdiction payroll"],
+          "body": [
+            "From 8 September 2026, Xero began enforcing the KiwiSaverStatus field when creating or updating employee tax details via API. A relevant note for firms with cross-jurisdictional payroll clients or bespoke integrations that touch NZ-side employee records; unmapped fields will fail at write."
+          ],
+          "source": "Xero Developer Changelog"
+        },
+        {
+          "headline": "QuickBooks Desktop support ended; QBO mid and top tiers up since 1 August",
+          "tags": ["Desktop unsupported", "QBO price rise since 1 Aug"],
+          "body": [
+            "QuickBooks Desktop support officially ended on 31 May 2026, and QuickBooks Online mid and top-tier prices rose on 1 August. Any remaining Desktop clients should be migrated to a supported cloud stack ahead of MTD ITSA year-end procedures, with fee proposals updated to reflect the QBO price move."
+          ],
+          "source": "Intuit, Insightful Accountant"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "Independent advisers dominate the London mid-market league table",
+          "tags": ["Perella Weinberg, Houlihan Lokey", "Lincoln International, DC Advisory"],
+          "body": [
+            "Perella Weinberg Partners, Houlihan Lokey, Lincoln International, and DC Advisory continue to dominate independent M&A league tables in London, with mid-market deal flow this month concentrated in healthcare and legal-sector consolidation. Healthcare Sector Insights 2026 highlights sustained appetite from private equity and strategic acquirers despite wider macro caution."
+          ],
+          "source": "Healthcare Sector Insights 2026"
+        },
+        {
+          "headline": "Legal-sector M&A drives premium valuations",
+          "tags": ["Sell-side mandates up year on year", "CF pipeline for accountancy teams"],
+          "body": [
+            "UK law firms are reporting a wave of consolidation as regulatory pressure and technology investment reward scale. Sell-side mandates from mid-tier firms are up materially year on year, offering pipeline opportunity for accountancy corporate finance teams. The read echoes the accounting-sector consolidation drivers and rewards firms with combined tax, corporate finance, and IFA capability."
+          ],
+          "meaning": "Corporate finance leads should be actively pitching sell-side mandates to mid-tier legal principals now. The valuation window is open and moves fast.",
+          "source": "Sector research"
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "IFA consolidation follows the accountancy roll-up trail",
+          "tags": ["Combined tax, planning and CF", "Multiple premium"],
+          "body": [
+            "PE-backed IFA and wealth consolidators are increasingly buying integrated accountancy-plus-wealth propositions, mirroring the accountancy sector's own consolidation. Firms with combined tax, financial planning, and corporate finance offerings are commanding revenue multiples materially above single-service peers."
+          ],
+          "meaning": "Firms with an in-house IFA arm should be documenting the integration story now: cross-referral rates, retention, and shared-client economics are the numbers acquirers pay a premium for.",
+          "source": "Sector research"
+        }
+      ]
+    }
+  ]
+}
