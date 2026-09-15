@@ -4,7 +4,7 @@
   "title": "Autumn Budget lands 28 October as CGT equalisation looms",
   "kicker": "the",
   "region": "UK & Ireland",
-  "summary": "The Autumn Budget is set for 28 October with CGT equalisation in focus, HMRC begins auto-enrolling MTD stragglers, the first crypto dataset exposes a concentrated risk pool, Xero lifts every UK tier, and consolidation rolls on despite the collapsed Xeinadin auction.",
+  "summary": "The Autumn Budget is set for 28 October with CGT equalisation in focus, HMRC begins auto-enrolling MTD stragglers, the first crypto dataset exposes a concentrated risk pool, Xero lifts every UK tier, and consolidation rolls on across the mid-tier.",
   "categories": [
     {
       "name": "Accountancy in Practice",
@@ -193,15 +193,14 @@
       "name": "Mergers, Acquisitions & Corporate Finance",
       "stories": [
         {
-          "headline": "Sector consolidation continues despite collapsed Xeinadin auction",
-          "tags": ["Xeinadin auction paused", "34 disclosed bolt-ons", "27% top-60 PE-backed"],
+          "headline": "Sector consolidation runs hot as private equity keeps buying",
+          "tags": ["Mid-tier bolt-ons continue", "27% top-60 PE-backed", "86% approached in 2024"],
           "body": [
-            "The pause of Exponent's high-profile Xeinadin auction earlier this year, where bids failed to clear the £1bn+ valuation, remains the reference point for mid-tier UK deal-making. Sentiment has since recovered: Xeinadin has continued its rapid bolt-on programme (34 disclosed acquisitions to date), while Burgess Hodgson's takeover of Spain Brothers in Kent and Xeinadin's absorption of Sussex-based PRB Accountants in July underline that sub-scale independents remain the fuel for consolidator growth. Private equity remains the driving force, with 27% of the top-60 firms reporting they have already taken PE funding and 86% approached by investors in 2024."
+            "Mid-tier UK deal-making remains buoyant, with sponsor-backed platforms continuing rapid bolt-on programmes across the country. Burgess Hodgson's takeover of Spain Brothers in Kent is a recent example that sub-scale independents remain the fuel for consolidator growth. Private equity remains the driving force, with 27% of the top-60 firms reporting they have already taken PE funding and 86% approached by investors in 2024."
           ],
           "source": "Accountancy Age, International Accounting Bulletin",
           "charts": [
             {"type": "stat_row", "items": [
-              {"value": "34", "label": "disclosed Xeinadin bolt-ons to date"},
               {"value": "27%", "label": "of top-60 firms already PE-backed"},
               {"value": "86%", "label": "of top-60 approached by investors in 2024"}
             ]}

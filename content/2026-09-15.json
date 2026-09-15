@@ -1,0 +1,212 @@
+{
+  "date": "2026-09-15",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "Autumn Budget set for 28 October as Top 75 firm fees climb to £24bn",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "The Chancellor confirms an Autumn Budget for 28 October framed as pro-growth, the UK's Top 75 firms grow fees 5% to £24.13bn amid private-equity consolidation, HMRC's Cryptoasset Reporting Framework sets a first filing deadline of 31 May 2027, voluntary payrolling of benefits in kind opens from November 2026, and GCC bank lending hits a record $2.59tn.",
+  "categories": [
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "Top 75 firms post 5% fee growth as PE reshapes the mid-tier",
+          "tags": ["£24.13bn total fees", "Regional hub land grab"],
+          "body": [
+            "The latest Top 75 Firms survey shows the UK's leading practices booked £24.13bn in fees, up from £22.99bn, with private equity-backed buy-and-build strategies driving much of the M&A activity. Commentators now describe the mid-tier as a faster-moving, increasingly sophisticated segment, and regional hubs, including a fresh land grab for North London practices, are now the primary consolidation battleground. Practices weighing exit or growth capital should read the survey as a live benchmark for multiples and positioning."
+          ],
+          "meaning": "Any firm contemplating exit, recapitalisation, or a growth-capital raise should re-baseline valuation expectations against this survey now. The mid-tier is repricing quickly and regional scarcity is part of the premium.",
+          "source": "Accountancy Age",
+          "charts": [
+            {"type": "compare_bars", "title": "UK Top 75 firms: total fee income", "unit": "£ billion",
+             "bars": [
+               {"label": "Prior year", "value": 22.99, "display": "£22.99b", "caption": "Previous survey"},
+               {"label": "Latest", "value": 24.13, "display": "£24.13b", "caption": "Up around 5%"}
+             ], "note": "Private equity-backed buy-and-build strategies are driving much of the underlying M&A."}
+          ]
+        },
+        {
+          "headline": "Chartered accountant pay hits €130,960 in Leinster",
+          "tags": ["CAI Leinster Society, Barden", "Tight talent market"],
+          "body": [
+            "A Chartered Accountants Ireland Leinster Society and Barden survey of around 800 accountants puts average take-home in Leinster at €130,960 for 2026, underlining the tight talent market. Partner-track and senior-manager retention costs are rising accordingly, and Dublin firms are using the survey this week to recalibrate salary bands ahead of Q4 hiring rounds."
+          ],
+          "source": "Chartered Accountants Ireland Leinster Society, Barden",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "€130,960", "label": "average Leinster take-home, 2026"},
+              {"value": "~800", "label": "accountants surveyed"}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HMRC",
+      "stories": [
+        {
+          "headline": "Autumn Budget confirmed for 28 October 2026",
+          "tags": ["28 October", "Pro-growth framing"],
+          "body": [
+            "The Chancellor has confirmed the Autumn Budget for 28 October 2026, trailing measures aimed at encouraging investment and growth while emphasising fiscal responsibility, and framing the package as pro-growth rather than pro-stimulus. Pre-Budget planning notes and client communications should be finalised over the coming fortnight."
+          ],
+          "meaning": "Lock the pre-Budget client comms and planning calendar now. A 28 October date leaves a tight window to model likely measures and get ahead of client questions.",
+          "source": "HM Treasury"
+        },
+        {
+          "headline": "Cryptoasset Reporting Framework: first platform filings due 31 May 2027",
+          "tags": ["OECD CARF live", "Covers calendar 2026"],
+          "body": [
+            "The UK's implementation of the OECD Crypto-Asset Reporting Framework is now live. Platforms must file their first returns to HMRC by 31 May 2027, covering the whole of calendar 2026. Advisers should factor platform-level reporting into client crypto disclosure reviews now, ahead of the first filing cycle."
+          ],
+          "meaning": "Platform-level reporting is now a fixed date in the calendar. Any client with a crypto footprint should be reviewed well before the 31 May 2027 filings expose the 2026 data.",
+          "source": "HMRC"
+        },
+        {
+          "headline": "BiK payrolling: voluntary registration opens November 2026",
+          "tags": ["Voluntary from Nov 2026", "Mandatory 6 April 2027"],
+          "body": [
+            "HMRC has confirmed employers can voluntarily register from November 2026 to payroll benefits in kind ahead of mandatory payrolling from 6 April 2027. Phase one covers company cars and fuel, vans and van fuel, and private medical benefits. Early adopters can use the voluntary window to test payroll changes before the mandate, and the technical rebuild of P11D-adjacent processes should be scoped now."
+          ],
+          "source": "HMRC"
+        }
+      ]
+    },
+    {
+      "name": "Making Tax Digital",
+      "stories": [
+        {
+          "headline": "MTD ITSA: £30,000 threshold drop confirmed for April 2027",
+          "tags": ["£30k threshold from Apr 2027", "First year filing near 50%"],
+          "body": [
+            "HMRC's first mandatory MTD ITSA rollout saw around 436,000 successful submissions against an eligible population of roughly 864,000 by the 7 August 2026 deadline, close to half unfiled. With the qualifying-income threshold dropping to £30,000 from April 2027, firms should treat the next four quarters as a remediation window rather than steady state, tightening onboarding and quarterly cadence before a much larger population comes into scope."
+          ],
+          "meaning": "The £30,000 threshold pulls a materially larger client base into MTD from April 2027. Use the next four quarters to fix the processes that the first cohort exposed, not to coast.",
+          "source": "HMRC"
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "VAT on alternative higher and further education: HMRC Brief 9 (2026)",
+          "tags": ["Revenue & Customs Brief 9 (2026)", "Exemption boundary tightened"],
+          "body": [
+            "Revenue & Customs Brief 9 (2026) sets out HMRC's position on the VAT treatment of supplies of education by alternative providers of higher and further education, tightening the exemption boundary. Firms advising independent training providers, apprenticeship providers, and edtech clients should re-test partial-exemption calculations against the new guidance."
+          ],
+          "meaning": "Any client that is an alternative HE or FE provider needs its VAT liability and partial-exemption position re-tested against Brief 9 before the next return. The exemption boundary has moved.",
+          "source": "HMRC"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "Agentic AI enters the mid-market",
+          "tags": ["Accountancy Age", "Agent orchestration, not just copilots"],
+          "body": [
+            "Accountancy Age reports the launch of agentic AI tooling into the UK mid-market, described as a structural rather than incremental shift. Firms currently piloting copilots should re-scope their AI roadmaps to include agent orchestration and workflow automation, not just assisted document review."
+          ],
+          "source": "Accountancy Age"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "ONS publishes Q2 M&A statistics; Q3 data due 2 December",
+          "tags": ["Apr-Jun 2026 data out", "Jul-Sep due 2 Dec"],
+          "body": [
+            "The Office for National Statistics released UK M&A statistics for April to June 2026 on 1 September, with July to September 2026 data due on 2 December 2026. The sequencing is useful for advisers pitching year-end deal reviews and setting client expectations on where reported activity sits against the live pipeline."
+          ],
+          "source": "ONS"
+        },
+        {
+          "headline": "PwC Ireland promotes two tax partners",
+          "tags": ["Melissa Fenlon", "Kevin Galligan, FDI"],
+          "body": [
+            "PwC Ireland has confirmed Melissa Fenlon (Domestic and International Outbound, South-East region) and Kevin Galligan (Foreign Direct Investment) as new tax partners, reinforcing PwC's FDI and outbound structuring capability at a moment of continued inbound multinational activity into Ireland."
+          ],
+          "source": "PwC Ireland"
+        }
+      ]
+    },
+    {
+      "name": "Gulf & International",
+      "stories": [
+        {
+          "headline": "GCC bank lending hits a record $2.59tn",
+          "tags": ["+11.6% year on year", "$49.3bn Saudi issuance in H1"],
+          "body": [
+            "Aggregate lending across 55 listed GCC banks reached a record $2.59tn at the end of Q2 2026, up 2.6% quarter on quarter and 11.6% year on year, signalling continued credit expansion and a supportive backdrop for corporate finance mandates in the region. Saudi issuers alone raised $49.3bn in bonds and sukuk in the first half of 2026, close to half of total GCC issuance."
+          ],
+          "source": "AGBI, Arab News",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "$2.59tn", "label": "GCC bank lending, a record at end-Q2 2026"},
+              {"value": "+11.6%", "label": "year on year"},
+              {"value": "$49.3bn", "label": "Saudi bonds and sukuk raised in H1 2026"}
+            ]}
+          ]
+        },
+        {
+          "headline": "Gulf equity flows narrow to Abu Dhabi and pockets of Saudi",
+          "tags": ["Selective foreign inflows", "Softer regional sentiment"],
+          "body": [
+            "Foreign investors are becoming more selective across Gulf equities, concentrating capital into Abu Dhabi and specific Saudi names as broader regional sentiment softens. It is a useful data point for corporate finance teams pricing GCC deals or advising on cross-border listings."
+          ],
+          "source": "AGBI"
+        },
+        {
+          "headline": "Saudi East-West pipeline shut after drone attack",
+          "tags": ["Export capacity impaired", "Stress-test energy cashflows"],
+          "body": [
+            "Saudi Arabia has shut its East-West oil pipeline after a drone attack originating from Iraq, temporarily impairing export capacity. Advisers to energy-adjacent clients should stress-test cashflow and hedging assumptions in light of the disruption."
+          ],
+          "source": "Arab News"
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "FCA bans and fines adviser over pension transfer advice",
+          "tags": ["Decision dated 3 Sep 2026", "DB transfer files in focus"],
+          "body": [
+            "In a decision dated 3 September 2026, the FCA has banned and fined an adviser over unauthorised pension transfer advice. It is a reminder to networks and compliance teams that defined-benefit transfer files remain a high-priority enforcement target, and that historic advice suitability continues to carry personal liability."
+          ],
+          "meaning": "Networks should re-check that DB transfer file reviews and advice-suitability evidence are current. Enforcement on legacy transfer advice is still live and personal.",
+          "source": "FCA"
+        },
+        {
+          "headline": "Guilty plea in fabricated takeover-approach fraud case",
+          "tags": ["Fraud and forgery", "Market-abuse-adjacent conduct"],
+          "body": [
+            "On 10 September 2026 an individual pleaded guilty to fraud and forgery offences relating to a fabricated takeover approach. The case is worth flagging to advisory clients as an example of the enforcement pipeline against market-abuse-adjacent conduct."
+          ],
+          "source": "FCA"
+        },
+        {
+          "headline": "Crypto authorisation window opens",
+          "tags": ["Applications from Sep 2026", "Map the permissions gap"],
+          "body": [
+            "Under the FCA's 2026/27 annual work programme, firms can apply for authorisation from September 2026 onwards under the crypto roadmap. IFAs and wealth managers with crypto propositions should map their permissions gap now, ahead of the authorisation cycle."
+          ],
+          "source": "FCA"
+        },
+        {
+          "headline": "Advice-guidance boundary proposals move forward",
+          "tags": ["Wider access to advice", "Trade-body commentary expected"],
+          "body": [
+            "The FCA has published proposals designed to widen access to financial advice for important life decisions, part of its ongoing advice-guidance boundary work. Fresh commentary from advisory trade bodies is expected in the coming days, and firms should track the proposals for their impact on targeted-support and simplified-advice models."
+          ],
+          "source": "FCA"
+        }
+      ]
+    }
+  ]
+}
