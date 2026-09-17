@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-17",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "New AML regime goes live as UK investment stalls and deals close faster",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "The Money Laundering (Amendment) Regulations 2026 are now in force with updated CCAB guidance, the British Chambers of Commerce reports only 17% of firms raised investment in Q2, the weakest reading since the pandemic, UK M&A execution time falls to 253 days, ICAEW consults on who may use the Chartered Accountant designation, and QuickBooks bundles Bill Pay Elite into Advanced.",
+  "categories": [
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "Money Laundering and Terrorist Financing (Amendment) Regulations 2026 in force",
+          "tags": ["MLR 2026 live", "Updated CCAB guidance", "MLRO action"],
+          "body": [
+            "ICAEW's September regulatory bulletin highlights the key changes introduced by The Money Laundering and Terrorist Financing (Amendment) Regulations 2026, alongside updated CCAB guidance, with an accompanying video briefing from ICAEW's Head of AML. MLROs should update firm-wide risk assessments, client onboarding procedures, and PEP and enhanced-due-diligence workflows to reflect the new provisions."
+          ],
+          "meaning": "Fold the CCAB updates into the firm-wide risk assessment refresh this month. AML supervisor visits after year-end will look for evidence the September regime is embedded.",
+          "source": "ICAEW, CCAB"
+        },
+        {
+          "headline": "ICAEW consults on Chartered Accountant designation rules",
+          "tags": ["ICAEW consultation", "Group structures and affiliates"],
+          "body": [
+            "ICAEW has opened a consultation on proposed changes to the regulations that determine which firms may describe themselves as Chartered Accountants. The reforms aim to simplify firm eligibility, clarify how the rules apply to group structures, and streamline requirements for general affiliates. Firms operating within larger groups or holding structures should review the draft proposals ahead of the response deadline."
+          ],
+          "source": "ICAEW"
+        },
+        {
+          "headline": "ICAEW publishes inclusive workplace and neurodivergence guidance",
+          "tags": ["HR and people policy input"],
+          "body": [
+            "ICAEW has released new guidance to help firms support neurodivergent employees and embed more inclusive workplace practices. The resource is likely to feed into HR and people-team policy reviews at mid-tier and regional practices, particularly around recruitment scripts, performance frameworks, and adjustments processes."
+          ],
+          "source": "ICAEW"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "BCC: only 17% of UK firms increased Q2 investment, weakest since the pandemic",
+          "tags": ["17% raised investment in Q2 2026", "82% flag NI cost impact"],
+          "body": [
+            "The British Chambers of Commerce reported that only 17% of UK firms increased investment during Q2 2026, the weakest reading since the pandemic. Labour costs, taxation, and regulation remain the most-cited concerns, with 82% of respondents expecting the 2024 employer National Insurance increase to have a negative effect on the business. Corporate finance teams should factor a more cautious pipeline into H2 forecasts."
+          ],
+          "meaning": "H2 pipeline models need a haircut. Advisers should be steering clients toward margin protection and refinancing conversations, not growth-capital pitches, until visibility improves.",
+          "source": "British Chambers of Commerce",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "17%", "label": "of UK firms raised investment in Q2 2026, weakest since the pandemic"},
+              {"value": "82%", "label": "expect the 2024 employer NI rise to hurt the business"}
+            ]}
+          ]
+        },
+        {
+          "headline": "UK M&A execution time falls to 253 days, fastest since 2022",
+          "tags": ["Average execution time down 4%", "£1tn+ PE dry powder"],
+          "body": [
+            "Advisers continue to point to over £1 trillion in unspent private equity commitments as the driver behind renewed mid-market and bolt-on activity. Average execution time on UK M&A has fallen 4% to 253 days, the fastest since 2022, with buyers concentrating on fewer, higher-quality assets. Deal value is rising even as volumes remain subdued."
+          ],
+          "source": "Consultancy.uk",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "253 days", "label": "average UK M&A execution time, fastest since 2022"},
+              {"value": "-4%", "label": "year on year"},
+              {"value": "£1tn+", "label": "unspent private equity commitments"}
+            ]}
+          ]
+        },
+        {
+          "headline": "Indian investor interest in UK builds on the UK-India trade deal",
+          "tags": ["ICAEW Corporate Financier", "Inbound mandates"],
+          "body": [
+            "ICAEW's Corporate Financier (September 2026) leads with rising interest from Indian investors in UK businesses, coinciding with the UK-India bilateral trade deal. Corporate finance teams should be alert to inbound mandates and to sector rotations reflecting the treaty's tariff and services provisions, particularly around technology, manufacturing, and services."
+          ],
+          "source": "ICAEW Corporate Financier"
+        },
+        {
+          "headline": "Kromek Group: AIM chairman acquires 145,454 shares",
+          "tags": ["Kromek Group plc, AIM", "Detection technology"],
+          "body": [
+            "Kromek Group disclosed that its chairman acquired 145,454 ordinary shares in the AIM-listed detection technology firm on 15 September 2026. It is a signal advisers monitoring insider activity in the small-cap technology space will note ahead of any sector-level pitch work."
+          ],
+          "source": "RNS disclosure"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "QuickBooks Online September release: Bill Pay Elite bundled with Advanced",
+          "tags": ["Intuit", "Bill Pay Elite bundled", "ProPartner global launch"],
+          "body": [
+            "Intuit rolled out September updates including a preview of October changes, the launch of the Intuit ProPartner Accountant global partner programme, and expanded QuickBooks Workforce functionality for firms using the Intuit Accountant Suite. Workforce now covers recruitment, hiring, onboarding, time-off management, and performance-review workflows, and Bill Pay Elite is now bundled into QuickBooks Advanced."
+          ],
+          "meaning": "Practices with Advanced-tier clients should refresh fee proposals to reflect the Bill Pay Elite bundle, and evaluate Workforce for internal talent operations as well as client onboarding.",
+          "source": "Intuit, Firm of the Future"
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "IFA Magazine September 2026: next-generation client focus",
+          "tags": ["IFA Magazine, Issue 151", "Social care funding thresholds"],
+          "body": [
+            "The September edition focuses on future-focused advice for the next generation of clients, covering social care funding thresholds, behavioural perspectives on risk management, and the regional distribution challenges facing growth investment strategies. Useful thematic input for firms building next-generation propositions and adviser-client positioning frameworks."
+          ],
+          "source": "IFA Magazine"
+        },
+        {
+          "headline": "TIPS Financial Magazine: IHT reforms bed in",
+          "tags": ["Truly Independent (TIPS)", "IHT, retirement income"],
+          "body": [
+            "The September/October edition centres on inheritance tax changes, retirement income strategies, and financial security and protection planning. The content mix reflects client concerns as IHT reforms bed in, and pairs directly with the APR and BPR restructuring pressure across the accountancy side of the market."
+          ],
+          "source": "Truly Independent"
+        },
+        {
+          "headline": "Change Drives Growth digital conference, 23 September",
+          "tags": ["Adviser-Hub", "23 September 2026"],
+          "body": [
+            "Adviser-Hub's Change Drives Growth digital conference on 23 September is aimed at IFA marketing and practice-management professionals looking at growth strategy in a shifting regulatory environment. A useful diary entry alongside the FCA advice-guidance boundary work already in flight."
+          ],
+          "source": "Adviser-Hub"
+        }
+      ]
+    }
+  ]
+}
