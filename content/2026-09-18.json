@@ -1,0 +1,163 @@
+{
+  "date": "2026-09-18",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "Audit rules tighten and a reporting-framework review opens ahead of the Budget",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "Revised Audit Regulations take effect on 1 October with a 90-day dispensation cap, the Government opens a wide-ranging corporate reporting framework review, the 28 October Autumn Budget is expected to bring business rates reform and Corporate Interest Restriction changes, the IFA sector logs 133 consolidation deals with private equity around three-quarters of buyers, and Xero holds 45.1% of UK accounting-software paid search.",
+  "categories": [
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "Revised Audit Regulations live from 1 October with a 90-day dispensation cap",
+          "tags": ["1 October 2026 go-live", "Max 90-day dispensation"],
+          "body": [
+            "The revised Audit Regulations come into force on 1 October 2026. The principal change confirms that where a registered audit firm breaches eligibility requirements, any dispensation permitting it to continue as statutory auditor may not exceed 90 days. Audit compliance partners should update internal escalation procedures and monitoring reports ahead of the deadline."
+          ],
+          "meaning": "Update escalation runbooks and status reporting so a breach is caught early enough for the 90-day clock to be workable. Silent breaches will now translate into audit-firm risk faster than the old regime allowed.",
+          "source": "ICAEW, Audit Regulations"
+        },
+        {
+          "headline": "IAASA adopts revised ISQM (Ireland) 1 and 2",
+          "tags": ["IAASA", "May 2026 revisions"],
+          "body": [
+            "Ireland's Auditing and Accounting Supervisory Authority has adopted the revised ISQM (Ireland) 1 and ISQM (Ireland) 2 (May 2026 versions). Irish audit firms should ensure system-of-quality-management documentation reflects the revised text before the next monitoring cycle. The refresh pairs directly with the ISAE (Ireland) 3000 sustainability assurance work Chartered Accountants Ireland has already highlighted for the year."
+          ],
+          "source": "IAASA"
+        },
+        {
+          "headline": "Government opens Corporate Reporting Framework review",
+          "tags": ["Reshape annual reports", "Proportionality, sustainability"],
+          "body": [
+            "The UK government has opened a wide-ranging review of the corporate reporting framework that is expected to reshape annual reports for entities of all sizes. Early signals point to greater proportionality for smaller companies alongside expanded sustainability and assurance disclosures for the largest reporters. Reporting teams and audit engagement leaders should monitor scoping papers as they land."
+          ],
+          "source": "GOV.UK"
+        },
+        {
+          "headline": "ICAEW responds to Finance Bill 2026-27 and treaty withholding consultations",
+          "tags": ["ICAEW submissions", "Transitional provisions"],
+          "body": [
+            "ICAEW has filed responses to two Treasury consultations: the draft legislation for Finance Bill 2026-27 and proposals to simplify treaty relief from withholding tax on interest paid overseas. Both submissions push for clearer transitional provisions and reduced administrative overhead for advisers. Firms handling cross-border interest flows should track the withholding proposals closely."
+          ],
+          "source": "ICAEW"
+        },
+        {
+          "headline": "Statement on Members Engaging in Public Practice refreshed from 1 October",
+          "tags": ["Small charity threshold moved 30 Sep", "Sole practitioners, charity clients"],
+          "body": [
+            "The updated Statement on Members Engaging in Public Practice takes effect from 1 October 2026, aligned with the statutory change to the small charity threshold that took effect on 30 September. Sole practitioners with charity clients are advised to check whether current engagements remain within the revised thresholds."
+          ],
+          "source": "ICAEW"
+        }
+      ]
+    },
+    {
+      "name": "HMRC & MTD",
+      "stories": [
+        {
+          "headline": "MTD ITSA: the gap between in scope and ready is where firms lose fee time",
+          "tags": ["7 November interim deadline", "Software, bookkeeping, agent auth"],
+          "body": [
+            "AccountingWEB reports that while most firms can quantify how many clients fall within MTD for Income Tax, far fewer have a defensible view of how many are technically ready to file. With the 7 November interim deadline visible on the horizon, software onboarding, bookkeeping backlogs, and agent authorisation are called out as the three most common bottlenecks in mid-sized practices."
+          ],
+          "meaning": "Score every in-scope client on the three readiness gates now. Any red on software, bookkeeping, or agent authorisation should be a partner-owned action item, not a filing-week surprise.",
+          "source": "AccountingWEB"
+        },
+        {
+          "headline": "Charity director Self Assessment: HMRC guidance clarified",
+          "tags": ["HMRC", "Trustees and directors"],
+          "body": [
+            "HMRC has clarified the position for directors of charities regarding new Self Assessment return obligations. Firms with charity-sector clients are advised to review trustee and director filing responsibilities in light of the update, particularly for individuals with only nominal remuneration but reportable benefits."
+          ],
+          "source": "HMRC"
+        }
+      ]
+    },
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "BHP welcomes 44-strong trainee intake; Azets adds a senior hire",
+          "tags": ["44 new BHP trainees", "Azets senior hire"],
+          "body": [
+            "BHP has welcomed a 44-strong intake of accountancy trainees this month, one of its largest cohorts to date. Separately, Azets has appointed Michael Norrie as an associate, continuing the firm's steady pace of senior hires across the mid-market. Both moves reinforce the read that mid-tier practices are competing on cohort scale and lateral hires at the same time."
+          ],
+          "source": "Trade press"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "badge": "BUDGET 28 OCT",
+      "stories": [
+        {
+          "headline": "Autumn Budget 28 October: business rates and CIR changes signalled",
+          "tags": ["28 October 2026", "Small Business Rates Relief, CIR"],
+          "body": [
+            "The Chancellor will deliver the Autumn Budget on Wednesday 28 October alongside the OBR's economic and fiscal forecast. Corporation tax is signalled as broadly stable, but wider business rates reform, including changes to Small Business Rates Relief, and modifications to the Corporate Interest Restriction reporting framework, are expected. Corporate finance teams should factor the timing into deal calendars and vendor due diligence."
+          ],
+          "meaning": "Deal calendars and vendor due diligence should not have completion events landing across 28 October. CIR reporting-framework changes may also affect ongoing debt-financed acquisitions in due diligence.",
+          "source": "HM Treasury, OBR"
+        },
+        {
+          "headline": "PE-to-PE sales now a growing share of professional-services activity",
+          "tags": ["Onward PE sales", "Legal and accounting"],
+          "body": [
+            "Consolidation continues to shape the UK and Ireland professional services market, and advisers report strong pipelines heading into Q4. A growing share of activity now represents PE-to-PE onward sales of assets acquired in the early consolidation cycles, a signal that the market has moved from platform build-out into second-owner value creation and refinancing."
+          ],
+          "source": "Sector research"
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "IFA sector: 133 consolidation deals in 2025, PE around 75% of buyers",
+          "tags": ["133 deals in 2025", "~75% PE-backed", "Succession-driven flow"],
+          "body": [
+            "The IFA sector recorded 133 consolidation deals in 2025 and is on track for a comparable or higher tally in 2026, with PE-backed buyers now accounting for around three-quarters of transactions. September completions include further add-ons by Eight Financial Advice, Baggette + Co, Beckett Investment Management, and MKC Wealth, keeping succession-driven vendor flow at multi-year highs."
+          ],
+          "meaning": "Advisers approaching retirement should be scoping their exit narrative and evidence base this year, not next. The bidding market is still active, but it is being run by a small group of very disciplined buyers.",
+          "source": "Sector research",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "133", "label": "IFA consolidation deals in 2025"},
+              {"value": "~75%", "label": "of buyers now private-equity backed"}
+            ]}
+          ]
+        },
+        {
+          "headline": "Standard Life: full university drawdown can cost £119k in retirement",
+          "tags": ["£119,000 retirement gap", "Intergenerational planning"],
+          "body": [
+            "Research from Standard Life published on 16 September indicates that parents drawing on pension savings to cover the full cost of a child's university education could retire with £119,000 less than they otherwise would. Advisers are using the analysis to reopen conversations on intergenerational wealth planning and phased tuition support, particularly for clients with children entering sixth form."
+          ],
+          "source": "Standard Life"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "UK accounting-software paid search: Xero holds 45.1% of spend",
+          "tags": ["Xero 45.1%", "QuickBooks 17.8%, Sage 13.2%"],
+          "body": [
+            "Recent UK payroll and accounting paid-search data places Xero at 45.1% share of spend, well ahead of QuickBooks at 17.8% and Sage at 13.2%. The read points to continued channel dominance by Xero heading into the MTD peak, and is worth referencing in fee-proposal and stack-selection conversations with clients."
+          ],
+          "source": "Market share data",
+          "charts": [
+            {"type": "bars", "title": "UK accounting-software share of paid-search spend", "unit": "% of PPC spend",
+             "bars": [
+               {"label": "Xero", "value": 45.1, "display": "45.1%"},
+               {"label": "QuickBooks", "value": 17.8, "display": "17.8%"},
+               {"label": "Sage", "value": 13.2, "display": "13.2%"}
+             ]}
+          ]
+        }
+      ]
+    }
+  ]
+}
