@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-21",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "Irish tax windfall lands as the FCA reopens IPOs and HMRC finalises MFA",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "Irish corporation tax receipts are set to overshoot the €35.3bn forecast ahead of the 6 October Budget, the FCA deregulates the IPO regime by scrapping the seven-day prospectus-research gap, its crypto authorisation window opens on 30 September, HMRC's final Multi-Factor Authentication phase begins 28 September, and MHA acquires Baker Tilly's operations in Cyprus and Greece.",
+  "categories": [
+    {
+      "name": "Ireland",
+      "badge": "BUDGET DAY 6 OCT",
+      "stories": [
+        {
+          "headline": "Irish corporation tax set to overshoot the €35.3bn forecast",
+          "tags": ["Above €35.3bn", "Budget Day 6 October", "Upward projection revisions"],
+          "body": [
+            "The Irish Times reports that corporation tax receipts are on track to materially exceed the €35.3bn forecast, driven by final top-up payments from 31 December year-end filers. Grant Thornton's Peter Vale notes the Irish government is now working on upward revisions to 2026 and 2027 projections, with revised figures due on Budget Day, 6 October. It is a material data point for corporate finance advisers pricing Irish deals and for firms sequencing UK-Ireland Budget-week client comms."
+          ],
+          "meaning": "Corporate finance teams pricing Irish deals should factor the fiscal cushion into revenue-quality and valuation conversations. Budget Day is now the biggest anchor in the Irish market calendar for the next two weeks.",
+          "source": "The Irish Times, Grant Thornton"
+        }
+      ]
+    },
+    {
+      "name": "FCA & Regulation",
+      "stories": [
+        {
+          "headline": "FCA PS26/16 deregulates the IPO regime",
+          "tags": ["Effective 5 August", "No 7-day prospectus-research gap", "Faster issuance timetables"],
+          "body": [
+            "Under Policy Statement PS26/16, effective 5 August 2026, the FCA has scrapped the mandatory seven-day gap between prospectus publication and connected research, and removed the requirement to share equivalent information with unconnected analysts. The change accelerates equity-issuance timetables and is relevant to corporate finance advisers on pre-IPO mandates. Working-group templates should be updated to reflect the compressed research-window sequence."
+          ],
+          "meaning": "Working-group and syndicate templates need updating this month. The compressed timetable rewards issuers with clean prospectus drafts and disciplined analyst outreach, and punishes those still consolidating a story on the eve of launch.",
+          "source": "FCA PS26/16"
+        },
+        {
+          "headline": "FCA PS26/18: crypto authorisation window opens 30 September",
+          "tags": ["Applications open 30 Sep 2026", "Stablecoin issuance", "Trading, custody, staking"],
+          "body": [
+            "The FCA's Policy Statement PS26/18 confirms the UK's crypto authorisation regime will accept applications from 30 September 2026, covering qualifying stablecoin issuance, trading platforms, dealing and arranging, custody, and staking. Advisers with client exposure to crypto products should confirm distributor and custodian status before recommending onward positions, and firms planning to enter the regulated crypto perimeter should have permissions-gap analysis and application drafting under way now."
+          ],
+          "source": "FCA PS26/18"
+        }
+      ]
+    },
+    {
+      "name": "HMRC",
+      "badge": "MFA SWITCHOVER 28 SEP",
+      "stories": [
+        {
+          "headline": "Final phase of Multi-Factor Authentication rollout begins 28 September",
+          "tags": ["Switchover 28 September", "Agent and taxpayer portals"],
+          "body": [
+            "HMRC has confirmed the closing phase of its MFA rollout across agent and taxpayer services will commence on 28 September 2026. Firms with staff accessing HMRC portals should verify authenticator apps or backup methods are enrolled ahead of the switchover, as access disruptions are likely for accounts still on legacy sign-in flows. Recovery contacts, shared mailboxes, and personal-mobile dependencies remain the fault lines identified earlier this month."
+          ],
+          "meaning": "Every HMRC login should have a documented authenticator, a documented backup method, and an owner. Anyone falling through those three gates on 28 September will lose access at a filing-critical moment.",
+          "source": "HMRC"
+        }
+      ]
+    },
+    {
+      "name": "Making Tax Digital",
+      "stories": [
+        {
+          "headline": "Bridging solutions still required for spreadsheet-first workflows",
+          "tags": ["HMRC MTD software list stable", "Xero, QBO, Sage"],
+          "body": [
+            "Xero, QuickBooks Online (including Self-Employed), and Sage Business Cloud Accounting remain on HMRC's official list of software compatible with MTD for both VAT and Income Tax Self Assessment. No provider has been added or removed in the past 24 hours, but agents are reminded to check bridging solutions where clients remain on spreadsheet-first workflows. Bridging remains a legitimate route, but audit trails and control expectations are the same as for cloud-native stacks."
+          ],
+          "source": "HMRC MTD collection"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "MHA acquires Baker Tilly operations in Cyprus and Greece",
+          "tags": ["MHA cross-border push", "Cyprus and Greece"],
+          "body": [
+            "MHA has acquired Baker Tilly's operations in Cyprus and Greece, extending the mid-tier's cross-border European footprint. The deal fits the pattern of UK-headed practices adding continental delivery to serve inbound EU work and cross-border restructuring, and reinforces the read that mid-tier firms are competing on geography as well as service line into Q4."
+          ],
+          "meaning": "Mid-tier competitors evaluating cross-border strategy should now weigh Southern Europe alongside Ireland as an EU access point. Client teams servicing shipping, maritime, and fund-structuring mandates in particular should track integration signals.",
+          "source": "Trade press"
+        },
+        {
+          "headline": "UK and Irish Budget calendars fall three weeks apart",
+          "tags": ["Irish Budget 6 October", "UK Budget 28 October"],
+          "body": [
+            "The Irish Budget on 6 October and the UK Autumn Budget on 28 October fall three weeks apart. Firms with UK-Ireland dual-jurisdiction clients now have a sequenced client comms window that runs from early October to early November. Pre-Budget positioning notes for each jurisdiction should be scoped and drafted on separate tracks."
+          ],
+          "source": "HM Treasury, Department of Finance (Ireland)",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "6 Oct", "label": "Irish Budget Day"},
+              {"value": "28 Oct", "label": "UK Autumn Budget"}
+            ]}
+          ]
+        }
+      ]
+    }
+  ]
+}
