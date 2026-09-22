@@ -1,0 +1,110 @@
+{
+  "date": "2026-09-22",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "FRS 102 changes reshape year-end accounts as crypto disclosures top £1.38bn",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "Amended FRS 102 leases and revenue standards are reshaping December year-end accounts, with higher balance-sheet gearing and restatements landing on audit files, HMRC's first crypto disclosure data surfaces £1.38bn in gains ahead of CARF exchange in 2027, H2 M&A activity concentrates in AI, healthcare, energy and business services, and mid-tier firms report a deepening talent bottleneck.",
+  "categories": [
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "FRS 102 Section 20 leases: balance-sheet gearing rising at year-end",
+          "tags": ["Live for periods from 1 Jan 2026", "Lessee operating/finance split removed"],
+          "body": [
+            "With FRS 102's amended Section 20 (leases) now live for accounting periods beginning on or after 1 January 2026, ICAEW, KPMG, and Grant Thornton commentary continues to flag common early-adoption pitfalls. Removal of the operating and finance lease split for lessees is producing materially higher balance-sheet gearing at year-end reviews, with knock-on effects for covenants, KPI dashboards, and directors' report narratives."
+          ],
+          "meaning": "Speak to covenant-sensitive clients this month, not at year-end. Restated gearing on a Section 20 basis should not surprise a lender who has already seen it.",
+          "source": "ICAEW, KPMG, Grant Thornton"
+        },
+        {
+          "headline": "FRS 102 Section 23 revenue: five-step model prompting restatements",
+          "tags": ["IFRS 15-aligned", "Software, construction, professional services"],
+          "body": [
+            "The new IFRS 15-aligned five-step revenue model under FRS 102 Section 23 is prompting restatements across software, construction, and professional services engagements. Practitioners should re-scope revenue recognition memos, contract-modification triggers, and performance-obligation identification before December year-ends land on the audit file."
+          ],
+          "meaning": "Contract-by-contract walk-throughs should be booked into November audit planning, not January fieldwork. Restatements caught during planning are cheaper than restatements caught at signing.",
+          "source": "FRC, ICAEW"
+        },
+        {
+          "headline": "FRC Factsheet 12 remains the reference on FRS 102 presentation",
+          "tags": ["FRC", "Small entities included"],
+          "body": [
+            "Practitioners are reminded that FRC Factsheet 12, Presentation of Financial Statements, remains the operative guide for entities applying FRS 102, including small entities. It continues to sit alongside the Periodic Review 2024 as the go-to reference for firms preparing December 2026 accounts."
+          ],
+          "source": "FRC"
+        }
+      ]
+    },
+    {
+      "name": "HMRC & Crypto",
+      "stories": [
+        {
+          "headline": "HMRC crypto disclosure data surfaces £1.38bn in gains",
+          "tags": ["£1.38bn in disclosed gains", "CARF exchange from 2027"],
+          "body": [
+            "HMRC's inaugural crypto disclosure data has surfaced £1.38bn in gains, ahead of automatic exchange reporting going live under the OECD Crypto-Asset Reporting Framework (CARF) in 2027. Firms advising retail investors and high-net-worth clients should begin cataloguing crypto holdings and prior-year positions in anticipation, particularly for clients who have not previously disclosed staking rewards, airdrops, or disposals treated as miscellaneous income."
+          ],
+          "meaning": "The £1.38bn is what has come in voluntarily. Once CARF exchange is live, undisclosed gains will surface against systematic platform data. Voluntary disclosure conversations should be scoped this quarter for every client with a crypto footprint.",
+          "source": "HMRC",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "£1.38bn", "label": "gains surfaced in HMRC's first crypto disclosure data"},
+              {"value": "2027", "label": "CARF automatic exchange reporting goes live"}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "Kreston Reeves and AAB integration continues in South East and Scotland",
+          "tags": ["Completed 1 July 2026", "Goldman Sachs Alternatives majority"],
+          "body": [
+            "Following completion on 1 July 2026, the combined Kreston Reeves and AAB firm, with AAB majority-owned by Goldman Sachs Alternatives since 2025, is continuing back-office integration. Practices in the South East and Scotland should monitor for follow-on lateral partner movement over the next quarter, and expect renewed conversations on shared services and technology stack rationalisation."
+          ],
+          "source": "Trade press"
+        },
+        {
+          "headline": "H2 2026 M&A sector rotation: AI, healthcare, energy and business services",
+          "tags": ["Equity markets at record highs", "IPO activity re-emerging", "Indian inbound theme"],
+          "body": [
+            "UK Finance, Slaughter and May, and Barclays commentary point to a firming H2 2026 M&A environment: equity markets at record highs, IPO activity re-emerging, volatility declining, and rates easing. Deal flow is concentrating in AI, healthcare, energy, and business services, and Indian inbound remains a growing theme supported by the bilateral trade deal and highlighted in ICAEW's September Corporate Financier edition."
+          ],
+          "meaning": "Sector coverage should shift toward the four active themes for the rest of the quarter. Corporate finance pitches oriented to slower sectors will lose to competitors already covering AI, healthcare, energy, and business services.",
+          "source": "UK Finance, Slaughter and May, Barclays"
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "FCA policy pulse: investment culture and financial crime",
+          "tags": ["FCA speeches", "Consumer Duty direction of travel"],
+          "body": [
+            "Recent FCA output includes speeches on Building a Stronger UK Investment Culture and Financial Crime: Protecting the Hive, plus enforcement moves against illegal crypto trading and initiatives to support SME access to finance. IFAs should note the direction of travel on retail investment culture and Consumer Duty enforcement as they finalise Q4 client reviews."
+          ],
+          "meaning": "Q4 client-review templates and outcome-testing MI should reflect the retail investment culture framing that the FCA is signalling. Firms writing this quarter's reviews on last quarter's script will present into a moving target.",
+          "source": "FCA"
+        }
+      ]
+    },
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "Talent bottleneck deepens as fill times lengthen",
+          "tags": ["Newly-qualified competition sharpens", "Q4 planning pressure"],
+          "body": [
+            "Accountancy Age coverage underscores growing concern about a critical talent bottleneck in mid-tier UK practice, with vacancy fill times lengthening and firms reporting sharper competition for newly qualified accountants. The pressure is intensifying on retention strategies, apprenticeship pipelines, and international recruitment ahead of Q4 planning, and pairs with the Leinster pay data highlighted earlier this month across the Irish market."
+          ],
+          "source": "Accountancy Age"
+        }
+      ]
+    }
+  ]
+}
