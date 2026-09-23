@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-23",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "UK takeover wave tops $100bn as ARGA audit reform is shelved",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "The UK takeover pipeline passes $100bn with a £1.65bn offer for Bodycote, a c.£1bn bid for Gamma Communications and a c.£292m take-private of Capricorn Energy, the Government confirms ARGA audit reform will not proceed this session, HMRC clarifies Self Assessment filing for close company directors, and questions mount over whether MTD software is ready for the one-million-taxpayer April 2027 wave.",
+  "categories": [
+    {
+      "name": "Corporate Finance & M&A",
+      "badge": "$100BN+ BID PIPELINE",
+      "stories": [
+        {
+          "headline": "UK takeover surge passes $100bn",
+          "tags": ["Bodycote, £1.65bn, Veritas Capital", "Gamma, c.£1bn, Epiris", "Capricorn Energy, c.£292m, DNO"],
+          "body": [
+            "The UK bid pipeline has been unusually busy through summer and into September, with cumulative activity now past $100bn. Bodycote plc has agreed a c.£1.65bn cash offer from Veritas Capital in heat treatment. Gamma Communications plc has received a c.£1bn offer from PE house Epiris in telecoms services. Capricorn Energy plc is facing a c.£292m take-private approach from Norway's DNO in oil and gas. The spread across industrials, telecoms, and energy signals broad-based buyer conviction rather than a single-theme rally."
+          ],
+          "meaning": "Corporate finance and tax teams advising target-side boards should be modelling CGT and deal-structuring positions now, ahead of the 28 October Budget. A live £1bn-plus pipeline sitting either side of a fiscal event needs contingency planning on timing.",
+          "source": "Bloomberg, company announcements",
+          "charts": [
+            {"type": "bars", "title": "Selected UK bids in the pipeline", "unit": "£ billion, offer value",
+             "bars": [
+               {"label": "Bodycote", "value": 1.65, "display": "£1.65b", "caption": "Veritas Capital"},
+               {"label": "Gamma Comms", "value": 1.0, "display": "£1b", "caption": "Epiris"},
+               {"label": "Capricorn", "value": 0.292, "display": "£292m", "caption": "DNO"}
+             ], "note": "Cumulative UK bid activity through September is now past $100bn across industrials, telecoms, and energy."}
+          ]
+        },
+        {
+          "headline": "Mid-market consumer and services deals complete through September",
+          "tags": ["Pai Skincare sold to HSNF", "Ocean sold to Lomond"],
+          "body": [
+            "Notable September completions include skincare brand Pai Skincare's sale to HSNF and estate agent Ocean's sale to Lomond, signals of continued appetite for founder-led brands and roll-up plays despite rate uncertainty. The two deals reinforce that mid-market consumer and services M&A is tracking independently of the large-cap takeover story running in parallel."
+          ],
+          "source": "Deal announcements"
+        }
+      ]
+    },
+    {
+      "name": "Audit & Governance",
+      "stories": [
+        {
+          "headline": "ARGA reform on ice: FRC-to-ARGA transition paused for this session",
+          "tags": ["Kingman/Brydon package paused", "FRC supervisory regime continues"],
+          "body": [
+            "The Government has confirmed audit and corporate governance reform is not proceeding this parliamentary session. The FRC-to-ARGA transition and the wider Kingman and Brydon reform package remain paused, with cost and regulatory burden cited as the reasons. The practical implication is that the FRC's existing supervisory regime remains the operating reality for auditors for the foreseeable future, and firms that had begun scoping ARGA-readiness workstreams can stand those down for now."
+          ],
+          "meaning": "Redirect any ARGA-transition planning capacity toward the FRS 102 Periodic Review and Corporate Reporting Framework review instead. Those are the reforms actually in motion this year.",
+          "source": "Institute for Government, HM Government"
+        }
+      ]
+    },
+    {
+      "name": "HMRC & Budget",
+      "stories": [
+        {
+          "headline": "Pre-Budget messaging turns to R&D, CGT and IHT positioning",
+          "tags": ["Growth vs fiscal balance", "R&D, CGT, IHT"],
+          "body": [
+            "Ahead of the Autumn Budget, coverage is focused on the Chancellor's growth-versus-fiscal-balance messaging. Expect firms to be asked about R&D relief, Capital Gains Tax, and Inheritance Tax positioning in the run-up to 28 October, on top of the APR and BPR succession planning already under way. Firms should have a house view ready on all three before client calls start landing."
+          ],
+          "source": "HM Treasury coverage"
+        },
+        {
+          "headline": "Self Assessment filing requirements clarified for close company directors",
+          "tags": ["Close company directors", "Agent-line inconsistency resolved"],
+          "body": [
+            "HMRC has clarified when directors of close companies are and are not required to file a Self Assessment return, a helpful tidy-up after several years of inconsistent agent-line guidance. The clarification sits alongside the earlier update on unpaid charity directors, and firms should refresh onboarding checklists to reflect the tidied position ahead of the 2025/26 filing cycle."
+          ],
+          "source": "HMRC, ICAEW"
+        }
+      ]
+    },
+    {
+      "name": "Making Tax Digital",
+      "stories": [
+        {
+          "headline": "Software readiness questioned ahead of the April 2027 wave",
+          "tags": ["~1m taxpayers join April 2027", "Pilot scale under scrutiny"],
+          "body": [
+            "Commentary this week from AccountingWEB and ICAEW is asking whether HMRC's pilot testing is broad enough to prove third-party software actually works at scale before the April 2027 wave of roughly one million additional taxpayers hits. The question echoes the readiness gap already flagged around the 7 November interim deadline, applied here to the much larger population entering at the £30,000 threshold."
+          ],
+          "meaning": "Do not assume software that coped with the £50k cohort will cope cleanly with a population an order of magnitude larger. Build a software-failure contingency into April 2027 planning now.",
+          "source": "AccountingWEB, ICAEW"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "Intuit bundles QuickBooks Online Accountant into Accountant Suite Core",
+          "tags": ["No additional cost", "Reconciliation, categorisation, month-end automations"],
+          "body": [
+            "QuickBooks Online Accountant is being rolled into the new Intuit Accountant Suite Core at no additional cost, bundling custom automations for reconciliation, categorisation, and month-end prep. The move sits alongside the recently launched ProPartner Accountant global partner programme and the QuickBooks Workforce module already folded into the Suite. Preview notes for October releases are already circulating, so firms on the Suite should watch for a further feature drop next month."
+          ],
+          "source": "Intuit, Firm of the Future"
+        }
+      ]
+    }
+  ]
+}
