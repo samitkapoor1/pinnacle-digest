@@ -1,0 +1,151 @@
+{
+  "date": "2026-09-24",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "UK M&A capital doubles to £134.7bn as MTD exemptions open for 2027/28",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "UK M&A capital deployed more than doubles to £134.7bn in H1 on fewer, larger deals, HMRC opens MTD exemption applications for 2027/28, the overhauled FRS 102 takes effect for December year-ends with opening reserves adjusted but no comparative restatement, a quarter of mid-tier firms are now private-equity backed, and AI adoption across UK firms nears 98%.",
+  "categories": [
+    {
+      "name": "Making Tax Digital",
+      "stories": [
+        {
+          "headline": "MTD exemption applications now open for 2027/28",
+          "tags": ["Applications open now", "Age, disability, remoteness, religion"],
+          "body": [
+            "HMRC is now accepting exemption applications for the 2027/28 tax year. Firms should identify digitally excluded clients on grounds of age, disability, remoteness, or religion and file well ahead of the 2027 mandate expansion to the £30,000 threshold. Getting exemption applications in early avoids clients being swept into auto-enrolment before the exemption is processed."
+          ],
+          "meaning": "Screen the client book for digital-exclusion grounds now, not after the 2027 threshold drop. An exemption filed late does not undo an auto-enrolment letter that has already landed.",
+          "source": "HMRC, ATT"
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "FRS 102 transition: no comparative restatement, but opening retained earnings adjusts",
+          "tags": ["31 Dec 2025 year ends onward", "Section 1A disclosure uplift"],
+          "body": [
+            "The overhauled FRS 102 is now live for most calendar-year clients. There is no requirement to restate comparatives on transition, but opening retained earnings must be adjusted from 31 December 2025 year ends onwards, a distinction that has tripped up early adopters expecting a full restatement exercise. Section 1A small entities also see incremental disclosure requirements around going concern, provisions, share-based payments, and leases."
+          ],
+          "meaning": "Brief clients now that comparatives stay as reported but opening reserves move. A director asking why last year's numbers do not match this year's opening balance is a conversation worth having before the accounts land, not after.",
+          "source": "Grant Thornton, Moore UK"
+        },
+        {
+          "headline": "FRC Strategic Report Guidance keeps quality-of-estimates disclosure in focus",
+          "tags": ["FRC", "Corporate Governance Code alignment"],
+          "body": [
+            "The FRC's revised Strategic Report Guidance, issued earlier in 2026, remains a live focus, reflecting the updated Corporate Governance Code, sustainability-related reporting practice, and changes to directors' report disclosures. The FRC's latest Annual Review of Corporate Reporting flagged continued emphasis on quality of judgements-and-estimates disclosures for the 2025/26 season."
+          ],
+          "source": "FRC"
+        }
+      ]
+    },
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "A quarter of UK mid-tier firms have already taken PE investment",
+          "tags": ["25% of mid-tier already PE-backed", "46% of Top 60 open to it", "MHA AIM route"],
+          "body": [
+            "AccountingWEB's mid-September practice coverage returns to the theme of PE-backed consolidation with fresh figures: a quarter of UK mid-tier firms have already accepted private-equity investment, and a further 46% of Top 60 practices say they are open to it. MHA's AIM listing continues to demonstrate an alternative capital route outside the private-equity playbook."
+          ],
+          "meaning": "With a quarter of the mid-tier already PE-backed and nearly half of the Top 60 open to it, staying independent is now the minority position, not the default. Partners weighing succession should benchmark against both the PE and AIM-listing routes.",
+          "source": "AccountingWEB, Croner Top 75 Firms Survey",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "25%", "label": "of UK mid-tier firms already private-equity backed"},
+              {"value": "46%", "label": "of Top 60 practices say they are open to PE"}
+            ]}
+          ]
+        },
+        {
+          "headline": "September Fest 2026 runs 22 to 24 September",
+          "tags": ["AccountingWEB CPD event", "16 core sessions"],
+          "body": [
+            "AccountingWEB's flagship autumn CPD event covers HMRC enquiries, AI security, FRS 102 transition, and practitioner wellbeing and burnout across sixteen core sessions plus bonus content. Firms with staff attending should ensure CPD hours are logged before the tracking window closes."
+          ],
+          "source": "AccountingWEB"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "AI adoption hits around 98% of UK firms; 46% report productivity gains",
+          "tags": ["~98% adoption", "46% measurable productivity gains"],
+          "body": [
+            "Practice-side surveys cited in September coverage put AI adoption at roughly 98% of UK firms, with 46% reporting measurable productivity gains. The figures sit against a market where vendors are increasingly judged on the surround, compliance automation, document capture, bank feeds, and collaboration, rather than the core ledger alone."
+          ],
+          "meaning": "With adoption near-universal, the competitive question has shifted from whether to use AI to whether it is actually moving the productivity needle. Firms without a measurable gain should audit where the tooling is being under-used.",
+          "source": "TechFinitive",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "~98%", "label": "of UK firms have adopted AI in some form"},
+              {"value": "46%", "label": "report measurable productivity gains"}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "UK M&A capital deployed more than doubles to £134.7bn in H1 2026",
+          "tags": ["£134.7bn H1 2026", "vs £60bn H1 2025", "Volumes down around 13%"],
+          "body": [
+            "UK M&A capital deployed more than doubled year on year, from £60bn in H1 2025 to £134.7bn in H1 2026, though deal volumes contracted by nearly 13%, a market of fewer, larger transactions. Crowe and other advisers note the mid-market entered 2026 with cautious momentum, held back through 2025 by financing costs and valuation gaps, with improving debt appetite and sponsor pressure to deploy dry powder expected to lift mid-market volumes through Q4 and into 2027."
+          ],
+          "meaning": "Advisers should be pitching quality over quantity: fewer, larger, better-prepared processes are what is winning in this market. Vendor due diligence readiness is now a bigger differentiator than deal count.",
+          "source": "PwC UK, Crowe UK",
+          "charts": [
+            {"type": "compare_bars", "title": "UK M&A capital deployed, first half", "unit": "£ billion",
+             "bars": [
+               {"label": "H1 2025", "value": 60, "display": "£60b", "caption": "Prior year"},
+               {"label": "H1 2026", "value": 134.7, "display": "£134.7b", "caption": "Fewer, larger deals"}
+             ], "note": "Deal volumes fell around 13% even as capital deployed more than doubled."}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory & Wealth",
+      "stories": [
+        {
+          "headline": "NatWest's £2.7bn Evelyn Partners deal remains the sector's anchor transaction",
+          "tags": ["£2.7bn, completed 30 June 2026", "Strategic reference point"],
+          "body": [
+            "NatWest's £2.7bn acquisition of Evelyn Partners, announced in February and completed on 30 June, remains the anchor transaction shaping strategic conversations across the IFA and wealth sector. Over 85% of UK advisory firms still operate with five advisers or fewer, so the consolidation runway behind this deal remains long, with adviser demographics, rising compliance costs, and the Consumer Duty operating burden continuing to push smaller firms toward sale or network membership."
+          ],
+          "meaning": "Accounting practices that refer or co-advise with IFAs should expect continued churn in counterparty branding and permissions. Refresh introducer agreements and disclosure documentation before year-end.",
+          "source": "Portfolio Adviser, FRP Advisory"
+        }
+      ]
+    },
+    {
+      "name": "Ireland",
+      "stories": [
+        {
+          "headline": "Form 11: Retrofitting Rental Properties Relief opens for jointly assessed spouses",
+          "tags": ["RRPR relief widened", "2025 Form 11 update"],
+          "body": [
+            "Revenue has released the September update to the 2025 Form 11 guidance. The notable change is that Retrofitting Rental Properties Relief can now be claimed by jointly assessed spouses in respect of different properties, a meaningful planning point for landlord clients with retrofit spend across more than one property."
+          ],
+          "meaning": "Review jointly assessed landlord clients with retrofit spend on more than one property. The revised position may unlock relief that was previously blocked by joint-assessment rules.",
+          "source": "Revenue.ie, Accounts Advice Centre"
+        },
+        {
+          "headline": "CRO processing lead-times as of 23 September",
+          "tags": ["A1 Online: 9 Sep", "RCN: 23 Sep, B2: 21 Sep"],
+          "body": [
+            "The Companies Registration Office is currently working through Ordinary A1 Online submissions from 9 September, Fé Phrainn A1 Online from 15 September, RCN Company Name Reservations from 23 September, RBN1 Business Names from 9 September, and B2 Company Address changes from 21 September. Practices with time-sensitive filings should build the current lead-times into client scheduling."
+          ],
+          "source": "CRO Ireland"
+        }
+      ]
+    }
+  ]
+}
