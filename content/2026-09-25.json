@@ -1,0 +1,187 @@
+{
+  "date": "2026-09-25",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "Grant Thornton targets 350 partners as mid-tier consolidation accelerates",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "Grant Thornton plans to grow its UK partnership from around 200 to more than 350 by end-2027 as Affinia, DJH, Sumer and the rebranded S&W drive mid-tier consolidation, the FRC revises UK auditing standards to align with the IAASB from December 2026, HMRC begins issuing £100 ERS late-filing penalties and reports £2.45bn paid under creative-industry reliefs, and the FCA's Consumer Duty CP26/23 consultation closes with final rules due in Q1 2027.",
+  "categories": [
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "Consolidation deepens: Affinia, DJH, Sumer and S&W all in motion",
+          "tags": ["Affinia and UHY Hacker Young", "DJH's 22nd deal in 5 years", "Sumer: 17 deals in 12 months"],
+          "body": [
+            "The 2026 Top 75 Firms Survey and current deal flow point to an M&A-driven year for the UK profession. Affinia's tie-up with UHY Hacker Young, a firm worth over £100m in fees, is awaiting final regulatory clearance. Stoke-based DJH has acquired Hereford firm Thorne Widgery, its 22nd deal in five years under the Tenzing platform. Sumer has completed 17 acquisitions in the last 12 months. Evelyn Partners has closed the sale of its professional-services arm to Apax and rebranded as S&W, with pro-forma revenue of c.£236.6m."
+          ],
+          "meaning": "The pace across four separate platforms in one week shows the mid-tier land grab has no single leader. Firms weighing their own position should benchmark against whichever platform is most active in their region, not just the largest name.",
+          "source": "Croner Top 75 Firms Survey, Accountancy Daily",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "22", "label": "DJH deals in five years under the Tenzing platform"},
+              {"value": "17", "label": "Sumer acquisitions in the last 12 months"},
+              {"value": "£236.6m", "label": "pro-forma revenue at the rebranded S&W"}
+            ]}
+          ]
+        },
+        {
+          "headline": "People moves: Grant Thornton, S&W and BDO",
+          "tags": ["GT: 160 new partners in 2 years", "S&W tax hires", "BDO audit and ESG hires"],
+          "body": [
+            "Grant Thornton has confirmed an aggressive partner-growth plan, targeting 160 new partners over the next two years to move the UK partnership from around 200 to more than 350 by end-2027. S&W has strengthened its business tax bench with the appointments of Karim Budabuss in R&D and innovation incentives and Philippe Gamito in indirect tax with a fintech focus, adding to Mark Lewis's recent hire into the Leeds audit practice. BDO has appointed Alan Walsh into its Birmingham FTSE audit team and Hannah Routh as UK head of sustainability and ESG."
+          ],
+          "meaning": "Grant Thornton's near-doubling of partner headcount will pull senior talent from across the mid-tier. Firms with retention risk on partner-track staff should be having those conversations before an approach lands.",
+          "source": "Accountancy Daily, Consultancy.uk",
+          "charts": [
+            {"type": "compare_bars", "title": "Grant Thornton UK partners", "unit": "partners",
+             "bars": [
+               {"label": "Now", "value": 200, "display": "~200", "caption": "Current partnership"},
+               {"label": "By end-2027", "value": 350, "display": "350+", "caption": "160 new partners planned"}
+             ], "note": "A near-doubling of the partnership over two years."}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "FRC revises UK auditing standards to align with IAASB changes",
+          "tags": ["Periods from 15 Dec 2026", "External expert reliance"],
+          "body": [
+            "The Financial Reporting Council announced revisions to UK auditing standards and one UK assurance standard on 23 September, aligning them with equivalent changes issued by the IAASB. The targeted amendments clarify practitioner responsibilities when relying on the work of an external expert and reinforce expectations around robust evaluation and documentation. The revised standards apply to audits of financial statements for periods commencing, and assurance reports dated, on or after 15 December 2026. The FRC framed the change as reducing cost for cross-border reporters by keeping the UK aligned with a single international baseline."
+          ],
+          "meaning": "Any engagement relying on external experts, valuers, actuaries, or specialist surveyors, needs its documentation standard reviewed against the new expectations before the 15 December 2026 cut-off. This is an audit methodology update, not a footnote.",
+          "source": "FRC, Accountancy Today"
+        }
+      ]
+    },
+    {
+      "name": "HMRC",
+      "stories": [
+        {
+          "headline": "Certificates of residence move fully online",
+          "tags": ["Postal route winding down", "Overseas withholding cert upload"],
+          "body": [
+            "All applications for certificates of residence and letters of confirmation must now be made through HMRC's online form, which also supports the upload of overseas withholding tax certificates. Postal routes are being wound down to improve processing times, so any firm still submitting by post should switch its process now."
+          ],
+          "source": "ICAEW Tax News in Brief"
+        },
+        {
+          "headline": "ERS late-filing penalties now issuing for 2025/26",
+          "tags": ["£100 initial penalty", "£300 at 3 and 6 months"],
+          "body": [
+            "£100 late-filing penalties are now being issued for 2025/26 Employment Related Securities returns not submitted by 6 July 2026, with automatic £300 penalties at three and six months if the return remains outstanding. Any client with an equity incentive scheme and an overdue ERS return should be identified and filed this week before the next penalty tranche triggers."
+          ],
+          "meaning": "Sweep every client with a share scheme for an overdue ERS return today. The penalty escalates automatically and does not wait for a reminder letter.",
+          "source": "HMRC, ICAEW"
+        },
+        {
+          "headline": "Creative industry tax reliefs pay out £2.45bn in 2024/25",
+          "tags": ["£2.45bn, up from £2.28bn", "Film, high-end TV, video games"],
+          "body": [
+            "HMRC's claims statistics for the year ended 31 March 2025 show £2.45bn paid out under creative industry tax reliefs, up from £2.28bn the prior year, reflecting continued growth in film, high-end TV, and video-games claims. Firms with clients in the sector should be benchmarking claim value against the growing pool, and checking claim methodology is keeping pace with HMRC's tightened scrutiny of the wider relief landscape."
+          ],
+          "source": "HMRC",
+          "charts": [
+            {"type": "compare_bars", "title": "Creative industry tax reliefs paid", "unit": "£ billion",
+             "bars": [
+               {"label": "2023/24", "value": 2.28, "display": "£2.28b", "caption": "Prior year"},
+               {"label": "2024/25", "value": 2.45, "display": "£2.45b", "caption": "Film, TV, games"}
+             ], "note": "Growth driven by film, high-end TV, and video-games claims."}
+          ]
+        },
+        {
+          "headline": "P800 and PA302 notices for savings interest land from late September",
+          "tags": ["Wave of client queries expected", "Apr 2025 to Apr 2026 interest"],
+          "body": [
+            "From late September 2026, HMRC will issue P800 tax calculations and PA302 Simple Assessment notices covering tax on bank and building society interest earned between April 2025 and April 2026. Advisers should expect a wave of client queries as the notices land, and should have a standard explainer ready for clients unfamiliar with how savings interest is taxed outside Self Assessment."
+          ],
+          "source": "HMRC"
+        },
+        {
+          "headline": "ICAEW responds to voluntary NIC call for evidence",
+          "tags": ["ICAEW Rep 80/26", "NIC record gaps"],
+          "body": [
+            "ICAEW has responded to the government's call for evidence on voluntary National Insurance Contributions. The submission is worth a read for firms advising clients with gaps in their NIC record, particularly ahead of any changes to voluntary top-up rules that might follow the consultation."
+          ],
+          "source": "ICAEW Rep 80/26"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "Priority Technology announces $1.6bn CEO-led take-private",
+          "tags": ["$1.6bn", "Management buy-out structure"],
+          "body": [
+            "Priority Technology announced on 22 September a $1.6bn CEO-led take-private, adding to a busy September for large-cap take-private activity. The CEO-led structure is a reminder that management-backed buy-outs remain a live route for listed businesses seeking to exit public market scrutiny without a trade sale."
+          ],
+          "source": "DealRoom"
+        },
+        {
+          "headline": "Telix completes $1.65bn acquisition of ITM",
+          "tags": ["Radiopharmaceuticals", "Completed 21 September"],
+          "body": [
+            "Telix completed its $1.65bn acquisition of radiopharmaceutical business ITM on 21 September, extending the run of large healthcare and life-sciences consolidation deals feeding through UK and international corporate finance pipelines this quarter."
+          ],
+          "source": "DealRoom"
+        },
+        {
+          "headline": "HeadFirst Global rebrands to Vertage, consolidating 11 businesses",
+          "tags": ["€10bn platform", "11 businesses, single brand"],
+          "body": [
+            "Amsterdam- and London-based HeadFirst Global rebranded to Vertage on 23 September, consolidating 11 operating businesses under a single €10bn platform. The structure is a template worth noting for UK corporate finance teams advising multi-brand consolidators considering a single-brand rationalisation exercise of their own."
+          ],
+          "meaning": "Corporate finance teams advising PE-backed platform businesses should be pitching brand-rationalisation and holdco-restructuring mandates now. Vertage is a live template to reference in those conversations.",
+          "source": "DealRoom"
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisers & FCA",
+      "stories": [
+        {
+          "headline": "Consumer Duty CP26/23 consultation closes; final rules expected Q1 2027",
+          "tags": ["Closed 18 September", "Final rules Q1 2027", "Agent-as-client clarification"],
+          "body": [
+            "The FCA's consultation CP26/23 on the scope and proportionality of the Consumer Duty closed on 18 September 2026, with final rules now expected in Q1 2027. Proposals include clearer boundaries on when the Duty applies, reduced obligations for wholesale firms and firms without direct end-customer relationships, and an agent-as-client clarification directly relevant to wealth managers dealing through IFA distribution chains."
+          ],
+          "meaning": "IFA networks with wholesale-adjacent business lines should map current Consumer Duty obligations against the proposed boundary now, so the Q1 2027 final rules are a confirmation exercise rather than a scramble.",
+          "source": "FCA CP26/23"
+        },
+        {
+          "headline": "FCA 2026 supervisory posture: evidence of improving controls, not just existence",
+          "tags": ["SM&CR review in parallel", "Personal accountability retained"],
+          "body": [
+            "The FCA has confirmed that 2026 supervision will focus on evidence that firms' controls are working and improving over time, not merely that they exist. SM&CR is being reviewed in the same cycle with a view to reducing administrative burden while keeping personal accountability for senior managers embedding the Duty."
+          ],
+          "source": "FCA, Baker McKenzie"
+        }
+      ]
+    },
+    {
+      "name": "Ireland",
+      "stories": [
+        {
+          "headline": "Revenue publishes Q2 tax defaulters list",
+          "tags": ["1 April to 30 June 2026", "AML/KYC hygiene check"],
+          "body": [
+            "On 8 September 2026, Revenue published its quarterly tax defaulters list covering 1 April to 30 June 2026, with the usual mix of settlements, penalties, and published cases. Advisers should review the list for AML and KYC hygiene against existing client books, particularly where new client relationships have been onboarded in the same window."
+          ],
+          "source": "Revenue.ie"
+        },
+        {
+          "headline": "EU Customs reform agreed: implications for Irish exporters",
+          "tags": ["EU Customs Rules reform", "Irish-headquartered exporters"],
+          "body": [
+            "A recent Revenue Commissioners update confirms agreement on significant reform of EU Customs Rules, with implementation implications for Irish-headquartered exporters. UK-based cross-border advisers should factor the reform into upcoming trade-and-customs advice for clients with Irish supply chains."
+          ],
+          "source": "Revenue.ie, Deloitte Ireland"
+        }
+      ]
+    }
+  ]
+}
