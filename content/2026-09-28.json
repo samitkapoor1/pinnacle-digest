@@ -1,0 +1,145 @@
+{
+  "date": "2026-09-28",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "Consolidation wave may be cresting as TIAA buys Schroders for £9.9bn",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "Accountancy Age argues the private-equity consolidation wave may be plateauing, changing the exit calculus for owner-managed firms, TIAA's £9.9bn acquisition of Schroders leads a run of UK financial-services megadeals, HMRC targets a £10bn AI-driven yield uplift and 90% digital self-service by 2030, and the FCA moves Consumer Duty into active enforcement with 11 open investigations.",
+  "categories": [
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "The firm of the future: PE consolidation wave may be plateauing",
+          "tags": ["AI fee deflation", "PE roll-up pause signalled", "Advisory and ESG as revenue engines"],
+          "body": [
+            "Accountancy Age's flagship analysis argues the traditional practice model is being squeezed on three fronts: AI-driven fee deflation, a pause in private-equity-led consolidation, and tightening regulatory constraints. Firms are being urged to rethink pricing architecture and service mix, with commoditised compliance work migrating to automated stacks while advisory, ESG, and corporate finance capabilities become the primary revenue engines. The piece is notable for signalling that the recent PE-backed roll-up wave may be plateauing, changing the exit calculus for owner-managed practices weighing a sale."
+          ],
+          "meaning": "If the PE window is narrowing, owners planning an exit on a PE-driven multiple should accelerate their timeline rather than wait for a better offer that may not arrive. Firms not exiting should be building the advisory and ESG revenue base the piece describes as the next differentiator.",
+          "source": "Accountancy Age"
+        },
+        {
+          "headline": "HSA & Co acquires Lanham and Company",
+          "tags": ["Mid-market bolt-on", "Consolidator capability gap widening"],
+          "body": [
+            "HSA & Co has acquired Lanham and Company, adding to the run of mid-market bolt-ons continuing even as headline PE activity cools. Coverage this week flags a widening capability gap between consolidator platforms, which are investing heavily in technology and shared services, and independent practices reliant on legacy workflows."
+          ],
+          "source": "AccountingWEB Practice Gateway"
+        },
+        {
+          "headline": "Menzies and Beever and Struthers continue integrating their merger",
+          "tags": ["Post-merger integration", "~1,000 combined headcount"],
+          "body": [
+            "Menzies and Beever and Struthers continue to integrate their combination, a circa-1,000-headcount merger that sits alongside the other consolidator activity working through the mid-market this quarter. Integration progress is being watched as a proxy for how quickly larger regional combinations can realise shared-service and technology synergies."
+          ],
+          "source": "Accountancy Today, International Accounting Bulletin"
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "FRC sets out vision for modern and effective regulation",
+          "tags": ["Proportionate, outcomes-based", "Data-driven monitoring"],
+          "body": [
+            "The regulator's vision statement, still driving press commentary this week, outlines a proportionate, outcomes-based supervisory model for audit and corporate reporting. Firms should expect a continued shift towards data-driven monitoring and away from purely rules-based inspection, a direction that pairs with the FRC's other 2026 reforms on auditor's expert reliance and the Strategic Report Guidance refresh."
+          ],
+          "meaning": "Quality-management systems that can produce evidence on demand will fare better under an outcomes-based model than those relying on a checklist alone. Firms should start building the monitoring data trail now.",
+          "source": "FRC"
+        }
+      ]
+    },
+    {
+      "name": "HMRC & Tax Policy",
+      "stories": [
+        {
+          "headline": "HMRC targets £10bn AI-driven yield uplift and 90% digital self-service by 2030",
+          "tags": ["£10bn projected AI yield", "90% digital by 2030"],
+          "body": [
+            "HMRC used Accountex Manchester to detail a projected £10bn AI-driven yield uplift and its target of 90% digital self-service by 2030. Agents should anticipate accelerated shifts of routine correspondence into digital channels and factor agent-services digital identity into workflow planning, particularly as MFA, auto-enrolment, and online-only certificate processes all point the same direction this year."
+          ],
+          "meaning": "Digital-identity and agent-authorisation workflows are the strategic priority behind every individual HMRC digitisation announcement this year. Firms should treat agent digital ID as a 2027 planning item now, not a future nice-to-have.",
+          "source": "Accountex Manchester, HMRC",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "£10bn", "label": "projected AI-driven yield uplift"},
+              {"value": "90%", "label": "digital self-service target by 2030"}
+            ]}
+          ]
+        },
+        {
+          "headline": "Northern Ireland duty waiver guidance updated",
+          "tags": ["Windsor Framework", "GB and non-UK/EU imports"],
+          "body": [
+            "HMRC has published refreshed guidance on claiming a waiver for duty on goods brought to Northern Ireland from Great Britain or non-UK/EU countries. Relevant for practitioners advising cross-border trading clients on Windsor Framework operations, and worth reviewing alongside the CBAM and customs-reform items already in flight this quarter."
+          ],
+          "source": "HMRC, GOV.UK"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "QuickBooks Online September release: Shopify sync and ProPartner timeline confirmed",
+          "tags": ["Inventory and Shopify sync", "ProPartner launches early 2027"],
+          "body": [
+            "Intuit's September release covers finance AI enhancements, HR and Workforce updates, inventory management including Shopify sync, bill-pay improvements, and a preview of the ProPartner Accountants partner programme, evolving from ProAdvisor and launching in early 2027. Firms on QuickBooks Online should schedule client-facing walkthroughs on the inventory and Shopify features ahead of the year-end retail season."
+          ],
+          "source": "Intuit, Firm of the Future"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "TIAA's £9.9bn acquisition of Schroders headlines UK FS megadeals",
+          "tags": ["£9.9bn TIAA and Schroders", "7 deals over £1bn in H1"],
+          "body": [
+            "Seven UK financial-services deals exceeded £1bn in H1 2026, including two megadeals in the £8 to £10bn range, most notably TIAA's £9.9bn acquisition of Schroders. The data reinforces the white-hot tone for corporate finance mandates heading into Q4, and the scale of the Schroders deal specifically is being used as the reference transaction for asset-management sector pricing conversations this quarter."
+          ],
+          "source": "Consultancy.uk, EY",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "£9.9bn", "label": "TIAA acquisition of Schroders"},
+              {"value": "7", "label": "UK financial-services deals over £1bn in H1 2026"}
+            ]}
+          ]
+        },
+        {
+          "headline": "Debt underwriting for UK M&A remains difficult",
+          "tags": ["Inflation risk from energy prices", "Vendor loans and earn-outs favoured"],
+          "body": [
+            "Debt underwriting for UK M&A has remained difficult in H1 2026 amid inflation risk from higher energy prices and AI-driven disruption to software valuations. Deal structures continue to lean on vendor loans, earn-outs, and PE credit funds rather than conventional senior debt, a structuring reality corporate finance teams should be building into every term sheet this quarter."
+          ],
+          "meaning": "Earn-out and vendor-loan structuring expertise is now a core corporate finance service line, not a fallback. Teams without deep experience in these structures will lose mandates to those who have it.",
+          "source": "ICAEW Corporate Financier"
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "Consumer Duty enters active enforcement: 11 open investigations",
+          "tags": ["11 open FCA investigations", "1 IFA restricted and ceased activity"],
+          "body": [
+            "The FCA has 11 open Consumer Duty investigations, including one small IFA case centred on failure to document fair-value assessments, where the firm agreed restrictions and ceased regulated activity. Fair value and ongoing-advice service delivery, particularly evidencing that annual reviews charged for actually occurred, remain the top enforcement themes for advisers."
+          ],
+          "meaning": "Any IFA that cannot evidence a fair-value assessment or a delivered annual review is now a live enforcement target, not a theoretical risk. Audit the client file for both this week.",
+          "source": "HSF Kramer, FCA"
+        },
+        {
+          "headline": "Distribution-chain Consumer Duty consultation expected",
+          "tags": ["Platform and DFM interactions", "Overlaps CP26/23 scope work"],
+          "body": [
+            "The FCA continues to signal a consultation on how the Consumer Duty applies across distribution chains, relevant for platform, discretionary manager, and adviser interactions. IFA networks operating through multi-party distribution should track the consultation closely given its overlap with the CP26/23 scope work already under review."
+          ],
+          "source": "Travers Smith"
+        }
+      ]
+    }
+  ]
+}
