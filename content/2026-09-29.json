@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-29",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "EU data puts Irish corporate tax at €20.1bn as HMRC eases agent access",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "New EU country-by-country reporting shows €20.1bn of Irish cash-tax payments, with Apple and Microsoft alone making up 98%, HMRC upgrades the Online Services Account so firms can assign multiple clients to one staff member and confirms a globally mobile carve-out for benefit-in-kind payrolling, the FCA moves to make transaction reporting more proportionate, and UK M&A tracks 662 deals worth £625bn over 90 days.",
+  "categories": [
+    {
+      "name": "Ireland",
+      "badge": "CT1 DEADLINE PASSED",
+      "stories": [
+        {
+          "headline": "EU transparency rules unmask multinational tax footprint: €20.1bn",
+          "tags": ["€20.1bn combined Irish cash tax", "Apple and Microsoft are 98% of the total"],
+          "body": [
+            "New EU country-by-country reporting has surfaced combined Irish cash-tax payments of €20.1bn across 25 disclosed firms, with Apple and Microsoft alone accounting for 98% of the total. The disclosure gives Irish advisers a much clearer view of client-comparable tax positioning under Pillar Two-adjacent transparency rules, and is a useful reference point for any client benchmarking its own effective tax rate against large multinational peers."
+          ],
+          "meaning": "Advisers with multinational clients now have a public comparator for effective tax rate conversations. Use the €20.1bn concentration figure to frame how atypical the two largest filers are before a client anchors expectations on them.",
+          "source": "EU Commission, The Irish Times",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "€20.1bn", "label": "combined Irish cash tax across 25 disclosed firms"},
+              {"value": "98%", "label": "of the total paid by Apple and Microsoft alone"}
+            ]}
+          ]
+        },
+        {
+          "headline": "23 September CT1 deadline has passed",
+          "tags": ["31 Dec 2025 year-ends", "Surcharge risk check"],
+          "body": [
+            "Companies with a 31 December 2025 year-end were required to file their CT1 corporation tax return via ROS by 23 September 2026. Firms should confirm all client filings landed cleanly and address any late-filing surcharge risk this week while it is still fresh, rather than waiting for Revenue correspondence to surface a gap."
+          ],
+          "source": "Revenue.ie"
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "ICAEW issues insolvency vulnerability guidance",
+          "tags": ["Debtors, directors, creditors, employees", "Conduct expectations"],
+          "body": [
+            "ICAEW has issued September guidance to assist insolvency practitioners in identifying indicators of vulnerability among debtors, directors, creditors, and employees. The publication supports appointment-takers in meeting evolving conduct expectations and documenting appropriate safeguards, and should be built into standard case-opening checklists rather than treated as a one-off read."
+          ],
+          "source": "ICAEW"
+        }
+      ]
+    },
+    {
+      "name": "HMRC",
+      "stories": [
+        {
+          "headline": "Online Services Account: firms can now assign multiple clients to one staff member",
+          "tags": ["Long-requested change", "Reduces shared-credential reliance"],
+          "body": [
+            "HMRC has announced enhancements to the Online Services Account so that firms can assign multiple clients to a single staff member, a long-requested change that should reduce reliance on shared credentials and improve firm-level access controls. The change pairs directly with the MFA rollout completing this week and gives practices a genuine alternative to shared logins rather than just a security requirement to comply with."
+          ],
+          "meaning": "Reconfigure staff-to-client assignments now that shared credentials are avoidable. This closes the access-control gap that MFA alone does not solve.",
+          "source": "HMRC"
+        },
+        {
+          "headline": "BiK payrolling: globally mobile employee carve-out confirmed",
+          "tags": ["Mandatory payrolling exclusion", "Class 1A NIC clarified"],
+          "body": [
+            "HMRC has confirmed that employers may exclude globally mobile employees from mandatory payrolling of benefits in kind, and has clarified the Class 1A NIC position for voluntary payrolling. Firms advising internationally mobile workforces should update payroll design ahead of implementation, ensuring the carve-out is documented rather than assumed."
+          ],
+          "source": "HMRC"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "QuickBooks user-seat tiers confirmed",
+          "tags": ["Simple Start: 1", "Essentials: 3, Plus: 5, Advanced: 25"],
+          "body": [
+            "Intuit continues to differentiate plans by user count: one user on Simple Start, three on Essentials, five on Plus, and 25 on Advanced, with accountant seats provided in addition. Practices scoping client rollouts should confirm the appropriate tier for team access requirements before recommending a plan that will need an upgrade within the year."
+          ],
+          "source": "Intuit"
+        },
+        {
+          "headline": "Sage builds a cloud-and-AI platform positioning against Xero",
+          "tags": ["Installed-base leverage", "Embedded AI convergence"],
+          "body": [
+            "Sage is leveraging its installed base to build a broader cloud-and-AI platform proposition, positioning itself against Xero's cloud-first, automation-led market pitch. Product direction across all three major vendors continues to converge on embedded AI, live data feeds, and MTD-compliant workflows, narrowing the practical differences firms once used to choose between them."
+          ],
+          "source": "Sector commentary"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "UK M&A tracker: 662 deals worth £625bn in the last 90 days",
+          "tags": ["662 deals, £625bn", "AI infrastructure and FS concentration"],
+          "body": [
+            "Broader UK M&A activity is concentrated in AI-related infrastructure, financial services, and professional services consolidation, with 662 deals worth £625bn tracked in the last 90 days across the market. The rolling figure gives corporate finance teams a live benchmark for pitch materials heading into Q4 conversations."
+          ],
+          "source": "Consultancy.uk, EY",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "662", "label": "UK deals tracked in the last 90 days"},
+              {"value": "£625bn", "label": "combined disclosed deal value"}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "FCA moves to make transaction reporting smarter, simpler and more proportionate",
+          "tags": ["Proportionality overhaul", "Early planning advised"],
+          "body": [
+            "New FCA rules are reshaping transaction reporting to be smarter, simpler, and more proportionate, which advisers and their compliance teams should assess against existing reporting frameworks. Early implementation planning is advisable to capture the efficiency benefit, particularly for firms currently over-reporting relative to the proportionality standard the FCA is now targeting."
+          ],
+          "meaning": "Firms should audit current transaction-reporting scope against the new proportionality standard now. Early movers capture the efficiency gain sooner than firms that wait for a mandate.",
+          "source": "FCA"
+        }
+      ]
+    }
+  ]
+}
