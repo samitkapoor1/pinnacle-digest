@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-30",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "FCA enforcement sweep widens as Zurich lands £8.1bn Beazley deal",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "An IFA network enters administration and the FCA closes 24 CFD firms and takes Hunter Jones to the High Court in a widening enforcement sweep, Zurich's £8.1bn acquisition of Beazley leads a fresh run of financial-services megadeals alongside EQT and Standard Life deals, the FRC widens its Audit Enforcement Procedure resolution tools, and weekend HMRC outages disrupted MTD and Agent Services Account filings.",
+  "categories": [
+    {
+      "name": "HMRC",
+      "stories": [
+        {
+          "headline": "Weekend HMRC outages disrupted MTD and Agent Services Account filings",
+          "tags": ["MTD offline: Sat 19:00 to Mon 09:00", "ASA offline: Sun 07:00 to Mon 09:00"],
+          "body": [
+            "MTD for Income Tax was offline from 19:00 Saturday 27 September until 09:00 Monday 28 September, and the Agent Services Account was unavailable from 07:00 Sunday until 09:00 Monday. Practices with quarterly-update workflows that ran over the weekend should reconcile submission timestamps and check for queued or failed jobs first thing this week, particularly where automated overnight batches were scheduled into the outage window."
+          ],
+          "meaning": "Reconcile every weekend-scheduled submission against HMRC's confirmation logs today. A queued job that silently failed during the outage window is easy to miss until a client asks why nothing landed.",
+          "source": "HMRC, SPA"
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "FRC widens resolution tools under the Audit Enforcement Procedure",
+          "tags": ["Integrated supervisory model", "Earlier engagement on concerns"],
+          "body": [
+            "The FRC has expanded the range of resolution tools available under its Audit Enforcement Procedure, part of a broader shift to an integrated supervisory model that ties monitoring, investigation, and enforcement more closely together. Firms in the FRC's audit population should expect earlier engagement on emerging concerns and a wider spectrum of possible outcomes short of full enforcement action, sitting alongside the FRC's other 2026 reforms on auditor's expert reliance and its vision for outcomes-based regulation."
+          ],
+          "meaning": "Earlier FRC engagement means concerns can be resolved short of formal enforcement, but only if the firm responds quickly and constructively at first contact. Audit compliance partners should have an escalation protocol ready for that first conversation.",
+          "source": "FRC, The Accountant"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "Zurich's £8.1bn acquisition of Beazley leads a fresh wave of FS megadeals",
+          "tags": ["Zurich and Beazley: £8.1bn", "EQT and Coller Capital: £2.8bn", "Standard Life and Aegon UK: £2.0bn"],
+          "body": [
+            "Zurich's £8.1bn acquisition of Beazley leads a fresh run of UK financial-services megadeals, alongside EQT's £2.8bn acquisition of Coller Capital and Standard Life's £2.0bn acquisition of Aegon UK. The spread across insurance, secondaries, and life and pensions confirms the H1 2026 megadeal pattern is continuing into the second half, not tailing off."
+          ],
+          "meaning": "Corporate finance teams should refresh sector-coverage pitches to reflect insurance and secondaries as active megadeal categories, not just asset management. The buyer universe for large FS targets is broader than it was six months ago.",
+          "source": "EY, Consultancy.uk",
+          "charts": [
+            {"type": "bars", "title": "Selected UK FS deals this wave", "unit": "£ billion, deal value",
+             "bars": [
+               {"label": "Zurich / Beazley", "value": 8.1, "display": "£8.1b"},
+               {"label": "EQT / Coller", "value": 2.8, "display": "£2.8b"},
+               {"label": "Std Life / Aegon UK", "value": 2.0, "display": "£2.0b"}
+             ], "note": "Spread across insurance, secondaries, and life and pensions."}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "badge": "INTERESTME IN ADMINISTRATION",
+      "stories": [
+        {
+          "headline": "InterestMe Financial Planning and its AR enter administration",
+          "tags": ["Administration: 28 September", "FSCS/FOS exposure check"],
+          "body": [
+            "InterestMe Financial Planning Limited and its appointed representative InterestMe Advisers Limited entered administration on 28 September. Advisers with clients holding IMFP or IMA arrangements should identify exposure and prepare FSCS and FOS-related communications now, rather than waiting for client enquiries to surface the issue."
+          ],
+          "meaning": "Any accounting practice referring clients to IMFP or IMA should proactively contact affected clients this week with a clear next-steps note. Silence looks worse than a holding statement.",
+          "source": "FCA"
+        },
+        {
+          "headline": "FCA closes 24 CFD firms in enforcement sweep",
+          "tags": ["24 firms closed, 25 September", "Authorisation misuse targeted"],
+          "body": [
+            "The FCA closed 24 CFD firms on 25 September in an enforcement sweep targeting misuse of UK authorisation, part of an intensified focus on the regulatory perimeter. Compliance teams supporting IFAs and wealth managers should review the closed-firm list against introducer and platform relationships to confirm no live client exposure remains."
+          ],
+          "source": "FCA"
+        },
+        {
+          "headline": "FCA takes Hunter Jones to the High Court",
+          "tags": ["21 September", "Alleged unauthorised activity"],
+          "body": [
+            "The FCA has taken Hunter Jones to the High Court over alleged unauthorised activity, another data point in the regulator's aggressive enforcement stance this quarter. The action sits alongside the CFD sweep and the InterestMe administration as evidence that perimeter enforcement is a live, active priority rather than a background policy statement."
+          ],
+          "source": "FCA"
+        }
+      ]
+    },
+    {
+      "name": "Ireland",
+      "stories": [
+        {
+          "headline": "CRO late-filing penalties: €100 plus €3 a day, audit exemption at risk",
+          "tags": ["€100 immediate, €3/day, capped €1,200", "Audit exemption lost on 2nd late filing in 5 years"],
+          "body": [
+            "CRO annual returns remain due within 56 days of the Annual Return Date, with a €100 immediate penalty plus €3 a day, capped at €1,200, for late filing, and loss of audit exemption on a second late filing within five years. With the CT1 window just closed, this is a good moment for a bulk reminder to at-risk clients whose Annual Return Date falls in the next few weeks."
+          ],
+          "meaning": "The audit-exemption loss is the penalty that actually costs money. A bulk client reminder now is cheaper than an audit engagement forced by a missed deadline later.",
+          "source": "CRO Ireland"
+        }
+      ]
+    }
+  ]
+}
