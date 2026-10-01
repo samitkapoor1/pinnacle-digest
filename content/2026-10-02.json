@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-02",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "ICAEW presses Treasury for an MTD review as October's deadline run begins",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "ICAEW urges HM Treasury to review the foundations of Making Tax Digital before the April 2027 threshold drop, Ireland's 2025 Ethical Standard for Auditors takes effect from December 2026 and a European sustainability assurance standard is due by end of October, the FCA consults on pension-scheme money protections and tighter SIPP due diligence, and a busy October compliance calendar lands with Corporation Tax, Self Assessment registration, VAT and PAYE deadlines.",
+  "categories": [
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "ICAEW urges government to review MTD rollout ahead of Autumn Budget",
+          "tags": ["Post-implementation review sought", "Low taxpayer awareness flagged"],
+          "body": [
+            "In its Autumn Budget 2026 submission, ICAEW has called on HM Treasury to assess and strengthen the foundations of Making Tax Digital for Income Tax, pointing to member feedback that awareness among sole traders and landlords remains low and that practitioners are encountering repeated software errors and incorrect taxpayer records. The institute is pushing for a formal post-implementation review before the £30,000 threshold brings a further wave of taxpayers into scope in April 2027."
+          ],
+          "meaning": "If ICAEW's push lands, a review could slow or reshape the April 2027 threshold drop. Firms planning onboarding capacity for the £30k wave should build in a contingency for a delayed or adjusted timeline.",
+          "source": "ICAEW"
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates: Ireland Audit",
+      "badge": "IAASA BRIEFING 21 OCT",
+      "stories": [
+        {
+          "headline": "Ethical Standard for Auditors (Ireland) 2025 takes effect from 15 December 2026",
+          "tags": ["Periods from 15 Dec 2026", "Early adoption permitted"],
+          "body": [
+            "IAASA has reminded firms that the Ethical Standard for Auditors (Ireland) 2025 applies to audits of financial statements for periods beginning on or after 15 December 2026, with early adoption permitted. Audit teams should begin independence-policy and partner-rotation reviews now, rather than waiting for the effective date to arrive."
+          ],
+          "meaning": "Independence policies and partner-rotation schedules should be reviewed this quarter. Early adoption is an option worth considering for firms whose current policies already substantially meet the new standard.",
+          "source": "IAASA"
+        },
+        {
+          "headline": "European sustainability assurance standard due by end of October",
+          "tags": ["EU Commission adoption expected", "CSRD-linked limited assurance"],
+          "body": [
+            "The European Commission is expected to adopt a European sustainability assurance standard by the end of October 2026, which will apply in Ireland on adoption. Firms providing CSRD-linked limited assurance should prepare methodology and training updates ahead of the standard landing, rather than waiting for the final text before starting preparation."
+          ],
+          "source": "European Commission, IAASA"
+        },
+        {
+          "headline": "IAASA Audit Committee Briefing 2026 scheduled for 21 October",
+          "tags": ["AI in audit", "Geopolitical risk and governance"],
+          "body": [
+            "IAASA's annual audit committee briefing takes place on Wednesday 21 October, with a programme focused on AI in audit, financial reporting in a volatile geopolitical environment, and corporate governance. Firms advising audit committee clients should flag the briefing date as a useful reference point for year-end committee discussions."
+          ],
+          "source": "IAASA"
+        }
+      ]
+    },
+    {
+      "name": "HMRC & Tax",
+      "badge": "BUSY OCTOBER CALENDAR",
+      "stories": [
+        {
+          "headline": "October deadline calendar: CT, Self Assessment registration, VAT and PAYE",
+          "tags": ["CT payment: 1 Oct", "SA registration: 5 Oct", "VAT: 7 Oct, PAYE/NIC/CIS: 19 and 22 Oct"],
+          "body": [
+            "Headline dates in-month: Corporation Tax payment on 1 October, for accounting periods ending 31 December 2025; Self Assessment registration notification on 5 October; VAT return and payment for periods ending 31 August 2026 on 7 October; and PAYE, NIC, and CIS deadlines on 19 and 22 October. A busy calendar worth circulating to the full client book as a single reminder rather than four separate ones."
+          ],
+          "source": "HMRC",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "1 Oct", "label": "Corporation Tax payment, Dec 2025 year-ends"},
+              {"value": "5 Oct", "label": "Self Assessment registration notification"},
+              {"value": "7 Oct", "label": "VAT return and payment, Aug periods"},
+              {"value": "19/22 Oct", "label": "PAYE, NIC and CIS deadlines"}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "Sage broadens Copilot beyond core bookkeeping",
+          "tags": ["Sage Copilot", "Payroll, HR and finance workflows"],
+          "body": [
+            "Sage continues to lean into Sage Copilot and its subscription and cloud platform strategy, broadening beyond core bookkeeping into payroll, HR, and finance workflows. The expansion positions Sage more directly against the all-in-one practice-stack ambitions already visible in Intuit's Accountant Suite and Xero's Documents and AI capture features."
+          ],
+          "source": "Techfinitive"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "UK PE deal-making indicators turning positive for 2026",
+          "tags": ["Stronger than 2025", "Tech, healthcare, professional services, energy transition"],
+          "body": [
+            "2026 is on course to be a stronger year for UK private equity transactions than 2025, with sponsors particularly active in the mid-market. Technology, healthcare, professional services, and energy transition remain the most sought-after sectors, and public-to-private transactions are expected to remain a defining feature of the UK market through the rest of the year."
+          ],
+          "source": "Bloomberg Tax, sector commentary"
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "FCA consults on pension-scheme money protections and SIPP due diligence",
+          "tags": ["Reducing consumer harm on firm failure", "Tighter SIPP operator due diligence"],
+          "body": [
+            "The FCA is consulting on new rules governing the handling of pension scheme money and assets to reduce the risk of consumer harm when firms fail, alongside previously announced plans to tighten due-diligence standards for SIPP providers. Advisers with SIPP permissions should review supervisory arrangements over scheme operators and investment permissions ahead of the consultation closing."
+          ],
+          "meaning": "SIPP-permissioned advisers should audit their due-diligence file on scheme operators now. The direction of travel is toward tighter oversight, and firms ahead of the curve will have less remediation work when final rules land.",
+          "source": "FCA"
+        },
+        {
+          "headline": "Soderberg and Partners' Benchmark acquisition progresses",
+          "tags": ["Announced 6 July 2026", "Best Practice IFA Group affected"],
+          "body": [
+            "The acquisition of Schroders-owned Benchmark by Soderberg and Partners continues to work through regulatory approval. The deal has knock-on implications for the Best Practice IFA Group network sitting within Benchmark, and IFA principals in that network should monitor transition communications closely as the deal nears completion."
+          ],
+          "source": "Deal announcements"
+        },
+        {
+          "headline": "UK IFA network sector shrinks modestly in H1 2026",
+          "tags": ["5,869 AR firms, down 65", "10,545 investment advisers"],
+          "body": [
+            "Across the 17 largest UK IFA networks there are now 5,869 appointed-representative firms and 10,545 investment advisers, down 65 firms in the first half of 2026, a continuation of the slow consolidation trend as smaller appointed representatives move directly authorised or exit the market entirely."
+          ],
+          "source": "Sector research",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "5,869", "label": "appointed-representative firms, down 65 in H1 2026"},
+              {"value": "10,545", "label": "investment advisers across the 17 largest networks"}
+            ]}
+          ]
+        }
+      ]
+    }
+  ]
+}
