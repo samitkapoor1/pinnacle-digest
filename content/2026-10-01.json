@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-01",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "Just over half of mandated taxpayers filed MTD Q1 as the software window shuts",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "Only 54% of mandated taxpayers filed their first MTD for Income Tax quarter and 70% remain off cloud software, HMRC readies an intensive comms campaign for the two million joining over the next two years and closes the software credential window for this cycle, Veritas Capital's Bodycote take-private rises to £1.85bn after CVC withdraws, and the FCA sets a 10% retail-fund cap on cryptoasset ETNs.",
+  "categories": [
+    {
+      "name": "Making Tax Digital",
+      "badge": "CREDENTIAL WINDOW CLOSED",
+      "stories": [
+        {
+          "headline": "Only 54% of mandated taxpayers filed in MTD Q1; 70% still outside cloud software",
+          "tags": ["54% filed Q1", "70% not on cloud software"],
+          "body": [
+            "Exclusive survey data unveiled at Accountex Manchester reveals only 54% of mandated taxpayers filed in Q1 of MTD for Income Tax, with 70% still working outside cloud-based software. The panel highlighted significant fee-recovery and capacity risks for practices whose clients have not yet been transitioned, particularly in mixed-practice portfolios spanning sole traders and rental landlords."
+          ],
+          "meaning": "Any practice with a mixed sole-trader and landlord book should run the 54% and 70% numbers against its own client list today. The fee-recovery risk sits with clients who are both unfiled and off cloud software, and that overlap is where capacity gets eaten.",
+          "source": "Accountancy Age, Accountex Manchester",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "54%", "label": "of mandated taxpayers filed the first MTD quarter"},
+              {"value": "70%", "label": "still working outside cloud-based software"}
+            ]}
+          ]
+        },
+        {
+          "headline": "HMRC commits to intensive comms campaign for the next MTD wave",
+          "tags": ["c.2 million taxpayers over 2 years", "Unrepresented self-employed focus"],
+          "body": [
+            "HMRC has committed to a large-scale communications programme aimed at the roughly 2 million citizens being brought into MTD scope over the next two years, with a particular focus on unrepresented self-employed taxpayers. Firms may see a surge in inbound enquiries from previously unadvised sole traders as letters land, and should have an onboarding pathway ready before the campaign ramps up."
+          ],
+          "source": "PublicTechnology"
+        },
+        {
+          "headline": "MTD ITSA software market closes for new entrants this cycle",
+          "tags": ["API guide updated 15 Sept", "No new production credential requests"],
+          "body": [
+            "The MTD for Income Tax end-to-end service guide has been refreshed, and HMRC is no longer accepting production credential access requests for new 2026-27 quarterly-update products. The market window for new software entrants has closed for this cycle, which firms should factor into any vendor-selection conversations with clients still shopping for a solution."
+          ],
+          "meaning": "Clients still choosing MTD software are now limited to products already in production. Steer them toward an established vendor rather than one still awaiting credential approval.",
+          "source": "HMRC Developer Hub"
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "CCAB Ethics Group examines AI implications for the profession",
+          "tags": ["25 September event", "Chartered Accountants Ireland input"],
+          "body": [
+            "The CCAB Ethics Group's Ethics in the Digital Age session examined the ethical implications of AI and emerging technologies for the profession, with Chartered Accountants Ireland's Níall Fitzgerald among the speakers. Firms rolling out generative-AI tooling in engagements should expect further practical guidance from CCAB bodies in Q4, and should document current AI use against existing ethical frameworks in the meantime."
+          ],
+          "source": "CCAB"
+        }
+      ]
+    },
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "GKP acquires Premier Accounting; Ensors completes rebrand to Azets",
+          "tags": ["GKP and Premier Accounting, Beds", "Ensors becomes Azets, East Anglia"],
+          "body": [
+            "GKP has completed its acquisition of Bedfordshire's Premier Accounting, while Ensors has fully rebranded to Azets, completing the East Anglian integration first announced in 2025. The pattern underscores continued PE-backed roll-up activity in the £2m to £15m fee-base tier, a segment distinct from the headline mega-mergers but moving at a similar pace."
+          ],
+          "source": "Accountancy Today"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "Xero renames Files to Documents, adds JAX-powered Smart Document Capture",
+          "tags": ["Smart Document Capture", "JAX AI layer"],
+          "body": [
+            "Xero has rebadged its Files feature as Documents and added Smart Document Capture, powered by Xero's JAX AI layer, materially expanding document ingestion capabilities. The move targets practices still relying on third-party bookkeeping-automation add-ons, and firms with existing OCR or capture tooling should benchmark it against the native feature before the next renewal."
+          ],
+          "source": "Xero"
+        },
+        {
+          "headline": "QuickBooks Online Advanced adds native construction financials and Excel sync",
+          "tags": ["Phased budgets and AIA-style billing", "Two-way Excel/Sheets sync"],
+          "body": [
+            "Intuit's September release adds native construction financials to QuickBooks Online Advanced, phased budgets, AIA-style progress billing, and change-order management, previously a paid add-on, alongside two-way spreadsheet sync with Excel and Google Sheets that preserves formulas and pushes edits back to QBO. Management report templates now pull live KPIs into structured deliverables."
+          ],
+          "meaning": "Construction-sector clients on a third-party progress-billing add-on now have a native alternative to evaluate. The Excel sync is worth demonstrating to any client still exporting data manually for board packs.",
+          "source": "Firm of the Future"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "Veritas Capital's Bodycote take-private rises to £1.85bn after CVC withdraws",
+          "tags": ["£1.85bn, revised up from £1.65bn", "CVC rival bid withdrawn"],
+          "body": [
+            "Veritas is progressing to completion on its Bodycote take-private after CVC withdrew its rival bid, with the price revised up to £1.85bn from the £1.65bn offer tabled earlier this month, one of the largest UK industrials transactions of the year. The withdrawal of a competing bidder at this price point is a useful data point for advisers benchmarking competitive-process dynamics in current large-cap UK take-privates."
+          ],
+          "source": "Bloomberg",
+          "charts": [
+            {"type": "compare_bars", "title": "Bodycote take-private offer", "unit": "£ billion",
+             "bars": [
+               {"label": "Earlier Sept", "value": 1.65, "display": "£1.65b", "caption": "Initial Veritas offer"},
+               {"label": "Now", "value": 1.85, "display": "£1.85b", "caption": "After CVC withdrew"}
+             ], "note": "Price revised up as the competing bidder stepped away."}
+          ]
+        },
+        {
+          "headline": "Warburg Pincus realises c.$12bn in exits year to date",
+          "tags": ["$12bn YTD exits", "Matches full-year 2025"],
+          "body": [
+            "Warburg Pincus has realised approximately $12bn in exits year to date in 2026, already matching its full-year 2025 record and signalling that DPI generation, not just deployment, is driving sponsor behaviour in the current window. Advisers should read this alongside the broader PE dry-powder narrative: sponsors are returning capital at pace, which supports renewed fundraising and future deployment into 2027."
+          ],
+          "source": "Law360 UK"
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "FCA sets 10% retail-fund cap on cryptoasset ETNs",
+          "tags": ["In force 28 September", "KIID/PRIIPs disclosure update needed"],
+          "body": [
+            "Authorised funds may now hold cryptoasset ETNs up to 10% of scheme property for retail investors, under the FCA's finalised approach set out in Handbook Notice 144. Wealth managers and DFMs will need to update investment mandates, KIID and PRIIPs disclosures, and target-market assessments accordingly before any retail-facing fund takes on crypto ETN exposure under the new limit."
+          ],
+          "meaning": "Any DFM or wealth manager considering crypto ETN exposure in a retail mandate needs updated disclosures in place before, not after, the first allocation. This is a documentation-first change.",
+          "source": "FCA Handbook Notice 144"
+        }
+      ]
+    }
+  ]
+}
