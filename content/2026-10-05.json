@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-05",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "UK M&A heads for a record year, with 92% of value from overseas bidders",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "UK M&A reached £178.9bn by early July and is annualising above the 2015 record of £309.2bn, with international bidders accounting for 92% of public-deal value and corporate buyers outbidding private equity at the top end, AAB posts its strongest-ever first half, HMRC consults on expanded use of interest-income and card-sales data, and mandatory Peppol e-invoicing is targeted for 2029.",
+  "categories": [
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "UK M&A on track for a record year",
+          "tags": ["£178.9bn by early July", "Annualising c.£347bn", "2015 record: £309.2bn"],
+          "body": [
+            "UK M&A value reached £178.9bn by early July 2026, annualising to roughly £347bn and set to eclipse the 2015 record of £309.2bn. Scale and strategic synergy are the themes, with corporate buyers outbidding private equity on the largest deals, which has left PE sponsors relatively sidelined at the top end of the market."
+          ],
+          "meaning": "Advisers should be pitching strategic-buyer readiness, not just sponsor-ready packaging, on larger sell-side mandates. Corporate acquirers are setting the price at the top of the market this year.",
+          "source": "PitchBook, Morningstar",
+          "charts": [
+            {"type": "compare_bars", "title": "UK M&A value: record year vs 2026 run-rate", "unit": "£ billion",
+             "bars": [
+               {"label": "2015 record", "value": 309.2, "display": "£309.2b", "caption": "Previous high"},
+               {"label": "2026 annualised", "value": 347, "display": "~£347b", "caption": "£178.9bn by early July"}
+             ], "note": "Corporate buyers are outbidding private equity on the largest deals."}
+          ]
+        },
+        {
+          "headline": "International bidders account for 92% of UK public M&A value",
+          "tags": ["c.92% of YTD deal value", "Discount-driven inbound"],
+          "body": [
+            "International interest in UK-listed targets accounts for around 92% of year-to-date deal value in 2026, according to Slaughter and May's takeover-trends analysis. The discount-driven inbound story continues, and corporate finance teams should price it into pitches, particularly when advising boards of UK-listed mid-caps on unsolicited approaches."
+          ],
+          "source": "Slaughter and May",
+          "charts": [
+            {"type": "gauge", "value": 92, "title": "Overseas share of UK public M&A",
+             "label": "of year-to-date UK public M&A value comes from international bidders"}
+          ]
+        },
+        {
+          "headline": "AAB Corporate Finance posts its strongest-ever first half",
+          "tags": ["59 completed deals", "£400m+ combined value"],
+          "body": [
+            "AAB reported 59 completed deals worth more than £400m in H1 2026, its strongest first half to date, underlining buoyancy in the UK regional mid-market. The result sits alongside the broader record-year narrative and shows mid-market advisory is keeping pace with the headline large-cap activity."
+          ],
+          "source": "AAB"
+        }
+      ]
+    },
+    {
+      "name": "HMRC & UK Tax Policy",
+      "stories": [
+        {
+          "headline": "Interest-income and card-sales data consultation",
+          "tags": ["Expanded third-party data use", "ICAEW response filed"],
+          "body": [
+            "ICAEW has submitted its response to the government consultation on HMRC's expanded use of third-party data, covering interest income and card-sales reporting. Firms should expect further compliance touchpoints for retail and interest-bearing-account clients once the rules land, and should consider how client data-reconciliation workflows will cope with HMRC holding more information up front."
+          ],
+          "meaning": "Retail and cash-heavy clients should be briefed now that HMRC will increasingly see their card takings and interest directly. Reconciliation discipline matters more once the data is in HMRC's hands first.",
+          "source": "ICAEW"
+        },
+        {
+          "headline": "Peppol e-invoicing targeted for 2029 in the digitalisation roadmap",
+          "tags": ["Mandatory e-invoicing: 2029", "Budget 28 October"],
+          "body": [
+            "Expectations for the 28 October Autumn Budget centre on business-tax measures and the publication of the full digitalisation roadmap, including the trajectory for mandatory Peppol-framework e-invoicing targeted for 2029. Firms advising growing clients should start framing e-invoicing readiness as a multi-year ERP and workflow decision rather than a late-stage compliance task."
+          ],
+          "source": "ICAEW, GOV.UK commentary"
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "Ireland: revised DPB Handbooks in effect since 1 April 2026",
+          "tags": ["Chartered Accountants Ireland", "Investment-business work"],
+          "body": [
+            "Chartered Accountants Ireland has reminded firms that revised Designated Professional Body Handbooks took effect from 1 April 2026 for members undertaking investment-business work. Practice compliance reviews over the coming cycle will test alignment, so firms with any investment-business activity should confirm procedures and documentation already reflect the revised handbooks."
+          ],
+          "source": "Chartered Accountants Ireland"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "Xero adds Industry Benchmarks, Compliance Dashboard and expanded Syft Analytics",
+          "tags": ["Post-Xerocon rollout", "JAX assistant"],
+          "body": [
+            "Following Xerocon, Xero is rolling out its Just Ask Xero (JAX) assistant alongside Industry Benchmarks, a Compliance Dashboard, and expanded Syft Analytics. Advisers should review which clients benefit from the new automation tier, with Industry Benchmarks and the Compliance Dashboard the most obvious hooks for advisory conversations with existing small-business clients."
+          ],
+          "meaning": "Benchmarking and compliance monitoring are advisory-grade features now bundled into the platform. Firms can use them to open paid advisory conversations rather than treating them as software extras.",
+          "source": "Fastlane Global"
+        },
+        {
+          "headline": "Sage 50 October update window is open",
+          "tags": ["UK 2026 R2 build", "Payroll and VAT handling"],
+          "body": [
+            "Sage 50's standard mid-to-late October update window is open, with detailed release notes for the UK 2026 R2 build expected imminently. Release notes will be worth parsing for payroll and VAT handling changes before rolling the update across any client estate still on Sage 50."
+          ],
+          "source": "Sage Community Hub"
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "True Potential moves to tiered platform charges",
+          "tags": ["Flat 0.4% fee replaced", "Adviser-platform economics"],
+          "body": [
+            "True Potential has replaced its flat 0.4% platform fee with a tiered structure, reflecting the broader shift in adviser-platform economics. Advisers using the platform should model the impact on client cost across different portfolio sizes before the next suitability review cycle."
+          ],
+          "source": "Financial Planning Today"
+        },
+        {
+          "headline": "Lync Wealth (7IM) acquires TKV Financial Management",
+          "tags": ["West Midlands planner added", "Wealth-platform consolidation"],
+          "body": [
+            "7IM-owned Lync Wealth Management has acquired West Midlands financial planning firm TKV Financial Management, adding fresh consolidation activity to the IFA space and continuing the trend of larger wealth platforms buying regional planning practices."
+          ],
+          "source": "Financial Planning Today"
+        },
+        {
+          "headline": "Triple Lock reform debated",
+          "tags": ["Retirement-income conversations", "State-pension scenarios"],
+          "body": [
+            "Editorial coverage has picked up on the Prime Minister's mooted Triple Lock reform. Planners should expect client retirement-income conversations this week, and should be ready to model state-pension scenarios under different uprating assumptions rather than relying on the current default."
+          ],
+          "source": "Financial Planning Today"
+        },
+        {
+          "headline": "Workload warning: 31.5% of advice professionals work beyond a 35 to 40 hour week",
+          "tags": ["31.5% over-hours", "Year-end capacity planning"],
+          "body": [
+            "IntelliFlo research indicates around 31.5% of advice professionals are working beyond a 35 to 40 hour week. Practice managers may want to revisit capacity planning as year-end approaches, particularly with the Consumer Duty evidence demands and the pension and SIPP consultations already adding to the compliance workload."
+          ],
+          "meaning": "Over-hours across a third of the adviser workforce is a retention and quality risk heading into year-end. Capacity support is cheaper than replacing burned-out advisers.",
+          "source": "Financial Planning Today, IntelliFlo"
+        }
+      ]
+    }
+  ]
+}
