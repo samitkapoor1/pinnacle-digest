@@ -74,13 +74,16 @@ def _wrap(draw, text, fnt, max_w):
     return lines
 
 
-def _fit_headline(draw, text, max_w, max_lines=3, hi=76, lo=44):
-    """Largest Outfit-Bold size where the headline fits in max_lines."""
+def _fit_headline(draw, text, max_w, max_lines=3, max_h=None, hi=72, lo=42):
+    """Largest Outfit-Bold size where the headline fits the width in
+    max_lines and, if given, the vertical height budget max_h."""
     for size in range(hi, lo - 1, -2):
         fnt = font("Outfit-Bold.ttf", size)
         lines = _wrap(draw, text, fnt, max_w)
         if len(lines) <= max_lines:
-            return fnt, lines, size
+            line_h = int(size * 1.18)
+            if max_h is None or len(lines) * line_h <= max_h:
+                return fnt, lines, size
     fnt = font("Outfit-Bold.ttf", lo)
     return fnt, _wrap(draw, text, fnt, max_w)[:max_lines], lo
 
@@ -121,41 +124,45 @@ def render_og(out_path, headline, date_label, topics, home=False):
     draw.text((tx, top_y + 40), "PINNACLE DIGEST", font=font("Outfit-Bold.ttf", 30), fill=WHITE)
 
     # kicker line (date + region)
-    kicker = ("DAILY ACCOUNTANCY BRIEFING" if not home else "UK & IRELAND")
-    meta = f"{kicker}   •   {date_label}   •   UK & IRELAND" if not home else "A DAILY BRIEFING FOR UK & IRELAND FIRMS"
-    draw.text((MX, 210), meta, font=font("Outfit-Regular.ttf", 22), fill=GREEN_LT)
+    meta = (f"DAILY ACCOUNTANCY BRIEFING   \u2022   {date_label}   \u2022   UK & IRELAND"
+            if not home else "A DAILY BRIEFING FOR UK & IRELAND FIRMS")
+    draw.text((MX, 202), meta, font=font("Outfit-Regular.ttf", 22), fill=GREEN_LT)
 
-    # headline
+    # headline, vertically centred in a fixed zone so every edition keeps
+    # clear air above (kicker) and below (pills), whatever the line count
+    HEAD_TOP, HEAD_BOT = 258, 468
     max_w = W - MX * 2
-    fnt, lines, size = _fit_headline(draw, headline, max_w, max_lines=3)
-    line_h = int(size * 1.16)
-    y = 250
+    fnt, lines, size = _fit_headline(draw, headline, max_w, max_lines=3,
+                                     max_h=HEAD_BOT - HEAD_TOP)
+    line_h = int(size * 1.18)
+    block_h = len(lines) * line_h
+    y = HEAD_TOP + max(0, ((HEAD_BOT - HEAD_TOP) - block_h) // 2)
     for ln in lines:
         draw.text((MX, y), ln, font=fnt, fill=WHITE)
         y += line_h
 
-    # topic pills, placed a consistent gap below the headline
+    # topic pills on their own band, clear of the headline and the footer
     if topics:
-        py = min(516, y + 18)
+        py = 492
         px = MX
-        pill_font = font("Outfit-Regular.ttf", 22)
-        line_used = 0
+        pill_font = font("Outfit-Regular.ttf", 21)
+        shown = 0
         for t in topics:
             tw = draw.textlength(t, font=pill_font) + 36
             if px + tw > W - MX:
                 break
-            w, h = _pill(draw, px, py, t, pill_font)
-            px += w + 12
-            line_used += 1
-            if line_used >= 6:
+            _pill(draw, px, py, t, pill_font)
+            px += tw + 12
+            shown += 1
+            if shown >= 6:
                 break
 
     # footer
-    draw.line([(MX, 566), (W - MX, 566)], fill=(255, 255, 255, 60), width=1)
-    draw.text((MX, 582), "pinnacleglobalgroup.com", font=font("Outfit-Regular.ttf", 22), fill=INK_SOFT)
+    draw.line([(MX, 562), (W - MX, 562)], fill=(255, 255, 255, 60), width=1)
+    draw.text((MX, 580), "pinnacleglobalgroup.com", font=font("Outfit-Regular.ttf", 22), fill=INK_SOFT)
     tag = "New every weekday"
     tw = draw.textlength(tag, font=font("Outfit-Regular.ttf", 22))
-    draw.text((W - MX - tw, 582), tag, font=font("Outfit-Regular.ttf", 22), fill=INK_SOFT)
+    draw.text((W - MX - tw, 580), tag, font=font("Outfit-Regular.ttf", 22), fill=INK_SOFT)
 
     os.makedirs(os.path.dirname(out_path), exist_ok=True)
     img.convert("RGB").save(out_path, "PNG", optimize=True)

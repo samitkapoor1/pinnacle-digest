@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-07",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "Ireland's Budget lifts the R&D credit to 35% and cuts fund tax to 38%, as the UK counts down to 28 October",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "Ireland's Budget raises the R&D tax credit from 30% to 35%, cuts the investment fund tax rate from 41% to 38% and introduces a new Derelict Property Tax, while in the UK attention turns to the 28 October Autumn Budget, where CGT alignment, Inheritance Tax reliefs and pension relief are the most-forecast areas. HMRC's tax adviser registration timetable and umbrella-company PAYE compliance continue to drive firm workloads, and K3 Advisory holds the top UK mid-market spot with 145 deals.",
+  "categories": [
+    {
+      "name": "Ireland: Budget Measures",
+      "stories": [
+        {
+          "headline": "R&D credit rises to 35%; investment fund tax rate falls to 38%",
+          "tags": ["R&D credit: 35%", "Funds tax: 41% to 38%", "Listed-company stamp duty exemption"],
+          "body": [
+            "The Irish Budget raised the R&D tax credit from 30% to 35% and cut the investment fund tax rate, covering Irish and certain offshore funds, from 41% to 38%. It also reforms dividend taxation and introduces a broad new stamp duty exemption for Irish listed companies. Firms with Irish clients should brief R&D claimants on the higher credit rate and flag the funds-rate reduction to private clients with fund holdings."
+          ],
+          "meaning": "Existing and prospective R&D claimants now have a stronger case for claiming, so claim documentation and eligibility reviews are worth refreshing early. Private clients with fund holdings should have their projected tax cost re-modelled at 38%.",
+          "source": "Irish Budget, Revenue",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "35%", "label": "R&D tax credit (up from 30%)"},
+              {"value": "38%", "label": "Investment fund tax (down from 41%)"}
+            ]}
+          ]
+        },
+        {
+          "headline": "New Derelict Property Tax set at a minimum of 7% of market value",
+          "tags": ["Min. 7% of market value", "Administered by Revenue"],
+          "body": [
+            "Measures to incentivise apartment construction sit alongside a new Derelict Property Tax, with a minimum rate of 7% of market value, to be administered by Revenue rather than local authorities. Legislation is expected during 2026, with registers compiled across 2026 and 2027. Property-owning clients with vacant or unused buildings should be reviewed for exposure now."
+          ],
+          "source": "Irish Budget, Revenue"
+        }
+      ]
+    },
+    {
+      "name": "Autumn Budget Watch (UK)",
+      "stories": [
+        {
+          "headline": "CGT, IHT reliefs and pension relief are the three most-forecast areas",
+          "tags": ["Budget 28 October", "CGT, BPR/APR, pension relief", "Electricity VAT cut pre-announced"],
+          "body": [
+            "Headline rate rises to income tax, VAT and National Insurance have been ruled out in line with the 2024 manifesto, but Capital Gains Tax alignment with income tax bands, Inheritance Tax reliefs, notably BPR and APR, and pension tax relief remain the three most-forecast areas for change at the 28 October Budget. A VAT reduction on domestic electricity and a 20% business rates discount for pubs and live music venues are already pre-announced. Advisers should begin modelling CGT acceleration scenarios for clients contemplating disposals."
+          ],
+          "meaning": "Any client considering a disposal before year-end needs a with-and-without-Budget CGT comparison on the table well before 28 October. Waiting for the announcement removes the option to act ahead of it.",
+          "source": "HM Treasury, press commentary"
+        }
+      ]
+    },
+    {
+      "name": "HMRC & UK Tax Policy",
+      "stories": [
+        {
+          "headline": "Tax adviser registration regime: commencement timetable confirmed",
+          "tags": ["Deadlines to 1 April 2027", "ASA holders deemed registered from 18 Aug 2026"],
+          "body": [
+            "The Finance Act 2026 (Registration of Tax Advisers) (Appointed Days and Transitional Provision) Regulations 2026, published on 14 July 2026, continue to drive onboarding work. Entities holding an HMRC Agent Services Account are deemed registered from 18 August 2026, with staggered deadlines for other agent categories running through to 1 April 2027. Practices should ensure all client-facing fee-earners and sole practitioners are captured in the firm's registration record before the next tranche falls due."
+          ],
+          "meaning": "Build a register of every fee-earner and sole practitioner against the relevant deadline now. Missed registrations are the kind of gap that surfaces at the worst possible moment.",
+          "source": "HMRC, HM Government"
+        },
+        {
+          "headline": "Umbrella-company PAYE: HMRC compliance webinars run through October and November",
+          "tags": ["PAYE duty moved from 6 April 2026", "HMRC webinars running"],
+          "body": [
+            "From 6 April 2026, recruitment agencies, or failing that end clients, have assumed responsibility for operating PAYE on payments to workers supplied through umbrella companies. HMRC is running in-depth compliance webinars across October and November, which firms with contractor-heavy client bases are encouraged to signpost."
+          ],
+          "source": "HMRC"
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "FRC issues revised TAS 310 for Collective Defined Contribution pensions",
+          "tags": ["Issued July 2026", "Technical Actuarial Guidance"],
+          "body": [
+            "The Financial Reporting Council issued revised Technical Actuarial Standard 310, with accompanying Technical Actuarial Guidance, in July 2026 for Collective Defined Contribution pension schemes. Pension-specialist audit teams should refresh their technical reviews accordingly."
+          ],
+          "source": "FRC"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "K3 Advisory closes 145 deals to retain the top UK mid-market spot",
+          "tags": ["145 transactions in H1", "LSEG rankings: number one"],
+          "body": [
+            "Mid-market deal activity gathered pace in H1 2026 against a still-choppy macro backdrop, with K3 Advisory Group closing 145 transactions to retain the UK's number one mid-market adviser position in the LSEG rankings. Valuation gaps between buyers and sellers continue to slow execution, and AI-enabled business services, healthcare, energy and financial services remain the busiest sectors."
+          ],
+          "source": "LSEG, K3 Advisory",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "145", "label": "Deals closed in H1 2026"},
+              {"value": "No. 1", "label": "UK mid-market adviser (LSEG)"}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "Xero JAX integrates with Microsoft 365; Sage Intacct deepens AI across finance workflows",
+          "tags": ["Xero JAX + Microsoft 365", "Sage Intacct: close, AP, recs, FP&A"],
+          "body": [
+            "Xero's JAX AI assistant now integrates with Microsoft 365, while Sage Intacct is deepening AI across close, accounts payable, reconciliation and FP&A workflows. The direction of travel across vendors is from passive data extraction toward categorisation, reconciliation assistance, anomaly detection and process automation, so firms refreshing their stack for 2026/27 should benchmark workflow coverage, not just feature counts."
+          ],
+          "meaning": "When comparing platforms this cycle, score them on how much of the close, AP and reconciliation workflow the AI actually carries, not on the length of the feature list.",
+          "source": "Xero, Sage"
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "FCA data: the number of independent advice firms fell 5% in 2024",
+          "tags": ["-5% year on year", "Consumer Duty and MiFID II cost pressure"],
+          "body": [
+            "The latest FCA Retail Intermediary Market Data report shows a 5% year-on-year decline in the number of firms providing independent financial advice during 2024, continuing a multi-year consolidation trend that is driving ongoing acquisition activity among national IFA consolidators. Consumer Duty and MiFID II compliance costs continue to be cited as the dominant structural pressure."
+          ],
+          "source": "FCA Retail Intermediary Market Data"
+        }
+      ]
+    }
+  ]
+}
