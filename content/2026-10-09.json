@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-09",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "FRC fines Deloitte around £6m, and the FCA finalises UK sustainability reporting rules",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "The FRC has sanctioned Deloitte about £6m, extending its run of Big Four penalties, while the FCA has finalised the UK Sustainability Reporting Standards on a comply-or-explain basis for listed companies. The Government has accepted all Public Accounts Committee recommendations on large business tax compliance, Tranche 2 of the tax adviser registration regime closes on 18 November, Barclays flags a rise in unsolicited bear-hug bids, and the 2026-27 FSCS levy on advisers rises to around £110m.",
+  "categories": [
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "FRC sanctions Deloitte around £6m",
+          "tags": ["c.£6m sanction", "Big Four enforcement pattern"],
+          "body": [
+            "The Financial Reporting Council has levied approximately £6m in sanctions against Deloitte, as reported on 8 October by Going Concern. The action maintains the FRC's recent pattern of material penalties against Big Four audit practices and will reinforce ongoing debate over audit quality, risk weighting, and the trajectory of professional indemnity premiums across UK firms."
+          ],
+          "meaning": "Enforcement headlines at the top of the market feed directly into PI renewal conversations further down. Firms with audit books should have their quality-management evidence in order before insurers ask for it.",
+          "source": "Going Concern, FRC",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "c.£6m", "label": "FRC sanction against Deloitte"}
+            ]}
+          ]
+        },
+        {
+          "headline": "ICAEW Annual Conference next Friday: MTD experience and AI in practice",
+          "tags": ["ICAEW", "MTD adoption benchmarking"],
+          "body": [
+            "The ICAEW's flagship conference convenes next Friday, with the CEO's agenda centring on Making Tax Digital rollout experience and the practical integration of AI in practice. Delegates will be focused on peer benchmarking around MTD adoption rates and the direction of travel on firm-wide AI governance."
+          ],
+          "source": "ICAEW"
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "FCA finalises UK Sustainability Reporting Standards on a comply-or-explain basis",
+          "tags": ["Final rules published", "Listed companies in scope"],
+          "body": [
+            "The FCA has published final rules requiring in-scope listed companies to report against the UK Sustainability Reporting Standards on a comply-or-explain basis. Finance teams and auditors should review scoping, materiality assessment, and governance disclosures ahead of first-year reporting, and practitioners advising listed clients will need to update engagement letters and audit planning memoranda."
+          ],
+          "meaning": "Listed clients need a scoping and materiality assessment started now. Engagement letters and audit planning memoranda should reflect the new reporting basis before fieldwork begins.",
+          "source": "FCA"
+        },
+        {
+          "headline": "Government accepts all PAC recommendations on large business tax compliance",
+          "tags": ["Saffery corporate tax update", "Transfer pricing, BRR, SAO scrutiny"],
+          "body": [
+            "Saffery's October corporate tax update notes that the Government has accepted all recommendations from the Public Accounts Committee on HMRC's handling of large business tax compliance. Expect intensified scrutiny of transfer pricing, Business Risk Reviews, and senior accounting officer compliance across in-scope groups."
+          ],
+          "source": "Saffery"
+        },
+        {
+          "headline": "HMRC publishes updated R&D tax relief statistics",
+          "tags": ["Merged scheme and ERIS"],
+          "body": [
+            "HMRC published updated statistics on claims for Research and Development tax relief this week, as flagged in the ICAEW weekly tax roundup for the week ending 7 October. The data remains central to advisers reviewing claim strategy under the merged scheme and the ERIS regime."
+          ],
+          "source": "HMRC, ICAEW"
+        }
+      ]
+    },
+    {
+      "name": "Making Tax Digital",
+      "stories": [
+        {
+          "headline": "Was HMRC right to pause MTD software changes this autumn?",
+          "tags": ["AccountingWEB", "First full quarterly cycle feedback"],
+          "body": [
+            "AccountingWEB has questioned whether HMRC was right to pause changes to Making Tax Digital software this autumn, in the context of practitioner feedback following the first full quarterly cycle. HMRC has previously confirmed no penalties for late quarterly updates during 2026-27, though late-filing and late-payment penalties remain unchanged."
+          ],
+          "source": "AccountingWEB"
+        }
+      ]
+    },
+    {
+      "name": "HMRC",
+      "stories": [
+        {
+          "headline": "Tax adviser registration: Tranche 2 closes on 18 November 2026",
+          "tags": ["18 Nov 2026 deadline", "Non-ASA online services accounts"],
+          "body": [
+            "Tranche 2 of the new tax adviser registration regime closes on 18 November 2026, covering entities with specified non-ASA HMRC online services accounts. Practice principals should confirm their tranche assignment and compile supporting registration documentation without delay."
+          ],
+          "meaning": "Confirm which tranche each entity and fee-earner sits in this week. A missed tranche is a regulatory exposure, not an administrative one.",
+          "source": "HMRC"
+        },
+        {
+          "headline": "Six-month 0% domestic electricity VAT relief began on 1 October",
+          "tags": ["Live from 1 October", "ACCA post-Budget webinar 5 Nov"],
+          "body": [
+            "A six-month 0% VAT relief on domestic electricity commenced on 1 October, the first measure of the autumn fiscal cycle to take effect. ACCA has opened bookings for its post-Budget review webinar on 5 November, ahead of the 28 October Autumn Budget. Firms with domestic-supply and construction clients should confirm the relief is being applied correctly from the start date."
+          ],
+          "source": "HM Treasury, ACCA"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "Sage subscription changes take effect from 1 October",
+          "tags": ["Effective 1 Oct or next renewal", "AP and AR automation via Sage Connect"],
+          "body": [
+            "Sage's annual subscription fee adjustment for Sage Business Accounting applies from 1 October 2026, or at the next renewal thereafter. Sage has published a 2026-27 pricing guide covering recent enhancements, including the AP automation and AR automation layers introduced through Sage Connect. Firms recharging Sage subscriptions to clients should refresh fee proposals before the next renewal cycle."
+          ],
+          "source": "Sage"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "Barclays flags a rise in unsolicited bear-hug approaches to UK listed targets",
+          "tags": ["Firm offers up to £18.7bn", "Takeover defence refresh"],
+          "body": [
+            "Barclays' September 2026 UK M&A review highlights an uptick in large unsolicited bear-hug approaches to UK listed targets year to date, with firm offers through the summer reaching up to £18.7bn. Advisers to listed clients should refresh takeover defence protocols."
+          ],
+          "meaning": "Boards of UK listed mid-caps should have a rehearsed response plan before an unsolicited approach arrives. The time to draft it is not after the first call.",
+          "source": "Barclays",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "£18.7bn", "label": "Largest firm offers, YTD summer 2026"}
+            ]}
+          ]
+        },
+        {
+          "headline": "Pre-Budget pressure builds on CGT-sensitive founder exits",
+          "tags": ["Mid-October completion pressure", "Complete before 28 October"],
+          "body": [
+            "With the Budget three weeks out, deal activity around CGT-sensitive founder exits is likely to intensify. Corporate finance teams should expect concentrated transaction completion pressure through mid-October, and should flag timetable risk to sellers who want to complete before 28 October."
+          ],
+          "source": "Sector commentary"
+        }
+      ]
+    },
+    {
+      "name": "Ireland",
+      "stories": [
+        {
+          "headline": "Audit quality agenda and PI premium pressure",
+          "tags": ["ISQM 1 implementation", "EY £188m regulatory provision reported"],
+          "body": [
+            "Irish practice continues to focus on ISQM 1 implementation and tightened audit documentation, in the aftermath of the EY £188m regulatory provision disclosed earlier this year. Insurers are signalling continued upward pressure on PI premiums for 2026-27 renewals."
+          ],
+          "source": "Sector reporting"
+        },
+        {
+          "headline": "Practitioner reference points: Time to Pay and Entrepreneur Relief",
+          "tags": ["Entrepreneur Relief limit: €1.5m", "SME banking competition call"],
+          "body": [
+            "Chartered Accountants Ireland has maintained its call for stronger competition in SME banking, and recent commentary has flagged Revenue Time to Pay flexibility and a revised Entrepreneur Relief limit of €1.5m. These remain active practitioner reference points pending further announcements from Revenue or the Department of Finance this autumn."
+          ],
+          "source": "Chartered Accountants Ireland"
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "FSCS levy on UK advisers rises to around £110m for 2026-27",
+          "tags": ["c.£110m levy", "Fee-review factor"],
+          "body": [
+            "The 2026-27 FSCS levy on UK advisers rises to approximately £110m, with practice principals factoring the increase into fee reviews. Firms should model the per-adviser cost increase now and decide whether it is absorbed or passed on at the next client review cycle."
+          ],
+          "meaning": "Model the per-adviser cost of the higher levy now, then decide deliberately whether to absorb it or pass it on. Leaving it to the renewal date removes the choice.",
+          "source": "FSCS",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "c.£110m", "label": "2026-27 FSCS levy on UK advisers"}
+            ]}
+          ]
+        },
+        {
+          "headline": "Pensions Dashboard go-live approaches for late 2026",
+          "tags": ["Live for member use late 2026", "Client servicing and data handling"],
+          "body": [
+            "The Pensions Dashboard is scheduled to be live for member use in late 2026, with implications for IFA client servicing, data handling, and consolidation advice protocols. Firms should prepare for a rise in client questions once members can see all their pensions in one place."
+          ],
+          "source": "Pensions Dashboards Programme"
+        }
+      ]
+    }
+  ]
+}
