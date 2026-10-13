@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-13",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "A third of HMRC-approved MTD products still cannot file the year-end return",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "A report finds 51 of the 138 HMRC-approved MTD products lack end-of-year return functionality, a gap firms should close before the final submission window. Ireland's Budget detail widens to a €1bn ISIF scaling programme, a €360m skills package and Personal Investment Accounts allowing up to €50,000 tax-free, IAASA revises its fraud and going-concern standards, HSBC reports mid-market borrowing doubling, and the FCA's crypto authorisation gateway sets an end-February 2027 application deadline.",
+  "categories": [
+    {
+      "name": "Making Tax Digital",
+      "stories": [
+        {
+          "headline": "51 of 138 HMRC-approved MTD products lack end-of-year return functionality",
+          "tags": ["51 of 138 products", "End-of-year gap"],
+          "body": [
+            "A report cited in UK business coverage this week says 51 of the 138 HMRC-approved MTD products currently lack the functionality needed for end-of-year tax returns. Firms are advised to confirm feature coverage with their software providers before the final submission window, rather than assuming that an approved product handles every stage of the cycle."
+          ],
+          "meaning": "Audit the software stack of every MTD client now. Approval for quarterly updates does not guarantee end-of-year capability, and a mid-cycle switch is far more painful than a choice made in October.",
+          "source": "UK business coverage, HMRC approved products list",
+          "charts": [
+            {"type": "compare_bars", "title": "HMRC-approved MTD products (of 138)", "unit": "products",
+             "bars": [
+               {"label": "Full year-end support", "value": 87, "display": "87", "caption": "End-to-end"},
+               {"label": "Missing functionality", "value": 51, "display": "51", "caption": "Quarterly only"}
+             ], "note": "Approval for quarterly updates does not guarantee end-of-year capability."}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ireland",
+      "stories": [
+        {
+          "headline": "Budget measures: €1bn ISIF programme, €360m skills package, childcare cap",
+          "tags": ["€1bn ISIF scaling programme", "€360m skills and AI", "€20.3bn capital investment"],
+          "body": [
+            "The Irish Budget, delivered to the Dail on 6 October, included a €1bn Ireland Strategic Investment Fund programme for scaling companies, a new Public Spending Efficiency Taskforce, a €360m skills package covering AI, and a €550 monthly cap on childcare fees. Capital investment of €20.3bn was earmarked for infrastructure, including a €6bn top-up for Metrolink. Figures come from secondary sources and should be verified against the Department of Finance before client use."
+          ],
+          "source": "Chartered Accountants Ireland, Department of Finance",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "€1bn", "label": "ISIF scaling-company programme"},
+              {"value": "€360m", "label": "Skills package (incl. AI)"},
+              {"value": "€20.3bn", "label": "Capital investment"}
+            ]}
+          ]
+        },
+        {
+          "headline": "Personal Investment Accounts: up to €50,000 tax-free",
+          "tags": ["€50,000 tax-free cap", "Legislation and Revenue guidance pending"],
+          "body": [
+            "Chartered Accountants Ireland has welcomed progress on the long-planned Personal Investment Account, which will allow eligible savers to invest up to €50,000 tax-free, and has urged the Government to finalise supporting legislation and Revenue guidance quickly. The accounts are positioned as a central plank of the Government's long-term retail investment agenda."
+          ],
+          "meaning": "Irish private clients will start asking about these accounts as soon as launch dates firm up. Prepare an advisory note on eligibility and interaction with existing savings and investment products.",
+          "source": "Chartered Accountants Ireland, Irish Times",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "€50,000", "label": "Tax-free Personal Investment Account cap"}
+            ]}
+          ]
+        },
+        {
+          "headline": "SME compliance burden is the top ask from Irish businesses",
+          "tags": ["54% of SMEs", "GRID Finance research"],
+          "body": [
+            "Institute research with GRID Finance found that 54% of Irish SMEs rank reducing regulatory and compliance burden as the single area where they most need Government support. The finding is likely to feed Chartered Accountants Ireland's post-Budget engagement with the Department of Enterprise."
+          ],
+          "source": "Chartered Accountants Ireland, GRID Finance",
+          "charts": [
+            {"type": "gauge", "value": 54, "title": "Irish SMEs' top ask of Government",
+             "label": "rank cutting the regulatory and compliance burden as their single greatest need"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "IAASA revises ISA (Ireland) 240 and 570; CAI aligns its ethics code to IESBA 2025",
+          "tags": ["Fraud and going concern", "Updated group audits standard (ISA 600)", "CAI code update: 2027"],
+          "body": [
+            "The Irish Auditing and Accounting Supervisory Authority has issued revised ISA (Ireland) 240 on fraud and ISA (Ireland) 570 on going concern following public consultation, and has published an updated ISA (Ireland) 600 on group audits. Chartered Accountants Ireland is separately updating its own ethics code to align with the 2025 IESBA Code, with completion expected in 2027."
+          ],
+          "meaning": "Fraud and going-concern procedures are the two areas where audit methodology changes most visibly to clients. Brief audit teams and update templates before the next planning cycle.",
+          "source": "IAASA, Chartered Accountants Ireland"
+        }
+      ]
+    },
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "bk plus completes its 13th UK acquisition of 2026",
+          "tags": ["Havard and Associates", "13 deals in 2026"],
+          "body": [
+            "bk plus has completed the acquisition of Havard and Associates, its 13th UK acquisition since the start of 2026. The deal is consistent with the broader private-equity-backed roll-up pattern reshaping UK accountancy and adds further scale to the group's regional footprint."
+          ],
+          "source": "Accountancy Today"
+        },
+        {
+          "headline": "FRC Key Facts and Trends points to a growing talent pipeline",
+          "tags": ["24th edition", "Rising student numbers"],
+          "body": [
+            "The Financial Reporting Council has published the 24th edition of its Key Facts and Trends report, pointing to continued growth in the accountancy and audit talent pipeline. The report provides a longitudinal view of partner, member, and student numbers across the UK's recognised supervisory bodies."
+          ],
+          "source": "FRC"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "HSBC UK: mid-market corporate borrowing doubles",
+          "tags": ["Borrowing doubling", "M&A a leading use of proceeds"],
+          "body": [
+            "HSBC UK's mid-market head reports a sharp rise in new finance mandates, with M&A among the most commonly cited uses of proceeds alongside working capital for firms managing persistent cost pressure. The commentary points to a stronger end-of-year pipeline for corporate finance advisers."
+          ],
+          "meaning": "Rising bank appetite for mid-market M&A lending supports sell-side and buy-side mandates alike. Advisers should be refreshing debt-financing introductions for Q4 pipeline clients.",
+          "source": "London Loves Business, HSBC UK"
+        },
+        {
+          "headline": "PwC completes sale of National Car Parks out of administration",
+          "tags": ["Completed 9 October", "Restructuring mandate"],
+          "body": [
+            "PwC has completed the sale of the National Car Parks business out of administration, closing one of the more visible UK restructuring mandates of the quarter. The transaction reinforces the current workflow mix for Big Four and challenger restructuring teams."
+          ],
+          "source": "Press reports"
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "UK e-invoicing mandate signalled for 2029; technical specification not yet published",
+          "tags": ["Mandatory from 2029", "Spec still pending"],
+          "body": [
+            "A 4 October industry briefing confirms the UK's direction of travel on mandatory e-invoicing for all VAT invoices from 2029, affecting Xero, Sage, QuickBooks, and FreeAgent users. The final technical specification is not yet published, and firms are advised against replacing software solely on the basis of the mandate."
+          ],
+          "source": "Compare the Cloud"
+        },
+        {
+          "headline": "Xero security update; QuickBooks adds deposit and batch invoicing",
+          "tags": ["Xero: cybersecurity enhancements (5 Oct)", "QBO: invoice deposits and batch invoicing"],
+          "body": [
+            "Xero's 5 October product update focuses on cybersecurity enhancements across the platform. QuickBooks continues to roll out invoice-deposit and batch invoicing capability for its UK accountant customers, while Sage 50 users on older on-premise versions may still require bridging software to meet MTD obligations."
+          ],
+          "source": "Xero, Intuit"
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory & FCA",
+      "stories": [
+        {
+          "headline": "FCA crypto gateway: applications by end-February 2027, full regime October 2027",
+          "tags": ["Apply by end-Feb 2027", "Full effect: October 2027"],
+          "body": [
+            "The FCA's crypto authorisation gateway opened on 30 September 2026, with firms required to file applications by end-February 2027. The regime is scheduled to take full effect in October 2027, bringing crypto activity formally into the FCA perimeter."
+          ],
+          "meaning": "Any wealth or advice firm with a crypto proposition needs a go or no-go decision on authorisation well inside the February window. Application preparation takes months.",
+          "source": "FCA"
+        },
+        {
+          "headline": "CP26/34: FCA consults on its transaction reporting regime",
+          "tags": ["Published 2 October", "Reference data and reporting pipelines"],
+          "body": [
+            "The FCA has published CP26/34 setting out proposed changes to its transaction reporting framework, with firms expected to review their reference-data and reporting pipelines in response. The paper is a key workstream for compliance leads across wealth, asset management, and advice firms."
+          ],
+          "source": "FCA CP26/34"
+        },
+        {
+          "headline": "New long-term investment fund rules and a new Financial Ombudsman Service chair",
+          "tags": ["8 to 9 October updates", "AIFMD simplification consultation"],
+          "body": [
+            "The FCA has set out new rules for long-term investment funds and announced a new chair of the Financial Ombudsman Service, both in its 8 to 9 October updates. AIFMD simplification work also continues, with HM Treasury consulting on draft legislation alongside the FCA's own policy track."
+          ],
+          "source": "FCA, LexisNexis"
+        }
+      ]
+    }
+  ]
+}
