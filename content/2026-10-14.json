@@ -1,0 +1,202 @@
+{
+  "date": "2026-10-14",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "The mansion-tax surcharge looks set to start at £2m, catching around 134,000 homes",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "Ahead of the 28 October Budget, Accountancy Age reports the High Value Council Tax Surcharge will start at £2m rather than £1.5m, roughly halving the homes caught to about 134,000 and putting the focus on the £1.8m to £2.2m grey zone. Revenue has refreshed its CAT, CGT and VAT guidance after Budget 2027, the EU has updated its list of non-cooperative tax jurisdictions, the Treasury Committee has questioned FCA leadership on a whistleblower matter and Palantir, and Quilter has grown its bereavement team by half ahead of pension inheritance tax changes.",
+  "categories": [
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "High Value Council Tax Surcharge: £2m threshold reportedly confirmed",
+          "tags": ["£1.5m entry point ruled out", "271,000 homes down to ~134,000", "£2,500 to £7,500 a year by band"],
+          "body": [
+            "Accountancy Age reports that the Chancellor has ruled out the lower £1.5m entry point for the High Value Council Tax Surcharge ahead of the 28 October Budget, with £2m now the confirmed starting point. The decision roughly halves the number of homes caught, from an estimated 271,000 at £1.5m to about 134,000 at £2m. The surcharge is reported at £2,500 to £7,500 a year by band, and applies to whole-dwelling value."
+          ],
+          "meaning": "Private client teams should focus on the £1.8m to £2.2m grey zone, around 73,600 properties per Knight Frank. Commission independent RICS valuations as evidence against automated VOA valuations, and build the surcharge into cash-flow and pension drawdown forecasts. Restructuring to avoid the charge is discouraged, since it could trigger CGT or SDLT.",
+          "source": "Accountancy Age",
+          "charts": [
+            {"type": "compare_bars", "title": "Homes caught by the surcharge, by entry point", "unit": "dwellings",
+             "bars": [
+               {"label": "At £1.5m", "value": 271000, "display": "271,000", "caption": "Lower option, ruled out"},
+               {"label": "At £2m", "value": 134000, "display": "~134,000", "caption": "Confirmed starting point"}
+             ], "note": "Moving the entry point to £2m roughly halves the number of dwellings in scope."}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "EU updates its list of non-cooperative tax jurisdictions",
+          "tags": ["Annex I and II refreshed", "DAC6 and withholding analyses"],
+          "body": [
+            "The Council of the EU has refreshed Annex I and Annex II of its list of non-cooperative tax jurisdictions. Practice teams should factor the update into disclosure, DAC6, and withholding analyses for Irish-headquartered groups and inbound structures."
+          ],
+          "source": "Chartered Accountants Ireland"
+        },
+        {
+          "headline": "Revenue refreshes CAT, CGT and VAT guidance after Budget 2027",
+          "tags": ["Capital acquisitions tax", "Capital gains tax", "VAT manuals"],
+          "body": [
+            "Revenue has refreshed its capital acquisitions tax guidance to reflect Budget 2027 amendments, issued further capital gains tax manual amendments, and published a batch of VAT manual updates. Private client teams should re-check reliefs, thresholds, and valuation references before advising on lifetime transfers and estate planning, and indirect tax teams should review sector-specific supply treatment and place-of-supply points."
+          ],
+          "meaning": "Refresh client letters and planning templates now, ahead of year-end disposal activity. Guidance that changed after the Budget will catch out templates drafted before it.",
+          "source": "Chartered Accountants Ireland, Revenue"
+        },
+        {
+          "headline": "European Parliament adopts recommendations on corporate tax strategy",
+          "tags": ["Direction-of-travel signal", "Pillar Two, CbCR, ATAD"],
+          "body": [
+            "MEPs have agreed a set of recommendations for the EU's future corporate tax strategy. The resolution is a direction-of-travel signal for multinational groups and advisers monitoring Pillar Two implementation and the direction of country-by-country reporting and ATAD-adjacent files."
+          ],
+          "source": "Chartered Accountants Ireland"
+        },
+        {
+          "headline": "Special Assignee Relief Programme statistics for 2024 published",
+          "tags": ["Revenue SARP data"],
+          "body": [
+            "Revenue's SARP statistics for 2024 are now available, a useful reference for inbound assignment planning and HR-tax advisory work for Irish-based multinational clients."
+          ],
+          "source": "Chartered Accountants Ireland, Revenue"
+        }
+      ]
+    },
+    {
+      "name": "HMRC & Revenue",
+      "stories": [
+        {
+          "headline": "Revenue issues renewed scam warning",
+          "tags": ["Phishing and impersonation"],
+          "body": [
+            "Irish Revenue has issued a renewed warning on phishing and impersonation scams aimed at taxpayers. Practices should remind clients that Revenue will not request bank details, PINs, or passwords by SMS, email, or phone."
+          ],
+          "meaning": "Send a one-paragraph client reminder this week. Fraud attempts spike around filing and Budget periods, and a firm that warns early protects both the client and its own reputation.",
+          "source": "Chartered Accountants Ireland, Revenue"
+        },
+        {
+          "headline": "Dublin hosts the Tax Administration EU Summit",
+          "tags": ["EU revenue authorities", "Digitalisation and data exchange"],
+          "body": [
+            "Dublin hosted the Tax Administration EU Summit, bringing together EU revenue authorities on cooperation, digitalisation, and compliance strategy. The summit is a backdrop to expected further moves on cross-border data exchange and real-time reporting alignment."
+          ],
+          "source": "Chartered Accountants Ireland"
+        },
+        {
+          "headline": "Half the UK population is struggling to keep up with announced tax changes",
+          "tags": ["Professional Adviser survey", "Speculation driving client enquiries"],
+          "body": [
+            "With two weeks to the Autumn Budget, speculation around the mansion tax, inheritance tax, and pensions tax is driving client enquiries. A Professional Adviser survey finds half of the UK population reports struggling to keep up with announced changes."
+          ],
+          "source": "Professional Adviser",
+          "charts": [
+            {"type": "gauge", "value": 50, "title": "Keeping up with tax changes",
+             "label": "of the UK population reports struggling to keep up with announced tax changes"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "Plannr and Dynamic Planner launch two-way integration",
+          "tags": ["Two-way sync live", "Fact-find, risk profiling, portfolio data"],
+          "body": [
+            "Advice CRM Plannr has gone live with a two-way integration with cash-flow modelling tool Dynamic Planner, allowing advice firms to sync client fact-find, risk-profiling, and portfolio data without re-keying. Practical for IFA back-office teams running both platforms."
+          ],
+          "source": "Professional Adviser"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "Wealth M&A outlook: £500m to £2bn AUA firms the next battleground",
+          "tags": ["Too big to bolt on, too small to lead", "PE-backed consolidator pricing"],
+          "body": [
+            "An opinion piece from Dyer Baade and Company argues that the next phase of UK wealth-sector consolidation will centre on firms with £500m to £2bn in assets under advice: too large to be bolt-ons, too small to lead their own roll-ups, and increasingly priced by PE-backed consolidators. Expect valuation pressure and more off-market processes in the mid-tier."
+          ],
+          "meaning": "Wealth firms in that band should be building an independent view of value now, rather than reacting to the first approach. Off-market processes reward the prepared.",
+          "source": "Professional Adviser"
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory & Regulation",
+      "stories": [
+        {
+          "headline": "Treasury Committee questions FCA leadership on whistleblower inquiry and Palantir",
+          "tags": ["FCA governance scrutiny", "Data-handling relationship"],
+          "body": [
+            "MPs have questioned FCA leaders over a whistleblower matter and the regulator's commercial relationship with data firm Palantir, a watch-point for firms tracking FCA governance credibility and data-handling practices."
+          ],
+          "source": "Professional Adviser"
+        },
+        {
+          "headline": "Quilter boosts bereavement team by 50% ahead of pension IHT changes",
+          "tags": ["Unused pensions into the estate", "Operational preparation"],
+          "body": [
+            "Quilter has expanded its bereavement support function by half ahead of the rules bringing unused pension funds into the estate for inheritance tax, a signal of the operational preparation larger firms are putting in place for the change. Smaller advice firms should assess their own capacity to handle a likely rise in bereavement and estate-settlement work."
+          ],
+          "source": "Professional Adviser",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "+50%", "label": "Growth in Quilter's bereavement support team"}
+            ]}
+          ]
+        },
+        {
+          "headline": "Foster Denovo pre-tax loss widens to £1.1m",
+          "tags": ["£1.1m pre-tax loss", "Revenue and headcount up"],
+          "body": [
+            "National advice firm Foster Denovo has reported its pre-tax loss widening to £1.1m even as group revenue and headcount expanded, underlining the margin squeeze still weighing on consolidating advice groups."
+          ],
+          "source": "Professional Adviser"
+        },
+        {
+          "headline": "Former Nexus IFA director pleads guilty to £2m fraud",
+          "tags": ["£2m fraud", "Client-money controls"],
+          "body": [
+            "A former Nexus IFA director and a colleague have pleaded guilty to a £2m fraud, a reminder for compliance teams on governance, segregation of duties, and client-money controls at smaller advice firms."
+          ],
+          "source": "Professional Adviser"
+        },
+        {
+          "headline": "LPA-related financial misconduct complaints rising",
+          "tags": ["Lasting Powers of Attorney", "Authority verification"],
+          "body": [
+            "Complaints involving financial misconduct linked to Lasting Powers of Attorney are rising. Advisers should document attorney engagement, verify authority, and watch for warning signs of coercion."
+          ],
+          "source": "Professional Adviser"
+        },
+        {
+          "headline": "Pensions UK: reform should sit within a wider economic strategy",
+          "tags": ["Tax relief, salary sacrifice, IHT"],
+          "body": [
+            "Pensions UK has called on government to anchor pensions reform in a broader economic plan, as the industry awaits Budget detail on tax relief, salary sacrifice, and the inheritance tax treatment of unused pension funds."
+          ],
+          "source": "Professional Adviser"
+        }
+      ]
+    },
+    {
+      "name": "Ireland: Budget 2027 Watch",
+      "stories": [
+        {
+          "headline": "IFAC's Fast and Loose challenges the stance of Budget 2027",
+          "tags": ["Fiscal stance concerns", "ESRI distributional analysis"],
+          "body": [
+            "The Irish Fiscal Advisory Council has published Fast and Loose, setting out its concerns on the stance of Budget 2027, and the ESRI has released its post-Budget analysis covering distributional impact and fiscal stance. Both are likely to be cited by clients and in year-end economic commentary from Irish practices. Chartered Accountants Ireland has also re-circulated its Budget 2027 Special Tax Newsletter as a consolidated reference for tax teams preparing client communications and year-end planning."
+          ],
+          "meaning": "Clients reading the IFAC critique may ask whether Budget measures will hold. Have a view ready on which reliefs look durable and which could be revisited.",
+          "source": "IFAC, ESRI, Chartered Accountants Ireland"
+        }
+      ]
+    }
+  ]
+}
