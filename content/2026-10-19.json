@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-19",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "Sumer tops £1bn as TPG backs a continuation vehicle, not an outright sale",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "UK accountancy group Sumer has reached a reported valuation of more than £1bn in a deal that gives US investor TPG a leading position through a continuation vehicle, with existing backer Penta Capital staying on and no outright sale of the business. The move follows a roughly £1bn auction paused in May over valuation doubts. Elsewhere, the FRC publishes early-adoption guidance for revised ISA (UK) 700 and its 2026 Audit Quality Review, HLB Ireland makes its 13th acquisition, and Business Asset Disposal Relief sits at 18% against a 24% main CGT rate ahead of the 28 October Budget.",
+  "categories": [
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "feature": true,
+          "headline": "Sumer valued at over £1bn as TPG invests through a continuation vehicle",
+          "tags": ["Valuation above £1bn", "TPG lead position", "Penta Capital retained", "Not an outright sale"],
+          "body": [
+            "UK accountancy group Sumer has reached a reported valuation of more than £1bn following a deal involving US investor TPG, according to The Times. The arrangement gives TPG a leading investment position through a continuation vehicle, while existing backer Penta Capital retains a management and investment role. It is not an outright sale of the business. The financial terms, including the amount TPG is investing and the ownership split, have not been established in the accessible reporting, so the valuation should not be read as the price paid for the whole business. Sumer, Penta, and TPG declined to comment.",
+            "The deal follows May reports that Penta had paused a roughly £1bn auction after some bidders raised valuation concerns, with estimates as low as £700m, and was weighing a continuation fund. Sumer employs more than 3,000 people and generates around £300m in annual revenue, making it the UK's 12th-largest accounting firm. It grows by acquiring smaller practices that keep operational autonomy while drawing on shared central resources, and serves small and medium-sized businesses with services extending into legal and technology consulting."
+          ],
+          "meaning": "A valuation above £1bn through a continuation vehicle shows investor appetite for scaled accountancy platforms is intact, even after the doubts raised earlier this year. It also marks continuation vehicles as a live alternative to a conventional exit. Owner-managed firms planning a PE route should weigh integration quality, because the earlier valuation debate centred on how unified the group really was.",
+          "source": "The Times, via Oxford Training Centre (17 October 2026)",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": ">£1bn", "label": "Reported valuation"},
+              {"value": "~£300m", "label": "Annual revenue"},
+              {"value": "3,000+", "label": "People employed"},
+              {"value": "12th", "label": "Largest UK accounting firm"}
+            ]},
+            {"type": "compare_bars", "title": "Valuation reference points", "unit": "£ million",
+             "bars": [
+               {"label": "May 2026 bid estimates", "value": 700, "display": "~£700m", "caption": "Auction paused"},
+               {"label": "Oct 2026 deal", "value": 1000, "display": ">£1bn", "caption": "Continuation vehicle"}
+             ], "note": "Reference points only. The continuation-vehicle deal is not an outright sale, and terms were not disclosed."}
+          ]
+        },
+        {
+          "headline": "Affinia buys Wilson Partners; ECI Partners buys Shaw Gibbs",
+          "tags": ["Affinia / Wilson Partners", "ECI Partners / Shaw Gibbs"],
+          "body": [
+            "The Times also identified Affinia's acquisition of Wilson Partners and ECI Partners' acquisition of Shaw Gibbs as notable recent transactions in the sector. The deals show consolidation is not limited to one group, although each should be judged on its own financial terms, business model, and growth prospects rather than read across from Sumer's valuation."
+          ],
+          "source": "The Times, via Oxford Training Centre"
+        },
+        {
+          "headline": "HLB Ireland acquires Galway's OMB Chartered Accountants",
+          "tags": ["13th acquisition", "First expansion west of the Shannon", "150 hires planned over 3 years"],
+          "body": [
+            "HLB Ireland, part of Mentora Group, has acquired Galway firm OMB Chartered Accountants, its 13th acquisition and its first expansion west of the Shannon. HLB has signalled plans to add 150 people over the next three years, continuing the private-equity-backed consolidation theme in the Irish market."
+          ],
+          "source": "Trade press",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "13th", "label": "HLB Ireland acquisition"},
+              {"value": "150", "label": "Hires planned over 3 years"}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "FRC publishes staff guidance for early adoption of revised ISA (UK) 700",
+          "tags": ["Mandatory from 15 Dec 2026", "Interim statement issued"],
+          "body": [
+            "The Financial Reporting Council has published a Staff Guidance Note to support auditors choosing to early-adopt revised ISA (UK) 700. The revised standard becomes mandatory for audits of financial statements for periods commencing on or after 15 December 2026. The FRC has also issued an interim statement of auditor's responsibilities, which is only appropriate where revised ISA (UK) 700 alone has been early adopted."
+          ],
+          "meaning": "Firms planning early adoption should read the guidance before committing to engagement wording. The interim statement applies only where ISA (UK) 700 alone is early adopted, so mixed adoption needs care.",
+          "source": "FRC"
+        },
+        {
+          "headline": "FRC 2026 Audit Quality Review published; webinars from 20 October",
+          "tags": ["Webinars start 20 Oct", "Monitoring themes"],
+          "body": [
+            "The FRC's 2026 Audit Quality Review has been published, with trade webinars rolling out from 20 October 2026. Key themes typically filter into monitoring visits over the following months, so audit leaders should read the findings against their own file reviews."
+          ],
+          "source": "FRC"
+        }
+      ]
+    },
+    {
+      "name": "Making Tax Digital",
+      "stories": [
+        {
+          "headline": "ICAEW flags incorrectly created quarterly obligations at sign-up",
+          "tags": ["Known HMRC issue", "Calendar-quarter election"],
+          "body": [
+            "ICAEW has flagged a small number of taxpayers whose quarterly obligations were not created correctly during sign-up. Practitioners are advised to wait for the calendar-quarter election to reflect in HMRC systems before submitting, rather than filing against an obligation that may be wrong."
+          ],
+          "meaning": "Before the 7 November quarterly deadline, check each client's obligations in the HMRC portal. Do not submit until the quarter structure matches the election, or you risk a rejected or misallocated update.",
+          "source": "ICAEW"
+        }
+      ]
+    },
+    {
+      "name": "HMRC & Tax Policy",
+      "stories": [
+        {
+          "headline": "Business Asset Disposal Relief: 18% on the first £1m of lifetime gains",
+          "tags": ["BADR: 18%", "Main CGT rate: 24%"],
+          "body": [
+            "Business Asset Disposal Relief has been 18% on the first £1m of lifetime gains since 6 April 2026, against a 24% main CGT rate. With the Autumn Budget on 28 October, it is a point to work into pre-Budget planning conversations with owner-managers considering a disposal."
+          ],
+          "source": "HMRC, GOV.UK",
+          "charts": [
+            {"type": "compare_bars", "title": "CGT rates compared", "unit": "%",
+             "bars": [
+               {"label": "BADR (first £1m)", "value": 18, "display": "18%", "caption": "Qualifying gains"},
+               {"label": "Main CGT rate", "value": 24, "display": "24%", "caption": "Above the relief"}
+             ], "note": "BADR applies to the first £1m of qualifying lifetime gains."}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Software Updates",
+      "stories": [
+        {
+          "headline": "Q2X: a dedicated platform to migrate businesses off QuickBooks",
+          "tags": ["Xendoo and Xero", "Includes QuickBooks Desktop"],
+          "body": [
+            "Xendoo and Xero have announced Q2X, a dedicated platform to help businesses migrate off QuickBooks, including QuickBooks Desktop. It is relevant for practices scoping bulk client migrations, and a reminder that vendor competition for the practice stack is intensifying."
+          ],
+          "source": "Xero, Xendoo"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "KeyCorp completes Clearwater Corporate Finance acquisition",
+          "tags": ["Completed 4 August 2026", "Birmingham, London, Leeds, Manchester"],
+          "body": [
+            "KeyCorp completed its acquisition of Clearwater Corporate Finance LLP on 4 August 2026, extending its UK advisory presence to Birmingham, London, Leeds, and Manchester. Expect intensified competition in UK mid-market M&A advisory."
+          ],
+          "source": "Deal announcements"
+        },
+        {
+          "headline": "Knight Corporate Finance advises on CityFibre's sale of Entanet",
+          "tags": ["Completed 11 September 2026"],
+          "body": [
+            "Knight Corporate Finance advised on CityFibre's sale of Entanet, which completed on 11 September 2026, adding to the run of mid-market advisory completions this quarter."
+          ],
+          "source": "Knight Corporate Finance"
+        }
+      ]
+    }
+  ]
+}

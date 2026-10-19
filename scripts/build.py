@@ -327,7 +327,13 @@ def story_anchor(cat_name, i):
 
 def render_story(story, story_id=None):
     idattr = f' id="{story_id}"' if story_id else ""
-    parts = [f'<h3>{esc(story["headline"])}</h3>']
+    feat = story.get("feature")
+    cls = "story story--feature" if feat else "story"
+    parts = []
+    if feat:
+        label = story.get("feature_label", "Lead story")
+        parts.append(f'<div class="story-flag">{esc(label)}</div>')
+    parts.append(f'<h3>{esc(story["headline"])}</h3>')
     parts.append(render_tags(story.get("tags")))
     for para in story.get("body", []):
         parts.append(f"<p>{esc(para)}</p>")
@@ -340,7 +346,7 @@ def render_story(story, story_id=None):
         )
     if story.get("source"):
         parts.append(f'<p class="source">{esc(story["source"])}</p>')
-    return f'<article class="story"{idattr}>{"".join(parts)}</article>'
+    return f'<article class="{cls}"{idattr}>{"".join(parts)}</article>'
 
 
 def render_category(cat, index):
