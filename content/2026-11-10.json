@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-10",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "Finance Bill 2026-27 lands with a new 10% Founders' Relief rate for high-growth exits",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "HM Treasury published the Finance Bill 2026-27 on 4 November, giving effect to the Autumn Budget. Its headline measure is a new 10% Founders' Relief CGT rate on up to £10m of lifetime gains for qualifying founders of high-growth companies, effective from 6 April 2027, alongside no rise in headline income tax or National Insurance, retention of the cash ISA allowance, and removal of gas standing charges. The payroll-only phase of tax adviser registration opens on 18 November, Chavereys joins Burgess Hodgson to form a c.£40m group, and Companies House has paused profit-and-loss filing while keeping its software-only mandate.",
+  "categories": [
+    {
+      "name": "Finance Bill 2026-27",
+      "stories": [
+        {
+          "feature": true,
+          "headline": "Finance Bill published: new 10% Founders' Relief CGT rate",
+          "tags": ["Founders' Relief: 10%", "Up to £10m lifetime gains", "From 6 April 2027"],
+          "body": [
+            "HM Treasury published the Finance Bill 2026-27 on the UK Parliament website on 4 November, giving effect to measures announced in the Autumn Budget of 28 October. Headline measures include a new 10% Founders' Relief CGT rate on up to £10m of lifetime gains for qualifying founders of high-growth companies, effective from 6 April 2027. The Bill also reflects no rise in headline income tax or National Insurance rates, retention of the current cash ISA allowance, and removal of standing charges from household gas bills."
+          ],
+          "meaning": "Founder clients now have a second relief to model alongside Business Asset Disposal Relief, which stands at 18% on the first £1m. Qualifying conditions will decide who benefits, so start the eligibility analysis now rather than at the point of sale. Expect detailed analysis from ICAEW, CIOT, and the Big Four over the next fortnight.",
+          "source": "UK Parliament, HM Treasury",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "10%", "label": "Founders' Relief CGT rate"},
+              {"value": "£10m", "label": "Lifetime gains cap"},
+              {"value": "6 Apr 2027", "label": "Effective from"}
+            ]},
+            {"type": "compare_bars", "title": "Where Founders' Relief sits on the CGT rate ladder", "unit": "%",
+             "bars": [
+               {"label": "Founders' Relief", "value": 10, "display": "10%", "caption": "To £10m, from Apr 2027"},
+               {"label": "BADR (first £1m)", "value": 18, "display": "18%", "caption": "Qualifying gains"},
+               {"label": "Main CGT rate", "value": 24, "display": "24%", "caption": "Above the reliefs"}
+             ], "note": "Founders' Relief adds a lower-rate route for qualifying high-growth founders, on top of BADR."}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HMRC & Technical Updates",
+      "stories": [
+        {
+          "headline": "Tax adviser registration: payroll-only phase opens 18 November",
+          "tags": ["18 Nov 2026 to 18 Feb 2027", "Payroll-only advisers"],
+          "body": [
+            "The staged mandatory tax adviser registration rollout reaches payroll-only advisers from 18 November 2026 through 18 February 2027. Firms with payroll-only client relationships should confirm their Agent Services Account status and registration pathway before the window opens."
+          ],
+          "meaning": "Identify any team or entity that advises on payroll alone and confirm its pathway this week. A registration gap is a regulatory exposure, not an administrative one.",
+          "source": "HMRC Agent Update"
+        },
+        {
+          "headline": "SAYE bonus and early-leaver rates updated from 20 November",
+          "tags": ["Effective 20 Nov 2026"],
+          "body": [
+            "HMRC has published updated SAYE share-scheme bonus and early-leaver rates, effective from 20 November 2026. Advisers running share-incentive propositions for private-company and listed clients should refresh scheme modelling before the effective date."
+          ],
+          "source": "HMRC"
+        },
+        {
+          "headline": "PAYE: November electronic payment deadline falls on Sunday 22 November",
+          "tags": ["Cleared funds by 20 Nov", "Faster Payments exception"],
+          "body": [
+            "November's electronic PAYE payment deadline falls on Sunday 22 November, so cleared funds need to reach HMRC by Friday 20 November unless the employer uses Faster Payments. Payroll teams should bring forward payment runs accordingly."
+          ],
+          "source": "HMRC"
+        },
+        {
+          "headline": "Treaty relief on UK-source interest paid without deduction",
+          "tags": ["HMRC guidance, 3 November", "Debt structures"],
+          "body": [
+            "HMRC published guidance on 3 November covering treaty-relief claims where UK-source yearly interest has been paid to overseas lenders without the required income tax deduction. It is a technical but recurring issue for corporate finance and real estate debt structures."
+          ],
+          "source": "HMRC"
+        }
+      ]
+    },
+    {
+      "name": "Accountancy in Practice: Deals and Firm Moves",
+      "stories": [
+        {
+          "headline": "Chavereys joins Burgess Hodgson",
+          "tags": ["c.£40m turnover", "~300 staff", "Abry Partners-backed"],
+          "body": [
+            "Specialist agri and private-client firm Chavereys has combined with Abry Partners-backed Burgess Hodgson to form a group with turnover of around £40m and about 300 staff, extending the backer's south-east regional footprint. Stephenson Harwood advised Chavereys. The transaction continues the PE-sponsored roll-up pattern in sub-top-50 UK accountancy."
+          ],
+          "source": "Accountancy Today",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "~£40m", "label": "Combined group turnover"},
+              {"value": "~300", "label": "Staff in the combined group"}
+            ]}
+          ]
+        },
+        {
+          "headline": "Livingbridge launches Apteus accounting platform",
+          "tags": ["New regional platform", "Acquisitions expected to follow"],
+          "body": [
+            "Private equity house Livingbridge has announced the launch of Apteus, a new regional UK accounting platform. Details are limited, but further acquisitions are likely to follow the launch, consistent with sector precedent set by AAB and Cooper Parry."
+          ],
+          "meaning": "Another funded platform means another buyer in the regional market. Owner-managers in the target region should expect approaches and should know their own value before the first call.",
+          "source": "Livingbridge"
+        },
+        {
+          "headline": "S&W acquires Shepherd Private Clients; AAB acquires Veritas Advisory",
+          "tags": ["S&W: Manchester private client", "AAB: capital allowances specialist"],
+          "body": [
+            "S&W has acquired Manchester-based private client practice Shepherd Private Clients, adding capability and headcount in the north-west private-wealth adviser market. AAB has acquired specialist capital allowances consultancy Veritas Advisory, bolting on technical tax-relief advisory capability as the Goldman Sachs Alternatives-backed group continues its post-Kreston Reeves integration."
+          ],
+          "source": "Accountancy Today"
+        },
+        {
+          "headline": "Opus Advisory Group acquires Bretts Business Recovery",
+          "tags": ["Dartford-based", "Six insolvency professionals"],
+          "body": [
+            "Opus Advisory Group has bought the Dartford-based insolvency practice Bretts Business Recovery, bringing six insolvency professionals into the group and extending its south-east England restructuring footprint."
+          ],
+          "source": "Trade press"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "MHA advises on Datalec and 3C merger creating a £298.8m liquid-cooling business",
+          "tags": ["£298.8m combined business", "Adviser-side data point"],
+          "body": [
+            "MHA advised on the Datalec and 3C merger, which creates a £298.8m liquid-cooling business. It is an adviser-side data point rather than a profession transaction, but a useful signal of continuing mid-market deal flow in technology infrastructure."
+          ],
+          "source": "MHA",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "£298.8m", "label": "Combined Datalec and 3C liquid-cooling business"}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Software & Technology",
+      "stories": [
+        {
+          "headline": "Companies House: P&L filing paused, software-only filing mandate retained",
+          "tags": ["P&L filing paused", "Software-only filing kept"],
+          "body": [
+            "ICAEW reporting indicates the government has paused the controversial profit-and-loss filing requirement at Companies House but has retained the software-only filing mandate. It is relevant for firms preparing client migrations off legacy desktop products."
+          ],
+          "meaning": "The software-only mandate still stands, so clients on legacy desktop tools need a migration plan regardless of the P&L pause. Do not let the pause slow the migration conversation.",
+          "source": "ICAEW"
+        }
+      ]
+    },
+    {
+      "name": "Ireland",
+      "stories": [
+        {
+          "headline": "IAASA audit committee briefing materials out; ISA (Ireland) 240 and 570 apply from 15 December",
+          "tags": ["Briefing summary published 5 Nov", "Periods beginning from 15 Dec 2026"],
+          "body": [
+            "The Irish Auditing and Accounting Supervisory Authority has released highlights video and summary materials from its 2026 Audit Committee Briefing, which audit committee chairs should circulate before year-end meetings. The revised ISA (Ireland) 240 on fraud and ISA (Ireland) 570 on going concern apply to audits of periods beginning on or after 15 December 2026, with early adoption permitted. Audit methodology teams should confirm template and work-programme updates ahead of calendar-year-end audits."
+          ],
+          "source": "IAASA"
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "FCA CP26/10: simplifying pensions investment advice rules",
+          "tags": ["Consultation", "Policy statement awaited"],
+          "body": [
+            "The FCA's consultation CP26/10 on simplifying pensions investment advice rules continues to attract adviser-community feedback. Firms should monitor for the FCA's policy statement and confirmation of final rules, and should assess how the proposals interact with their current pension advice processes."
+          ],
+          "source": "FCA, Professional Adviser"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-05",
+  "masthead": "Daily Accountancy Briefing",
+  "title": "Three Budget wins for the profession, and an MTD quarterly deadline that falls on a Saturday",
+  "kicker": "the",
+  "region": "UK & Ireland",
+  "summary": "Chartered Accountants Ireland's UK Budget coverage records three lobbying wins following the 28 October Autumn Budget: timely payment of Self Assessment via PAYE will be optional, proposed close company reporting has been dropped, and a further penalty soft landing has been extended for Making Tax Digital for Income Tax. The second MTD quarterly update falls due on Saturday 7 November, HMRC is writing to taxpayers who missed the first deadline, IAASA has withdrawn its interim fraud and going-concern standards, and overseas bidders accounted for 94% of UK public M&A value in H1.",
+  "categories": [
+    {
+      "name": "Autumn Budget: What the Profession Won",
+      "stories": [
+        {
+          "headline": "Timely payment via PAYE made optional; close company reporting dropped",
+          "tags": ["Lobbying wins", "SA via PAYE: optional", "Close company reporting: dropped"],
+          "body": [
+            "Following the 28 October Autumn Budget, Chartered Accountants Ireland's UK Budget coverage records three lobbying wins for the profession. Timely payment of Self Assessment via PAYE will be optional, proposed close company reporting has been dropped from the package, and a further penalty soft landing has been extended for Making Tax Digital for Income Tax. Firms including Grant Thornton, Saffery, and James Cowper Kreston are briefing clients on the distinction between enacted measures, announced future changes, and items still in consultation."
+          ],
+          "meaning": "Client communications should separate what is law now from what is announced for later. Clients with rental income, taxable savings, or legacy pension pots should expect updated calculations ahead of April 2027 start dates.",
+          "source": "Chartered Accountants Ireland, Grant Thornton, Saffery, James Cowper Kreston"
+        },
+        {
+          "headline": "Most unused pension funds on course to enter IHT estates from April 2027",
+          "tags": ["From April 2027", "Certain death benefits included"],
+          "body": [
+            "Most unused pension funds, and certain pension death benefits, remain on course to be brought into inheritance tax from April 2027. The Budget did not reverse the direction of travel, so estate and drawdown planning for pension-rich clients should assume the change proceeds."
+          ],
+          "source": "Chartered Accountants Ireland, Autumn Budget coverage"
+        }
+      ]
+    },
+    {
+      "name": "Making Tax Digital",
+      "stories": [
+        {
+          "headline": "Q2 quarterly update due Saturday 7 November",
+          "tags": ["7 November 2026", "Period: 6 July to 5 October"],
+          "body": [
+            "The second MTD for Income Tax quarterly update falls due on 7 November 2026, which is a Saturday, covering 6 July to 5 October. Agents should have the Q2 cumulative figures locked. Guidance from LITRG and others still differs on whether submissions are strictly cumulative, so verify against the GOV.UK agent toolkit before filing."
+          ],
+          "meaning": "Do not leave submissions to the weekend. With the deadline on a Saturday, treat Friday as the practical cut-off and check for failed or queued jobs on Monday.",
+          "source": "GOV.UK, LITRG"
+        },
+        {
+          "headline": "Budget extends a further penalty soft landing",
+          "tags": ["Further soft landing", "CIOT/ATT lobbying ask"],
+          "body": [
+            "The Autumn Budget extended a further penalty soft landing for Making Tax Digital for Income Tax, echoing a key CIOT and ATT lobbying ask. This updates the earlier HMRC signal that the 2026/27 concession would not continue. Practitioners should still assume the quarterly cadence is enforced from 2027/28 onward, and should confirm the exact scope of the extension against the published Budget documents."
+          ],
+          "source": "Chartered Accountants Ireland, CIOT, ATT"
+        },
+        {
+          "headline": "HMRC writes to taxpayers who missed the first quarterly deadline",
+          "tags": ["Letters issued", "Self-employment and property businesses"],
+          "body": [
+            "The ATT confirms HMRC is writing to taxpayers who missed the first quarterly update deadline on 7 August. The letters state that HMRC did not receive updates for all of certain taxpayers' self-employment and property businesses. Advisers should be ready to triage inbound client queries this week."
+          ],
+          "source": "ATT, LITRG"
+        }
+      ]
+    },
+    {
+      "name": "Technical Updates",
+      "stories": [
+        {
+          "headline": "IAASA withdraws interim ISA (Ireland) 240 and 570",
+          "tags": ["May 2026 versions withdrawn", "Same effective date"],
+          "body": [
+            "The Irish Auditing and Accounting Supervisory Authority has withdrawn ISA (Ireland) 240 and ISA (Ireland) 570, both Revised May 2026, after their provisions were absorbed into newer revised versions with the same effective date. Auditors with Irish engagements should ensure their methodology libraries point to the superseding versions."
+          ],
+          "meaning": "Check methodology libraries and audit software templates this week. A file referencing a withdrawn standard is an easy inspection finding.",
+          "source": "IAASA"
+        },
+        {
+          "headline": "FRC and Chartered Accountants Ireland: free financial reporting sessions",
+          "tags": ["Belfast: 25 Nov", "Dublin: 26 Nov"],
+          "body": [
+            "Chartered Accountants Ireland confirms joint sessions with the FRC in Belfast on 25 November and Dublin on 26 November. Content is expected to cover live accounting standards developments and the FRC's position on tax accounting under UK and Ireland GAAP, which has seen a shake-up this year."
+          ],
+          "source": "Chartered Accountants Ireland, FRC"
+        },
+        {
+          "headline": "KPMG refreshes its Finance (No. 2) Bill 2026 guide",
+          "tags": ["Updated 28 October"],
+          "body": [
+            "KPMG's explanatory guide to the Irish Finance (No. 2) Bill 2026 was refreshed on 28 October and remains one of the most comprehensive private-sector walkthroughs of the Bill's tax and business measures."
+          ],
+          "source": "KPMG"
+        }
+      ]
+    },
+    {
+      "name": "Accountancy in Practice",
+      "stories": [
+        {
+          "headline": "Andersen Group's acquisition of UK Andersen expected to close in Q4",
+          "tags": ["Announced August", "Tax-led advisory, London"],
+          "body": [
+            "Andersen Group's acquisition of UK Andersen, LLP, announced in August, is still expected to complete in Q4 2026, further concentrating tax-led advisory capacity in the London market."
+          ],
+          "source": "PrivSource"
+        },
+        {
+          "headline": "Diary: ICAEW Tax in Practice webinar and CIOT Indirect Taxes Conference, 12 November",
+          "tags": ["ICAEW: 1 CPD hour, free", "CIOT: VAT, customs, CBAM"],
+          "body": [
+            "ICAEW's free Tax in Practice webinar runs on 12 November, worth one CPD hour, and the CIOT Indirect Taxes Conference convenes the same day covering VAT on land and property, customs, CBAM, and financial services. The FCA Board meets on 19 November."
+          ],
+          "source": "ICAEW, CIOT, FCA"
+        }
+      ]
+    },
+    {
+      "name": "Corporate Finance & M&A",
+      "stories": [
+        {
+          "headline": "Corporate buyers dominate the largest UK deals; PE took 15% of the top ten",
+          "tags": ["PE: 15% of top 10 by value", "Overseas bidders: 94% of public M&A value"],
+          "body": [
+            "PitchBook and Morningstar report UK M&A value tracking to a record high in 2026, with strategic corporate buyers taking the lion's share of the largest deals and PE sponsors capturing only 15% of the top ten deals by value in H1. LexisNexis separately finds overseas bidders accounted for £33.2bn, or 94%, of total UK public M&A deal value in H1 2026."
+          ],
+          "meaning": "Sell-side advisers should prepare targets for strategic and overseas buyers first, not default to a sponsor process. On the largest deals, the buyer universe has shifted.",
+          "source": "PitchBook, Morningstar, LexisNexis",
+          "charts": [
+            {"type": "stat_row", "items": [
+              {"value": "94%", "label": "Overseas share of UK public M&A value (H1, £33.2bn)"},
+              {"value": "15%", "label": "PE share of the top 10 deals by value"}
+            ]}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Independent Financial Advisory",
+      "stories": [
+        {
+          "headline": "FCA targeted support rules phase in through 31 December 2026",
+          "tags": ["Staged commencement", "Advice Guidance Boundary Review"],
+          "body": [
+            "The FCA's Advice Guidance Boundary Review instrument on targeted support carries staged commencement dates through to 31 December 2026, keeping policy-change work live for compliance teams into the new year."
+          ],
+          "source": "FCA Handbook Notice 138"
+        },
+        {
+          "headline": "FCA signals further work on ongoing advice services",
+          "tags": ["Next steps flagged by senior staff"],
+          "body": [
+            "The FCA has indicated it intends to conduct further work on ongoing advice services, with next steps previously trailed as coming soon. Firms charging ongoing advice fees should be ready to evidence that the service is delivered."
+          ],
+          "source": "Professional Adviser"
+        }
+      ]
+    },
+    {
+      "name": "Ireland",
+      "stories": [
+        {
+          "headline": "Chartered Accountants Ireland members back an independent regulatory board",
+          "tags": ["Members endorse proposal", "Governance shift"],
+          "body": [
+            "Members of Chartered Accountants Ireland have endorsed a proposal to make the Chartered Accountants Regulatory Board operationally independent from the Institute's council, a material governance shift for the Irish profession."
+          ],
+          "source": "Accountancy Age"
+        },
+        {
+          "headline": "ESAP: Companies Act amendments apply from 10 January 2028",
+          "tags": ["Three SIs made 10 Feb 2026", "European Single Access Point"],
+          "body": [
+            "Three statutory instruments made on 10 February 2026 implement the European Single Access Point in Ireland. The Companies Act 2014 amendments relating to information transmission apply from 10 January 2028, per an Arthur Cox note."
+          ],
+          "source": "Mondaq, Arthur Cox"
+        }
+      ]
+    }
+  ]
+}
